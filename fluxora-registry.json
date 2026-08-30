@@ -1,5 +1,25 @@
 [
   {
+    "id": "buttons-hover-me",
+    "slug": "hover-me",
+    "name": "Hover ME",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"flux-btn\">\n  <span>Hover Me</span>\n</button>",
+    "css": ".flux-btn {\n  position: relative;\n  padding: 12px 28px;\n  background: #111;\n  color: #fff;\n  border: none;\n  border-radius: 12px;\n  font-size: 14px;\n  font-weight: 500;\n  cursor: pointer;\n  overflow: hidden;\n  transition: all 0.3s ease;\n  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);\n}\n\n.flux-btn:hover {\n  transform: translateY(-2px);\n  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);\n  background: #222;\n}",
+    "description": "",
+    "tags": [],
+    "author": {
+      "uid": "lqWIK0bfCKME14JHk2kf6BFnZyl1",
+      "displayName": "Syed Abubakar Siddique",
+      "photoURL": ""
+    },
+    "createdAt": "2026-08-30T13:02:16.535Z",
+    "githubPath": "components/buttons/hover-me",
+    "likesCount": 0,
+    "viewsCount": 0
+  },
+  {
     "id": "cards-weather-card",
     "slug": "weather-card",
     "name": "weather card",
