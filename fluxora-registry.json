@@ -1,5 +1,25 @@
 [
   {
+    "id": "inputs-by-syed-abubakar-siddique",
+    "slug": "by-syed-abubakar-siddique",
+    "name": "by Syed Abubakar Siddique",
+    "category": "inputs",
+    "styleType": "css",
+    "html": " <div class=\"rangeWrapper\">\n  <input value=\"7\" max=\"20\" min=\"1\" class=\"kawaii\" type=\"range\" />\n  <input\n    style=\"--base: #8cc8e4;\"\n    value=\"4\"\n    max=\"20\"\n    min=\"1\"\n    class=\"kawaii\"\n    type=\"range\"\n  />\n  <input\n    style=\"--base: #6cc484;\"\n    value=\"12\"\n    max=\"20\"\n    min=\"1\"\n    class=\"kawaii\"\n    type=\"range\"\n  />\n</div>",
+    "css": ".rangeWrapper {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  align-items: center;\n  height: 100%;\n}\n\n[type=\"range\"].kawaii {\n  --base: #fe8ce4;\n  --light: color-mix(in sRGB, var(--base) 60%, #fff);\n  --lighter: color-mix(in sRGB, var(--base) 30%, #fff);\n  --dark: color-mix(in sRGB, var(--base) 95%, #000);\n  --transparent: color-mix(in sRGB, var(--base) 0%, #0000);\n  appearance: none;\n  font-size: 1em;\n  width: 20em;\n  height: 2em;\n  border: 0.5em solid #fff;\n  border-radius: 2em;\n  box-shadow:\n    0 0 1em #0001,\n    0 0.25em 0.5em #0001;\n  overflow: hidden;\n}\n\n[type=\"range\"].kawaii::-webkit-slider-runnable-track {\n  background:\n    radial-gradient(\n      circle at 0.75em 0.6em,\n      var(--light) calc(0.2em - 1px),\n      #0000 0.2em\n    ),\n    radial-gradient(\n      circle at 1.25em 0.6em,\n      var(--light) calc(0.2em - 1px),\n      #0000 0.2em\n    ),\n    radial-gradient(\n      circle at 5em 0.6em,\n      var(--light) calc(0.2em - 1px),\n      #0000 0.2em\n    ),\n    linear-gradient(var(--light) 0 0) 1.25em 0.4em / 3.75em calc(0.4em - 0.5px)\n      no-repeat,\n    linear-gradient(90deg, var(--base), var(--transparent) 1em),\n    linear-gradient(#0000 70%, var(--dark) 80%),\n    var(--base);\n  border-radius: 2em;\n  height: 100%;\n  overflow: hidden;\n}\n\n[type=\"range\"].kawaii::-webkit-slider-thumb {\n  appearance: none;\n  height: 2em;\n  width: 2em;\n  color: var(--lighter);\n  background:\n    radial-gradient(\n      circle at 0.75em 0.6em,\n      var(--light) calc(0.2em - 1px),\n      #0000 0.2em\n    ),\n    linear-gradient(90deg, #0000 0.75em, var(--base) 0) 0 0 / 100% 50% no-repeat;\n  border-radius: 50%;\n  box-shadow:\n    inset -0.5em 0 0.5em -0.25em var(--base),\n    1em 0 0 0.25em,\n    2em 0 0 0.25em,\n    3em 0 0 0.25em,\n    4em 0 0 0.25em,\n    5em 0 0 0.25em,\n    6em 0 0 0.25em,\n    7em 0 0 0.25em,\n    8em 0 0 0.25em,\n    9em 0 0 0.25em,\n    10em 0 0 0.25em,\n    11em 0 0 0.25em,\n    12em 0 0 0.25em,\n    12em 0 0 0.25em,\n    13em 0 0 0.25em,\n    14em 0 0 0.25em,\n    15em 0 0 0.25em,\n    16em 0 0 0.25em,\n    17em 0 0 0.25em,\n    18em 0 0 0.25em,\n    19em 0 0 0.25em;\n}\n\n[type=\"range\"].kawaii::-moz-range-track {\n  background:\n    radial-gradient(\n      circle at 0.75em 30%,\n      var(--light) calc(0.2em - 1px),\n      #0000 0.2em\n    ),\n    radial-gradient(\n      circle at 1.5em 30%,\n      var(--light) calc(0.2em - 1px),\n      #0000 0.2em\n    ),\n    radial-gradient(\n      circle at 5.5em 30%,\n      var(--light) calc(0.2em - 1px),\n      #0000 0.2em\n    ),\n    linear-gradient(var(--light) 0 0) 1.5em calc(15% + 0.18em) / 4em\n      calc(0.4em - 0.5px) no-repeat,\n    linear-gradient(90deg, var(--base), var(--transparent) 1em),\n    linear-gradient(var(--transparent) 70%, var(--dark) 80%),\n    var(--base);\n  border-radius: 2em;\n  height: 100%;\n  overflow: hidden;\n}\n\n[type=\"range\"].kawaii::-moz-range-thumb {\n  appearance: none;\n  height: 2em;\n  width: 2em;\n  border: 0;\n  color: var(--lighter);\n  background:\n    radial-gradient(\n      circle at 0.75em 0.6em,\n      var(--light) calc(0.2em - 1px),\n      #0000 0.2em\n    ),\n    linear-gradient(90deg, var(--transparent) 0.75em, var(--base) 0) 0 0 / 100%\n      50% no-repeat;\n  border-radius: 50% 0 50% 50% 0;\n  box-shadow:\n    inset -0.5em 0 0.5em -0.25em var(--base),\n    1em 0 0 0.25em,\n    2em 0 0 0.25em,\n    3em 0 0 0.25em,\n    4em 0 0 0.25em,\n    5em 0 0 0.25em,\n    6em 0 0 0.25em,\n    7em 0 0 0.25em,\n    8em 0 0 0.25em,\n    9em 0 0 0.25em,\n    10em 0 0 0.25em,\n    11em 0 0 0.25em,\n    12em 0 0 0.25em,\n    12em 0 0 0.25em,\n    13em 0 0 0.25em,\n    14em 0 0 0.25em,\n    15em 0 0 0.25em,\n    16em 0 0 0.25em,\n    17em 0 0 0.25em,\n    18em 0 0 0.25em,\n    19em 0 0 0.25em;\n}\n",
+    "description": "",
+    "tags": [],
+    "author": {
+      "uid": "lqWIK0bfCKME14JHk2kf6BFnZyl1",
+      "displayName": "Syed Abubakar Siddique",
+      "photoURL": ""
+    },
+    "createdAt": "2026-08-30T13:23:26.732Z",
+    "githubPath": "components/inputs/by-syed-abubakar-siddique",
+    "likesCount": 0,
+    "viewsCount": 0
+  },
+  {
     "id": "inputs-input",
     "slug": "input",
     "name": "Input",
