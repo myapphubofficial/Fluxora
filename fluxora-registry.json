@@ -1,5 +1,25 @@
 [
   {
+    "id": "loaders-orb",
+    "slug": "orb",
+    "name": "orb",
+    "category": "loaders",
+    "styleType": "css",
+    "html": "<div class=\"loader\">\n  <svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\">\n    <defs>\n      <mask id=\"clipping\">\n        <polygon points=\"0,0 100,0 100,100 0,100\" fill=\"black\"></polygon>\n        <polygon points=\"25,25 75,25 50,75\" fill=\"white\"></polygon>\n        <polygon points=\"50,25 75,75 25,75\" fill=\"white\"></polygon>\n        <polygon points=\"35,35 65,35 50,65\" fill=\"white\"></polygon>\n        <polygon points=\"35,35 65,35 50,65\" fill=\"white\"></polygon>\n        <polygon points=\"35,35 65,35 50,65\" fill=\"white\"></polygon>\n        <polygon points=\"35,35 65,35 50,65\" fill=\"white\"></polygon>\n      </mask>\n    </defs>\n  </svg>\n  <div class=\"box\"></div>\n</div>\n",
+    "css": ".loader {\n  --color-one: #ffbf48;\n  --color-two: #be4a1d;\n  --color-three: #ffbf4780;\n  --color-four: #bf4a1d80;\n  --color-five: #ffbf4740;\n  --time-animation: 2s;\n  --size: 1; /* You can change the size */\n  position: relative;\n  border-radius: 50%;\n  transform: scale(var(--size));\n  box-shadow:\n    0 0 25px 0 var(--color-three),\n    0 20px 50px 0 var(--color-four);\n  animation: colorize calc(var(--time-animation) * 3) ease-in-out infinite;\n}\n\n.loader::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  border-top: solid 1px var(--color-one);\n  border-bottom: solid 1px var(--color-two);\n  background: linear-gradient(180deg, var(--color-five), var(--color-four));\n  box-shadow:\n    inset 0 10px 10px 0 var(--color-three),\n    inset 0 -10px 10px 0 var(--color-four);\n}\n\n.loader .box {\n  width: 100px;\n  height: 100px;\n  background: linear-gradient(\n    180deg,\n    var(--color-one) 30%,\n    var(--color-two) 70%\n  );\n  mask: url(#clipping);\n  -webkit-mask: url(#clipping);\n}\n\n.loader svg {\n  position: absolute;\n}\n\n.loader svg #clipping {\n  filter: contrast(15);\n  animation: roundness calc(var(--time-animation) / 2) linear infinite;\n}\n\n.loader svg #clipping polygon {\n  filter: blur(7px);\n}\n\n.loader svg #clipping polygon:nth-child(1) {\n  transform-origin: 75% 25%;\n  transform: rotate(90deg);\n}\n\n.loader svg #clipping polygon:nth-child(2) {\n  transform-origin: 50% 50%;\n  animation: rotation var(--time-animation) linear infinite reverse;\n}\n\n.loader svg #clipping polygon:nth-child(3) {\n  transform-origin: 50% 60%;\n  animation: rotation var(--time-animation) linear infinite;\n  animation-delay: calc(var(--time-animation) / -3);\n}\n\n.loader svg #clipping polygon:nth-child(4) {\n  transform-origin: 40% 40%;\n  animation: rotation var(--time-animation) linear infinite reverse;\n}\n\n.loader svg #clipping polygon:nth-child(5) {\n  transform-origin: 40% 40%;\n  animation: rotation var(--time-animation) linear infinite reverse;\n  animation-delay: calc(var(--time-animation) / -2);\n}\n\n.loader svg #clipping polygon:nth-child(6) {\n  transform-origin: 60% 40%;\n  animation: rotation var(--time-animation) linear infinite;\n}\n\n.loader svg #clipping polygon:nth-child(7) {\n  transform-origin: 60% 40%;\n  animation: rotation var(--time-animation) linear infinite;\n  animation-delay: calc(var(--time-animation) / -1.5);\n}\n\n@keyframes rotation {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes roundness {\n  0% {\n    filter: contrast(15);\n  }\n  20% {\n    filter: contrast(3);\n  }\n  40% {\n    filter: contrast(3);\n  }\n  60% {\n    filter: contrast(15);\n  }\n  100% {\n    filter: contrast(15);\n  }\n}\n\n@keyframes colorize {\n  0% {\n    filter: hue-rotate(0deg);\n  }\n  20% {\n    filter: hue-rotate(-30deg);\n  }\n  40% {\n    filter: hue-rotate(-60deg);\n  }\n  60% {\n    filter: hue-rotate(-90deg);\n  }\n  80% {\n    filter: hue-rotate(-45deg);\n  }\n  100% {\n    filter: hue-rotate(0deg);\n  }\n}\n\n",
+    "description": "",
+    "tags": [],
+    "author": {
+      "uid": "lqWIK0bfCKME14JHk2kf6BFnZyl1",
+      "displayName": "Syed Abubakar Siddique",
+      "photoURL": ""
+    },
+    "createdAt": "2026-08-30T13:28:09.498Z",
+    "githubPath": "components/loaders/orb",
+    "likesCount": 0,
+    "viewsCount": 0
+  },
+  {
     "id": "loaders-circuit-loader",
     "slug": "circuit-loader",
     "name": "Circuit Loader",
