@@ -1,0 +1,20 @@
+{
+  "id": "inputs-stavros",
+  "slug": "stavros",
+  "name": "stavros",
+  "category": "inputs",
+  "styleType": "css",
+  "html": "<div class=\"slider-container\">\n  <div class=\"slider-wrapper\">\n    <input\n      type=\"range\"\n      class=\"slider slider-gradient-1\"\n      min=\"0\"\n      max=\"100\"\n      value=\"70\"\n    />\n  </div>\n\n  <div class=\"slider-wrapper\">\n    <input\n      type=\"range\"\n      class=\"slider slider-gradient-2\"\n      min=\"0\"\n      max=\"100\"\n      value=\"40\"\n    />\n  </div>\n\n  <div class=\"slider-wrapper\">\n    <input\n      type=\"range\"\n      class=\"slider slider-gradient-4\"\n      min=\"0\"\n      max=\"100\"\n      value=\"40\"\n    />\n  </div>\n</div>\n",
+  "css": ".slider-container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 20px;\n}\n\n/* Äußerer Rahmen (Die helle Einkerbung) */\n.slider-wrapper {\n  position: relative;\n  width: 200px; /* Auf 200px angepasst */\n  height: 35px; /* Auf 35px angepasst */\n  background: #d8d8d8;\n  border-radius: 30px;\n  padding: 6px;\n  box-sizing: border-box;\n  box-shadow:\n    inset 2px 2px 5px rgba(0, 0, 0, 0.4),\n    1px 1px 2px rgba(255, 255, 255, 0.8);\n}\n\n/* Basiseigenschaften für das native Range-Input */\n.slider {\n  -webkit-appearance: none;\n  appearance: none;\n  width: 100%;\n  height: 100%;\n  border-radius: 22px;\n  outline: none;\n  margin: 0;\n  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.7);\n  cursor: pointer;\n}\n\n/* Individuelle Farbverläufe der Spuren */\n.slider-gradient-1 {\n  background: linear-gradient(to right, #ff2a00, #ff8c00, #ffea00);\n}\n\n.slider-gradient-2 {\n  background: linear-gradient(to right, #008080, #00a8cc, #00d2ff);\n}\n\n.slider-gradient-3 {\n  background: linear-gradient(to right, #0d0033, #5a004f, #aa0055);\n}\n\n.slider-gradient-4 {\n  background: linear-gradient(to right, #00b300, #73e600, #ccff00);\n}\n\n/* --- METAL-KNAUF (THUMB) STYLING --- */\n\n/* Für Chrome, Safari, Edge, Opera */\n.slider::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  appearance: none;\n  width: 35px;\n  height: 35px;\n  border-radius: 50%;\n  background: conic-gradient(\n    from 180deg at 50% 50%,\n    #7a8088 0deg,\n    #c4c9cf 45deg,\n    #eef1f5 90deg,\n    #7a8088 135deg,\n    #4a4e54 180deg,\n    #c4c9cf 225deg,\n    #eef1f5 270deg,\n    #7a8088 315deg,\n    #7a8088 360deg\n  );\n  border: 2px solid #5a5e63;\n  box-shadow:\n    0 4px 8px rgba(0, 0, 0, 0.5),\n    inset 0 1px 2px rgba(255, 255, 255, 0.8),\n    inset 0 -2px 4px rgba(0, 0, 0, 0.4);\n  cursor: grab;\n  transition: transform 0.1s ease;\n}\n\n.slider::-webkit-slider-thumb:active {\n  cursor: grabbing;\n  transform: scale(0.98);\n}\n\n/* Für Firefox */\n.slider::-moz-range-thumb {\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  background: conic-gradient(\n    from 180deg at 50% 50%,\n    #7a8088 0deg,\n    #c4c9cf 45deg,\n    #eef1f5 90deg,\n    #7a8088 135deg,\n    #4a4e54 180deg,\n    #c4c9cf 225deg,\n    #eef1f5 270deg,\n    #7a8088 315deg,\n    #7a8088 360deg\n  );\n  border: 2px solid #5a5e63;\n  box-shadow:\n    0 4px 8px rgba(0, 0, 0, 0.5),\n    inset 0 1px 2px rgba(255, 255, 255, 0.8),\n    inset 0 -2px 4px rgba(0, 0, 0, 0.4);\n  cursor: grab;\n}\n",
+  "description": "",
+  "tags": [],
+  "author": {
+    "uid": "lqWIK0bfCKME14JHk2kf6BFnZyl1",
+    "displayName": "Syed Abubakar Siddique",
+    "photoURL": ""
+  },
+  "createdAt": "2026-08-30T13:16:42.090Z",
+  "githubPath": "components/inputs/stavros",
+  "likesCount": 0,
+  "viewsCount": 0
+}
