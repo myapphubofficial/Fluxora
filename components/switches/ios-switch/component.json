@@ -1,0 +1,20 @@
+{
+  "id": "switches-ios-switch",
+  "slug": "ios-switch",
+  "name": "ios switch",
+  "category": "switches",
+  "styleType": "css",
+  "html": "<p class=\"component-title\">iOS Switch</p>\n\n<div class=\"container\">\n  <input type=\"checkbox\" class=\"checkbox\" id=\"checkbox\">\n  <label class=\"switch\" for=\"checkbox\">\n    <span class=\"slider\"></span>\n  </label>\n</div>",
+  "css": ".component-title {\n  width: 100%;\n  position: absolute;\n  z-index: 999;\n  top: 30px;\n  left: 0;\n  padding: 0;\n  margin: 0;\n  font-size: 1rem;\n  font-weight: 700;\n  color: #888;\n  text-align: center;\n}\n\n/* The switch - the box around the slider */\n.container {\n  width: 51px;\n  height: 31px;\n  position: relative;\n}\n\n/* Hide default HTML checkbox */\n.checkbox {\n  opacity: 0;\n  width: 0;\n  height: 0;\n  position: absolute;\n}\n\n.switch {\n  width: 100%;\n  height: 100%;\n  display: block;\n  background-color: #e9e9eb;\n  border-radius: 16px;\n  cursor: pointer;\n  transition: all 0.2s ease-out;\n}\n\n/* The slider */\n.slider {\n  width: 27px;\n  height: 27px;\n  position: absolute;\n  left: calc(50% - 27px/2 - 10px);\n  top: calc(50% - 27px/2);\n  border-radius: 50%;\n  background: #FFFFFF;\n  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15), 0px 3px 1px rgba(0, 0, 0, 0.06);\n  transition: all 0.2s ease-out;\n  cursor: pointer;\n}\n\n.checkbox:checked + .switch {\n  background-color: #34C759;\n}\n\n.checkbox:checked + .switch .slider {\n  left: calc(50% - 27px/2 + 10px);\n  top: calc(50% - 27px/2);\n}\n",
+  "description": "",
+  "tags": [],
+  "author": {
+    "uid": "lqWIK0bfCKME14JHk2kf6BFnZyl1",
+    "displayName": "Syed Abubakar Siddique",
+    "photoURL": ""
+  },
+  "createdAt": "2026-08-30T14:14:26.398Z",
+  "githubPath": "components/switches/ios-switch",
+  "likesCount": 0,
+  "viewsCount": 0
+}
