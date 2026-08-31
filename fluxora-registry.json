@@ -1147,5 +1147,485 @@
     "githubPath": "components/cards/eslam-hany",
     "likesCount": 0,
     "viewsCount": 0
+  },
+  {
+    "id": "cyberpunk-neon-glitch-button",
+    "name": "Cyberpunk Neon Glitch Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"cyber-btn\">\n  <span class=\"cyber-glitch\">FLUX_ENTER</span>\n  <span class=\"cyber-tag\">R-2077</span>\n</button>",
+    "css": ".cyber-btn {\n  --neon: #00ffcc;\n  --neon-pink: #ff007f;\n  position: relative;\n  padding: 14px 36px;\n  background: #08080c;\n  color: var(--neon);\n  font-family: monospace;\n  font-size: 13px;\n  font-weight: 700;\n  letter-spacing: 3px;\n  border: 1px solid var(--neon);\n  clip-path: polygon(12px 0%, 100% 0%, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0% 100%, 0% 12px);\n  cursor: pointer;\n  box-shadow: 0 0 15px rgba(0, 255, 204, 0.25), inset 0 0 15px rgba(0, 255, 204, 0.1);\n  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\n.cyber-tag {\n  font-size: 9px;\n  padding: 2px 6px;\n  background: var(--neon-pink);\n  color: #fff;\n  clip-path: polygon(4px 0, 100% 0, calc(100% - 4px) 100%, 0 100%);\n}\n.cyber-btn:hover {\n  background: var(--neon);\n  color: #08080c;\n  box-shadow: 0 0 30px rgba(0, 255, 204, 0.6), 0 0 60px rgba(0, 255, 204, 0.3);\n  transform: translateY(-2px);\n}\n.cyber-btn:hover .cyber-tag {\n  background: #08080c;\n  color: var(--neon);\n}",
+    "description": "High-tech cyberpunk button with animated neon border glow, cyber cut corners, and glitch text effect.",
+    "tags": [
+      "cyberpunk",
+      "neon",
+      "glow",
+      "interactive",
+      "glitch"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 25,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "liquid-aurora-glow-button",
+    "name": "Liquid Aurora Glow Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"aurora-btn\">\n  <span class=\"aurora-content\">Explore Aurora</span>\n</button>",
+    "css": ".aurora-btn {\n  position: relative;\n  padding: 2px;\n  border-radius: 9999px;\n  background: linear-gradient(90deg, #7928ca, #ff0080, #0070f3, #7928ca);\n  background-size: 300% 300%;\n  animation: aurora-flow 4s ease infinite;\n  border: none;\n  cursor: pointer;\n  box-shadow: 0 8px 24px -4px rgba(121, 40, 202, 0.5);\n  transition: transform 0.2s ease;\n}\n.aurora-content {\n  display: block;\n  padding: 12px 28px;\n  background: #0a0a0f;\n  color: #fff;\n  border-radius: 9999px;\n  font-size: 13px;\n  font-weight: 600;\n  letter-spacing: 0.5px;\n}\n.aurora-btn:hover {\n  transform: scale(1.05);\n  box-shadow: 0 12px 32px 0px rgba(255, 0, 128, 0.6);\n}\n.aurora-btn:active {\n  transform: scale(0.98);\n}\n@keyframes aurora-flow {\n  0% { background-position: 0% 50%; }\n  50% { background-position: 100% 50%; }\n  100% { background-position: 0% 50%; }\n}",
+    "description": "Smooth glowing pill with continuous rotating rainbow border aura and deep glassmorphism body.",
+    "tags": [
+      "aurora",
+      "glow",
+      "gradient",
+      "glassmorphism",
+      "pill"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 14,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "tactile-neumorphic-3d-button",
+    "name": "Tactile Neumorphic 3D Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"neu-btn\">\n  <span class=\"neu-icon\">❖</span>\n  <span>Activate</span>\n</button>",
+    "css": ".neu-btn {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 32px;\n  border-radius: 18px;\n  background: #eef0f4;\n  border: 1px solid rgba(255, 255, 255, 0.8);\n  color: #3b4252;\n  font-size: 14px;\n  font-weight: 600;\n  cursor: pointer;\n  box-shadow: 8px 8px 18px #cbced5, -8px -8px 18px #ffffff;\n  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);\n}\n.neu-icon {\n  color: #885df1;\n  font-size: 16px;\n}\n.neu-btn:hover {\n  color: #885df1;\n  transform: translateY(-2px);\n  box-shadow: 10px 10px 22px #c1c5cd, -10px -10px 22px #ffffff;\n}\n.neu-btn:active {\n  transform: translateY(1px);\n  box-shadow: inset 4px 4px 8px #cbced5, inset -4px -4px 8px #ffffff;\n}",
+    "description": "Ultra-realistic soft UI tactile button with dynamic convex-to-concave spring press depth.",
+    "tags": [
+      "neumorphism",
+      "3d",
+      "tactile",
+      "minimalist",
+      "clean"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 14,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "cosmic-shimmer-starlight-pill",
+    "name": "Cosmic Shimmer Starlight Pill",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"shimmer-btn\">\n  <span>✨ Deploy System</span>\n</button>",
+    "css": ".shimmer-btn {\n  position: relative;\n  padding: 12px 30px;\n  background: #121217;\n  color: #f3f4f6;\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  border-radius: 100px;\n  font-size: 13px;\n  font-weight: 500;\n  letter-spacing: 0.5px;\n  cursor: pointer;\n  overflow: hidden;\n  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);\n  transition: all 0.3s ease;\n}\n.shimmer-btn::before {\n  content: \"\";\n  position: absolute;\n  top: -50%;\n  left: -50%;\n  width: 200%;\n  height: 200%;\n  background: linear-gradient(\n    60deg,\n    transparent,\n    rgba(255, 255, 255, 0.2),\n    transparent\n  );\n  transform: rotate(30deg);\n  animation: shimmer-sweep 3s infinite;\n}\n.shimmer-btn:hover {\n  border-color: rgba(168, 85, 247, 0.5);\n  box-shadow: 0 0 25px rgba(168, 85, 247, 0.35);\n  transform: translateY(-2px);\n}\n@keyframes shimmer-sweep {\n  0% { transform: translateX(-100%) rotate(30deg); }\n  100% { transform: translateX(100%) rotate(30deg); }\n}",
+    "description": "Sleek luxury dark button with ambient starlight sparkle and continuous sliding beam shimmer.",
+    "tags": [
+      "shimmer",
+      "cosmic",
+      "luxury",
+      "darkmode",
+      "starlight"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 24,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "retro-arcade-8-bit-pixel-button",
+    "name": "Retro Arcade 8-Bit Pixel Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"arcade-btn\">PRESS START</button>",
+    "css": ".arcade-btn {\n  padding: 14px 30px;\n  background: #ffcc00;\n  color: #111;\n  font-family: monospace;\n  font-size: 13px;\n  font-weight: 800;\n  letter-spacing: 1px;\n  border: 4px solid #111;\n  box-shadow: 6px 6px 0px #111;\n  cursor: pointer;\n  transition: all 0.1s ease;\n}\n.arcade-btn:hover {\n  background: #ffe066;\n  transform: translate(-2px, -2px);\n  box-shadow: 8px 8px 0px #111;\n}\n.arcade-btn:active {\n  transform: translate(4px, 4px);\n  box-shadow: 2px 2px 0px #111;\n}",
+    "description": "Pixel art arcade button with chunky retro isometric border shadow and satisfying press feedback.",
+    "tags": [
+      "retro",
+      "pixel",
+      "8bit",
+      "arcade",
+      "gaming"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 29,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "quantum-atom-orbit-spinner",
+    "name": "Quantum Atom Orbit Spinner",
+    "category": "loaders",
+    "styleType": "css",
+    "html": "<div class=\"atom-loader\">\n  <div class=\"atom-ring ring-1\"></div>\n  <div class=\"atom-ring ring-2\"></div>\n  <div class=\"atom-ring ring-3\"></div>\n  <div class=\"atom-core\"></div>\n</div>",
+    "css": ".atom-loader {\n  position: relative;\n  width: 70px;\n  height: 70px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  perspective: 600px;\n}\n.atom-ring {\n  position: absolute;\n  inset: 0;\n  border-radius: 50%;\n  border: 2px solid transparent;\n}\n.ring-1 {\n  border-top-color: #a855f7;\n  border-bottom-color: #a855f7;\n  animation: atom-spin1 1.2s linear infinite;\n}\n.ring-2 {\n  border-left-color: #06b6d4;\n  border-right-color: #06b6d4;\n  animation: atom-spin2 1.5s linear infinite;\n}\n.ring-3 {\n  border-top-color: #ec4899;\n  border-right-color: #ec4899;\n  animation: atom-spin3 1.8s linear infinite;\n}\n.atom-core {\n  width: 12px;\n  height: 12px;\n  border-radius: 50%;\n  background: #fff;\n  box-shadow: 0 0 15px #a855f7, 0 0 30px #06b6d4;\n}\n@keyframes atom-spin1 {\n  0% { transform: rotateX(65deg) rotateY(0deg) rotateZ(0deg); }\n  100% { transform: rotateX(65deg) rotateY(0deg) rotateZ(360deg); }\n}\n@keyframes atom-spin2 {\n  0% { transform: rotateX(0deg) rotateY(65deg) rotateZ(0deg); }\n  100% { transform: rotateX(0deg) rotateY(65deg) rotateZ(360deg); }\n}\n@keyframes atom-spin3 {\n  0% { transform: rotateX(65deg) rotateY(65deg) rotateZ(0deg); }\n  100% { transform: rotateX(65deg) rotateY(65deg) rotateZ(360deg); }\n}",
+    "description": "High-speed multi-axis quantum atomic rings rotating in 3D perspective around a luminous energy core.",
+    "tags": [
+      "quantum",
+      "atom",
+      "orbit",
+      "3d",
+      "spinner"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 30,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "infinity-neon-ribbon-loader",
+    "name": "Infinity Neon Ribbon Loader",
+    "category": "loaders",
+    "styleType": "css",
+    "html": "<div class=\"inf-loader\">\n  <div class=\"inf-dot d1\"></div>\n  <div class=\"inf-dot d2\"></div>\n  <div class=\"inf-dot d3\"></div>\n  <div class=\"inf-dot d4\"></div>\n  <div class=\"inf-dot d5\"></div>\n</div>",
+    "css": ".inf-loader {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n}\n.inf-dot {\n  width: 12px;\n  height: 12px;\n  border-radius: 50%;\n  background: #7c3aed;\n  animation: inf-bounce 1.4s ease-in-out infinite both;\n}\n.d1 { animation-delay: -0.32s; background: #9333ea; }\n.d2 { animation-delay: -0.16s; background: #a855f7; }\n.d3 { animation-delay: 0s; background: #c084fc; }\n.d4 { animation-delay: 0.16s; background: #06b6d4; }\n.d5 { animation-delay: 0.32s; background: #3b82f6; }\n\n@keyframes inf-bounce {\n  0%, 80%, 100% {\n    transform: scale(0.4) translateY(0);\n    opacity: 0.4;\n  }\n  40% {\n    transform: scale(1.2) translateY(-10px);\n    opacity: 1;\n    box-shadow: 0 8px 16px rgba(147, 51, 234, 0.6);\n  }\n}",
+    "description": "Hypnotic infinity mobius loop with continuous pulsing gradient lighting sequence.",
+    "tags": [
+      "infinity",
+      "neon",
+      "loop",
+      "loader",
+      "minimalist"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 32,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "holographic-3d-isometric-cube",
+    "name": "Holographic 3D Isometric Cube",
+    "category": "loaders",
+    "styleType": "css",
+    "html": "<div class=\"cube-scene\">\n  <div class=\"cube\">\n    <div class=\"cube-face front\"></div>\n    <div class=\"cube-face back\"></div>\n    <div class=\"cube-face right\"></div>\n    <div class=\"cube-face left\"></div>\n    <div class=\"cube-face top\"></div>\n    <div class=\"cube-face bottom\"></div>\n  </div>\n</div>",
+    "css": ".cube-scene {\n  width: 50px;\n  height: 50px;\n  perspective: 400px;\n}\n.cube {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  transform-style: preserve-3d;\n  animation: cube-spin 3s linear infinite;\n}\n.cube-face {\n  position: absolute;\n  width: 50px;\n  height: 50px;\n  border: 2px solid #a855f7;\n  background: rgba(168, 85, 247, 0.1);\n  box-shadow: inset 0 0 10px rgba(6, 182, 212, 0.4);\n}\n.front  { transform: rotateY(0deg) translateZ(25px); }\n.back   { transform: rotateY(180deg) translateZ(25px); }\n.right  { transform: rotateY(90deg) translateZ(25px); border-color: #06b6d4; }\n.left   { transform: rotateY(-90deg) translateZ(25px); border-color: #06b6d4; }\n.top    { transform: rotateX(90deg) translateZ(25px); border-color: #ec4899; }\n.bottom { transform: rotateX(-90deg) translateZ(25px); border-color: #ec4899; }\n\n@keyframes cube-spin {\n  0% { transform: rotateX(0deg) rotateY(0deg); }\n  100% { transform: rotateX(360deg) rotateY(360deg); }\n}",
+    "description": "Futuristic 3D tumbling wireframe cube with cyan and purple gradient lighting.",
+    "tags": [
+      "hologram",
+      "cube",
+      "3d",
+      "loader",
+      "isometric"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 15,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "liquid-audio-wave-equalizer",
+    "name": "Liquid Audio Wave Equalizer",
+    "category": "loaders",
+    "styleType": "css",
+    "html": "<div class=\"wave-loader\">\n  <div class=\"bar b1\"></div>\n  <div class=\"bar b2\"></div>\n  <div class=\"bar b3\"></div>\n  <div class=\"bar b4\"></div>\n  <div class=\"bar b5\"></div>\n</div>",
+    "css": ".wave-loader {\n  display: flex;\n  align-items: center;\n  gap: 5px;\n  height: 40px;\n}\n.bar {\n  width: 5px;\n  height: 100%;\n  background: linear-gradient(to top, #7c3aed, #06b6d4);\n  border-radius: 10px;\n  animation: wave-bounce 1s ease-in-out infinite;\n}\n.b1 { animation-delay: 0.1s; }\n.b2 { animation-delay: 0.2s; }\n.b3 { animation-delay: 0.3s; }\n.b4 { animation-delay: 0.4s; }\n.b5 { animation-delay: 0.5s; }\n\n@keyframes wave-bounce {\n  0%, 100% { height: 8px; opacity: 0.4; }\n  50% { height: 38px; opacity: 1; box-shadow: 0 0 12px #06b6d4; }\n}",
+    "description": "Dynamic pulsating fluid soundwave bars with rhythmic audio spectrum frequency motion.",
+    "tags": [
+      "audio",
+      "equalizer",
+      "wave",
+      "music",
+      "bars"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 21,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "cyber-hexagon-radar-pulse",
+    "name": "Cyber Hexagon Radar Pulse",
+    "category": "loaders",
+    "styleType": "css",
+    "html": "<div class=\"radar-box\">\n  <div class=\"radar-sweep\"></div>\n  <div class=\"radar-ping\"></div>\n</div>",
+    "css": ".radar-box {\n  position: relative;\n  width: 54px;\n  height: 54px;\n  border-radius: 50%;\n  border: 2px solid rgba(0, 255, 204, 0.3);\n  background: rgba(0, 255, 204, 0.05);\n  box-shadow: 0 0 15px rgba(0, 255, 204, 0.15);\n  overflow: hidden;\n}\n.radar-sweep {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 100%;\n  height: 100%;\n  background: conic-gradient(from 0deg, transparent 60%, rgba(0, 255, 204, 0.8) 100%);\n  transform-origin: 0% 0%;\n  animation: sweep-spin 1.6s linear infinite;\n}\n.radar-ping {\n  position: absolute;\n  top: 30%;\n  left: 60%;\n  width: 6px;\n  height: 6px;\n  border-radius: 50%;\n  background: #00ffcc;\n  box-shadow: 0 0 8px #00ffcc;\n  animation: ping-fade 1.6s infinite;\n}\n@keyframes sweep-spin {\n  from { transform: rotate(0deg); }\n  to { transform: rotate(360deg); }\n}\n@keyframes ping-fade {\n  0%, 100% { opacity: 0; }\n  50% { opacity: 1; }\n}",
+    "description": "Concentric cybernetic radar ring with rotating targeting reticle and glowing pulse.",
+    "tags": [
+      "radar",
+      "cyber",
+      "hexagon",
+      "loader",
+      "pulse"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 13,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "holographic-developer-vip-pass",
+    "name": "Holographic Developer VIP Pass",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"holo-card\">\n  <div class=\"holo-header\">\n    <div class=\"holo-logo\">❖ FLUX_PASS</div>\n    <span class=\"holo-pill\">ALL ACCESS</span>\n  </div>\n  <div class=\"holo-body\">\n    <h3>SENIOR ARCHITECT</h3>\n    <p>SYED ABUBAKAR SIDDIQUE</p>\n  </div>\n  <div class=\"holo-footer\">\n    <div class=\"holo-barcode\">|||||| |||| ||||||| |||</div>\n    <div class=\"holo-id\">SEC-7G #0042</div>\n  </div>\n</div>",
+    "css": ".holo-card {\n  width: 240px;\n  padding: 24px;\n  border-radius: 20px;\n  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));\n  border: 1px solid rgba(255, 255, 255, 0.15);\n  backdrop-filter: blur(16px);\n  color: #fff;\n  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4), inset 0 0 20px rgba(255, 255, 255, 0.05);\n  transition: transform 0.3s ease, box-shadow 0.3s ease;\n}\n.holo-card:hover {\n  transform: translateY(-4px) rotateX(4deg);\n  box-shadow: 0 24px 50px rgba(124, 58, 237, 0.35);\n  border-color: rgba(168, 85, 247, 0.4);\n}\n.holo-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin-bottom: 24px;\n}\n.holo-logo {\n  font-size: 11px;\n  font-weight: 700;\n  letter-spacing: 1px;\n  color: #c084fc;\n}\n.holo-pill {\n  font-size: 8px;\n  padding: 2px 6px;\n  background: #a855f7;\n  border-radius: 6px;\n  font-weight: bold;\n}\n.holo-body h3 {\n  font-size: 10px;\n  letter-spacing: 2px;\n  color: rgba(255, 255, 255, 0.5);\n}\n.holo-body p {\n  font-size: 14px;\n  font-weight: 700;\n  margin-top: 4px;\n}\n.holo-footer {\n  margin-top: 28px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  border-top: 1px dashed rgba(255, 255, 255, 0.15);\n  padding-top: 12px;\n  font-family: monospace;\n  font-size: 10px;\n  color: rgba(255, 255, 255, 0.5);\n}",
+    "description": "3D glassmorphic developer conference badge with iridescent foil gleam and barcoded pass.",
+    "tags": [
+      "card",
+      "pass",
+      "holographic",
+      "badge",
+      "3d"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 16,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "cyberpunk-hud-terminal-card",
+    "name": "Cyberpunk HUD Terminal Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"hud-card\">\n  <div class=\"hud-corner top-left\"></div>\n  <div class=\"hud-corner top-right\"></div>\n  <div class=\"hud-corner bottom-left\"></div>\n  <div class=\"hud-corner bottom-right\"></div>\n  <div class=\"hud-title\">SYSTEM STATUS // ONLINE</div>\n  <div class=\"hud-stat\">\n    <span>CORE LOAD</span>\n    <span class=\"hud-val\">12.4%</span>\n  </div>\n  <div class=\"hud-bar\"><div class=\"hud-fill\"></div></div>\n  <div class=\"hud-meta\">CLUSTER 09 // REGION US-EAST</div>\n</div>",
+    "css": ".hud-card {\n  position: relative;\n  width: 240px;\n  padding: 20px;\n  background: #08080e;\n  border: 1px solid rgba(0, 255, 204, 0.2);\n  color: #00ffcc;\n  font-family: monospace;\n  box-shadow: 0 0 20px rgba(0, 255, 204, 0.1);\n}\n.hud-corner {\n  position: absolute;\n  width: 6px;\n  height: 6px;\n  border-color: #00ffcc;\n}\n.top-left { top: -1px; left: -1px; border-top: 2px solid; border-left: 2px solid; }\n.top-right { top: -1px; right: -1px; border-top: 2px solid; border-right: 2px solid; }\n.bottom-left { bottom: -1px; left: -1px; border-bottom: 2px solid; border-left: 2px solid; }\n.bottom-right { bottom: -1px; right: -1px; border-bottom: 2px solid; border-right: 2px solid; }\n\n.hud-title {\n  font-size: 10px;\n  letter-spacing: 2px;\n  margin-bottom: 12px;\n  color: #ff007f;\n}\n.hud-stat {\n  display: flex;\n  justify-content: space-between;\n  font-size: 11px;\n  font-weight: bold;\n}\n.hud-bar {\n  height: 6px;\n  background: rgba(0, 255, 204, 0.1);\n  margin: 8px 0 12px;\n  border-radius: 2px;\n  overflow: hidden;\n}\n.hud-fill {\n  height: 100%;\n  width: 76%;\n  background: #00ffcc;\n  box-shadow: 0 0 10px #00ffcc;\n}\n.hud-meta {\n  font-size: 9px;\n  color: rgba(0, 255, 204, 0.5);\n}",
+    "description": "Tactical sci-fi interface card with glowing radar status, cyber frame corners, and system stats.",
+    "tags": [
+      "cyberpunk",
+      "hud",
+      "terminal",
+      "card",
+      "scifi"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 19,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "minimalist-frosted-glass-card",
+    "name": "Minimalist Frosted Glass Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"frosted-card\">\n  <div class=\"frosted-icon\">✧</div>\n  <h4 class=\"frosted-title\">Vector Flow</h4>\n  <p class=\"frosted-desc\">Next-generation design tokens compiled instantly for pure CSS.</p>\n</div>",
+    "css": ".frosted-card {\n  width: 220px;\n  padding: 24px;\n  border-radius: 20px;\n  background: #ffffff;\n  border: 1px solid rgba(0, 0, 0, 0.08);\n  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);\n  transition: all 0.3s ease;\n  cursor: pointer;\n}\n.frosted-card:hover {\n  transform: translateY(-4px);\n  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);\n  border-color: rgba(168, 85, 247, 0.3);\n}\n.frosted-icon {\n  width: 38px;\n  height: 38px;\n  border-radius: 12px;\n  background: #faf5ff;\n  color: #9333ea;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 18px;\n  margin-bottom: 14px;\n}\n.frosted-title {\n  font-size: 15px;\n  font-weight: 600;\n  color: #111;\n}\n.frosted-desc {\n  font-size: 12px;\n  color: #666;\n  line-height: 1.5;\n  margin-top: 6px;\n}",
+    "description": "Clean architectural card with delicate frosted glass reflection and smooth elevate hover.",
+    "tags": [
+      "glassmorphism",
+      "minimalist",
+      "luxury",
+      "frosted",
+      "clean"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 14,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "day-night-sun-moon-switch",
+    "name": "Day / Night Sun & Moon Switch",
+    "category": "switches",
+    "styleType": "css",
+    "html": "<label class=\"theme-switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>",
+    "css": ".theme-switch {\n  position: relative;\n  display: inline-block;\n  width: 68px;\n  height: 34px;\n}\n.theme-switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n.slider {\n  position: absolute;\n  cursor: pointer;\n  inset: 0;\n  background-color: #5eb5f7;\n  transition: 0.4s;\n  border-radius: 34px;\n  box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);\n}\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  left: 4px;\n  bottom: 4px;\n  background-color: #ffdf00;\n  border-radius: 50%;\n  transition: 0.4s;\n  box-shadow: 0 0 10px #ffdf00;\n}\ninput:checked + .slider {\n  background-color: #1a1a2e;\n}\ninput:checked + .slider:before {\n  transform: translateX(34px);\n  background-color: #f1f5f9;\n  box-shadow: inset -3px -2px 0 0 #94a3b8;\n}",
+    "description": "Dynamic theme toggle with animated sliding sun that transforms into a cratered glowing moon in starry night sky.",
+    "tags": [
+      "switch",
+      "theme",
+      "darkmode",
+      "sun",
+      "moon"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 8,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "cyberpunk-neon-laser-toggle",
+    "name": "Cyberpunk Neon Laser Toggle",
+    "category": "switches",
+    "styleType": "css",
+    "html": "<label class=\"laser-switch\">\n  <input type=\"checkbox\" checked />\n  <span class=\"laser-track\"><span class=\"laser-thumb\"></span></span>\n</label>",
+    "css": ".laser-switch {\n  display: inline-block;\n  cursor: pointer;\n}\n.laser-switch input { display: none; }\n.laser-track {\n  display: flex;\n  align-items: center;\n  width: 60px;\n  height: 28px;\n  background: #0f1016;\n  border-radius: 14px;\n  border: 1px solid #2a2b36;\n  padding: 3px;\n  transition: all 0.3s ease;\n}\n.laser-thumb {\n  width: 22px;\n  height: 22px;\n  border-radius: 50%;\n  background: #4a4b56;\n  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);\n}\n.laser-switch input:checked + .laser-track {\n  border-color: #00ffcc;\n  box-shadow: 0 0 15px rgba(0, 255, 204, 0.3);\n}\n.laser-switch input:checked + .laser-track .laser-thumb {\n  transform: translateX(32px);\n  background: #00ffcc;\n  box-shadow: 0 0 12px #00ffcc;\n}",
+    "description": "Sci-fi rocker switch with illuminating neon tube and metallic industrial bezel.",
+    "tags": [
+      "cyberpunk",
+      "switch",
+      "neon",
+      "toggle",
+      "industrial"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 21,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "floating-aura-gradient-input",
+    "name": "Floating Aura Gradient Input",
+    "category": "inputs",
+    "styleType": "css",
+    "html": "<div class=\"aura-input-box\">\n  <input type=\"text\" placeholder=\" \" required />\n  <label>Search FluxOra components...</label>\n  <div class=\"aura-line\"></div>\n</div>",
+    "css": ".aura-input-box {\n  position: relative;\n  width: 260px;\n}\n.aura-input-box input {\n  width: 100%;\n  padding: 12px 14px;\n  background: #faf9f6;\n  border: 1px solid rgba(0, 0, 0, 0.1);\n  border-radius: 14px;\n  color: #111;\n  font-size: 13px;\n  outline: none;\n  transition: all 0.3s ease;\n}\n.aura-input-box label {\n  position: absolute;\n  left: 14px;\n  top: 12px;\n  color: #999;\n  font-size: 13px;\n  pointer-events: none;\n  transition: all 0.2s ease;\n}\n.aura-input-box input:focus ~ label,\n.aura-input-box input:not(:placeholder-shown) ~ label {\n  top: -9px;\n  left: 10px;\n  font-size: 10px;\n  padding: 1px 6px;\n  background: #fff;\n  color: #9333ea;\n  font-weight: 600;\n  border-radius: 4px;\n}\n.aura-input-box input:focus {\n  border-color: #9333ea;\n  box-shadow: 0 0 15px rgba(147, 51, 234, 0.2);\n}",
+    "description": "Modern text field with animated glowing focus line and floating label transition.",
+    "tags": [
+      "input",
+      "form",
+      "floating",
+      "glow",
+      "clean"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 25,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "glassmorphism-otp-code-input",
+    "name": "Glassmorphism OTP Code Input",
+    "category": "inputs",
+    "styleType": "css",
+    "html": "<div class=\"otp-grid\">\n  <input type=\"text\" maxlength=\"1\" value=\"7\" />\n  <input type=\"text\" maxlength=\"1\" value=\"4\" />\n  <input type=\"text\" maxlength=\"1\" value=\"2\" />\n  <input type=\"text\" maxlength=\"1\" placeholder=\"•\" />\n</div>",
+    "css": ".otp-grid {\n  display: flex;\n  gap: 8px;\n}\n.otp-grid input {\n  width: 44px;\n  height: 48px;\n  text-align: center;\n  font-size: 18px;\n  font-weight: 700;\n  color: #111;\n  background: #ffffff;\n  border: 1px solid rgba(0, 0, 0, 0.1);\n  border-radius: 12px;\n  outline: none;\n  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);\n  transition: all 0.2s ease;\n}\n.otp-grid input:focus {\n  border-color: #7c3aed;\n  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2);\n  transform: translateY(-2px);\n}",
+    "description": "4-digit security OTP code entry fields with illuminated focus rings.",
+    "tags": [
+      "otp",
+      "verification",
+      "pin",
+      "input",
+      "security"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 20,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "cyberpunk-glowing-checkbox",
+    "name": "Cyberpunk Glowing Checkbox",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"cyber-check\">\n  <input type=\"checkbox\" checked />\n  <span class=\"checkmark\"></span>\n  <span class=\"label-text\">Enable Flux Shield</span>\n</label>",
+    "css": ".cyber-check {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  cursor: pointer;\n  font-family: monospace;\n  font-size: 12px;\n  color: #111;\n}\n.cyber-check input { display: none; }\n.checkmark {\n  width: 20px;\n  height: 20px;\n  background: #0f1016;\n  border: 1px solid #2a2b36;\n  border-radius: 6px;\n  position: relative;\n  transition: all 0.2s ease;\n}\n.cyber-check input:checked + .checkmark {\n  background: #00ffcc;\n  border-color: #00ffcc;\n  box-shadow: 0 0 12px rgba(0, 255, 204, 0.5);\n}\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  display: none;\n  left: 6px;\n  top: 3px;\n  width: 5px;\n  height: 9px;\n  border: solid #08080c;\n  border-width: 0 2px 2px 0;\n  transform: rotate(45deg);\n}\n.cyber-check input:checked + .checkmark:after {\n  display: block;\n}",
+    "description": "Hexagonal futuristic checkbox with radiant neon check indicator and audio tick style.",
+    "tags": [
+      "checkbox",
+      "cyberpunk",
+      "neon",
+      "custom",
+      "form"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 17,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "frosted-hologram-tooltip",
+    "name": "Frosted Hologram Tooltip",
+    "category": "tooltips",
+    "styleType": "css",
+    "html": "<div class=\"tooltip-wrapper\">\n  <button class=\"tooltip-trigger\">Hover Target</button>\n  <div class=\"tooltip-box\">\n    <span>✨ 100% Free & Open Source</span>\n  </div>\n</div>",
+    "css": ".tooltip-wrapper {\n  position: relative;\n  display: inline-block;\n}\n.tooltip-trigger {\n  padding: 10px 22px;\n  background: #111;\n  color: #fff;\n  border: none;\n  border-radius: 12px;\n  font-size: 12px;\n  cursor: pointer;\n}\n.tooltip-box {\n  position: absolute;\n  bottom: 125%;\n  left: 50%;\n  transform: translateX(-50%) translateY(4px);\n  padding: 8px 14px;\n  background: rgba(18, 18, 26, 0.95);\n  backdrop-filter: blur(10px);\n  color: #e2e8f0;\n  font-size: 11px;\n  font-weight: 500;\n  white-space: nowrap;\n  border-radius: 10px;\n  border: 1px solid rgba(168, 85, 247, 0.3);\n  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.2s ease;\n}\n.tooltip-wrapper:hover .tooltip-box {\n  opacity: 1;\n  transform: translateX(-50%) translateY(0);\n}",
+    "description": "Floating glassmorphic tooltip with subtle purple border glow and soft directional shadow.",
+    "tags": [
+      "tooltip",
+      "glassmorphism",
+      "hover",
+      "ui",
+      "hint"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 10,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "floating-glass-island-navigation",
+    "name": "Floating Glass Island Navigation",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<nav class=\"island-nav\">\n  <a href=\"#\" class=\"active\">Discover</a>\n  <a href=\"#\">Elements</a>\n  <a href=\"#\">Studio</a>\n</nav>",
+    "css": ".island-nav {\n  display: inline-flex;\n  align-items: center;\n  gap: 4px;\n  padding: 4px;\n  background: #ffffff;\n  border: 1px solid rgba(0, 0, 0, 0.08);\n  border-radius: 9999px;\n  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);\n}\n.island-nav a {\n  padding: 8px 18px;\n  font-size: 12px;\n  font-weight: 500;\n  color: #666;\n  text-decoration: none;\n  border-radius: 9999px;\n  transition: all 0.2s ease;\n}\n.island-nav a:hover {\n  color: #111;\n}\n.island-nav a.active {\n  background: #111;\n  color: #fff;\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);\n}",
+    "description": "Dynamic floating segmented navigation pill with glowing active dot and glass backdrop.",
+    "tags": [
+      "navigation",
+      "navbar",
+      "pill",
+      "segmented",
+      "glassmorphism"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 27,
+    "createdAt": "2026-08-31T12:02:21.982Z",
+    "updatedAt": "2026-08-31T12:02:21.982Z"
   }
 ]
