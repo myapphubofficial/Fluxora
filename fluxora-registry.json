@@ -4648,5 +4648,1325 @@
     "likesCount": 31,
     "createdAt": "2026-08-31T14:25:08.449Z",
     "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "clay-soft-pillow-bubble-button",
+    "name": "Clay Soft-Pillow Bubble Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-clay-pillow\">\n  <span>Explore Flux</span>\n</button>",
+    "css": ".btn-clay-pillow {\n  position: relative;\n  padding: 14px 32px;\n  background: #a855f7;\n  color: #ffffff;\n  font-family: system-ui, -apple-system, sans-serif;\n  font-size: 14px;\n  font-weight: 700;\n  border: none;\n  border-radius: 9999px;\n  cursor: pointer;\n  box-shadow: \n    inset 0 4px 6px rgba(255, 255, 255, 0.45),\n    inset 0 -4px 6px rgba(0, 0, 0, 0.25),\n    0 10px 20px rgba(168, 85, 247, 0.35);\n  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);\n}\n.btn-clay-pillow:hover {\n  transform: translateY(-3px) scale(1.03);\n  box-shadow: \n    inset 0 4px 6px rgba(255, 255, 255, 0.55),\n    inset 0 -4px 6px rgba(0, 0, 0, 0.3),\n    0 14px 26px rgba(168, 85, 247, 0.45);\n}\n.btn-clay-pillow:active {\n  transform: translateY(2px) scale(0.96);\n  box-shadow: \n    inset 0 2px 4px rgba(0, 0, 0, 0.3),\n    0 4px 10px rgba(168, 85, 247, 0.25);\n}",
+    "description": "Pillowy candy purple claymorphic button with dual inner specular lighting and squishy press physics.",
+    "tags": [
+      "claymorphism",
+      "3d",
+      "pillowy",
+      "purple",
+      "soft"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 64,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "3d-push-down-arcade-coin-button",
+    "name": "3D Push-Down Arcade Coin Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-arcade-3d\">\n  <span class=\"btn-arcade-top\">INSERT COIN</span>\n</button>",
+    "css": ".btn-arcade-3d {\n  position: relative;\n  background: #991b1b;\n  border-radius: 12px;\n  padding: 0;\n  border: none;\n  cursor: pointer;\n  outline-offset: 4px;\n  transition: filter 250ms;\n}\n.btn-arcade-top {\n  display: block;\n  padding: 14px 28px;\n  border-radius: 12px;\n  font-size: 13px;\n  font-family: monospace;\n  font-weight: 900;\n  letter-spacing: 1px;\n  background: #ef4444;\n  color: white;\n  transform: translateY(-6px);\n  box-shadow: inset 0 2px 2px rgba(255,255,255,0.4);\n  transition: transform 150ms cubic-bezier(0.3, 0.7, 0.4, 1);\n}\n.btn-arcade-3d:hover .btn-arcade-top {\n  transform: translateY(-8px);\n}\n.btn-arcade-3d:active .btn-arcade-top {\n  transform: translateY(-1px);\n}",
+    "description": "Extruded isometric crimson arcade button with physical 3D drop-step push depth.",
+    "tags": [
+      "3d",
+      "arcade",
+      "retro",
+      "push",
+      "red"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 37,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "clay-marshmallow-pastel-button",
+    "name": "Clay Marshmallow Pastel Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-clay-mint\">\n  <span>✨ Start Creating</span>\n</button>",
+    "css": ".btn-clay-mint {\n  padding: 13px 30px;\n  background: #34d399;\n  color: #064e3b;\n  font-family: system-ui, sans-serif;\n  font-size: 13px;\n  font-weight: 800;\n  border: none;\n  border-radius: 20px;\n  cursor: pointer;\n  box-shadow: \n    inset 0 4px 6px rgba(255, 255, 255, 0.6),\n    inset 0 -4px 6px rgba(5, 150, 105, 0.4),\n    0 8px 18px rgba(52, 211, 153, 0.35);\n  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n.btn-clay-mint:hover {\n  transform: scale(1.04);\n}\n.btn-clay-mint:active {\n  transform: scale(0.95);\n}",
+    "description": "Pastel mint-cream soft clay button with bouncy tactile micro-physics.",
+    "tags": [
+      "claymorphism",
+      "pastel",
+      "mint",
+      "cute",
+      "soft"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 24,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "squishy-jelly-gem-button",
+    "name": "Squishy Jelly Gem Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-jelly-gem\">\n  <span>Claim Reward</span>\n</button>",
+    "css": ".btn-jelly-gem {\n  padding: 14px 32px;\n  background: radial-gradient(circle at 50% 0%, #fb7185, #e11d48);\n  color: white;\n  font-weight: 700;\n  font-size: 13px;\n  border: none;\n  border-radius: 16px;\n  cursor: pointer;\n  box-shadow: \n    0 8px 24px rgba(225, 29, 72, 0.4),\n    inset 0 3px 6px rgba(255, 255, 255, 0.6),\n    inset 0 -3px 6px rgba(159, 18, 57, 0.5);\n  transition: all 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55);\n}\n.btn-jelly-gem:hover {\n  transform: translateY(-2px) scale(1.05);\n  filter: brightness(1.1);\n}\n.btn-jelly-gem:active {\n  transform: translateY(2px) scale(0.92);\n}",
+    "description": "Semi-transparent strawberry gummy button with juicy light refraction and jiggle response.",
+    "tags": [
+      "jelly",
+      "squishy",
+      "gummy",
+      "red",
+      "fruit"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 22,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "chunky-play-doh-stamped-button",
+    "name": "Chunky Play-Doh Stamped Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-doh-stamp\">\n  <span>PRESS HERE</span>\n</button>",
+    "css": ".btn-doh-stamp {\n  padding: 14px 28px;\n  background: #facc15;\n  color: #854d0e;\n  font-family: system-ui, sans-serif;\n  font-size: 14px;\n  font-weight: 900;\n  letter-spacing: 1px;\n  border: none;\n  border-radius: 14px;\n  cursor: pointer;\n  text-shadow: 0 1px 1px rgba(255,255,255,0.7), 0 -1px 1px rgba(0,0,0,0.2);\n  box-shadow: \n    inset 0 5px 8px rgba(255, 255, 255, 0.7),\n    inset 0 -5px 8px rgba(161, 98, 7, 0.4),\n    0 8px 16px rgba(250, 204, 21, 0.4);\n  transition: all 0.15s ease;\n}\n.btn-doh-stamp:active {\n  transform: scale(0.94);\n  box-shadow: \n    inset 0 3px 5px rgba(0,0,0,0.3),\n    0 2px 6px rgba(250, 204, 21, 0.3);\n}",
+    "description": "Retro toy-styled yellow clay button with realistic stamped debossed typography.",
+    "tags": [
+      "playdoh",
+      "clay",
+      "toy",
+      "yellow",
+      "retro"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 36,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "liquid-prismatic-glass-capsule",
+    "name": "Liquid Prismatic Glass Capsule",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-prism-glass\">\n  <span class=\"prism-shine\"></span>\n  <span>Discover Magic</span>\n</button>",
+    "css": ".btn-prism-glass {\n  position: relative;\n  padding: 13px 32px;\n  background: rgba(255, 255, 255, 0.6);\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  border: 1.5px solid transparent;\n  border-image: linear-gradient(135deg, #ec4899, #8b5cf6, #3b82f6, #10b981) 1;\n  border-radius: 9999px;\n  color: #0f172a;\n  font-family: system-ui, sans-serif;\n  font-size: 13px;\n  font-weight: 700;\n  cursor: pointer;\n  overflow: hidden;\n  box-shadow: 0 8px 32px rgba(139, 92, 246, 0.15);\n  transition: all 0.3s ease;\n}\n.btn-prism-glass:hover {\n  background: rgba(255, 255, 255, 0.85);\n  transform: translateY(-2px);\n  box-shadow: 0 12px 36px rgba(139, 92, 246, 0.25);\n}\n.btn-prism-glass:active {\n  transform: translateY(1px) scale(0.97);\n}",
+    "description": "Ultra-clear liquid glass pill with rainbow chromatic dispersion edge and crystal refraction.",
+    "tags": [
+      "liquid",
+      "glassmorphism",
+      "prismatic",
+      "rainbow",
+      "crystal"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 61,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "frosted-glass-frost-bite-button",
+    "name": "Frosted Glass Frost-Bite Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-frost-bite\">\n  <span>❄️ Frost Protocol</span>\n</button>",
+    "css": ".btn-frost-bite {\n  padding: 13px 28px;\n  background: rgba(224, 242, 254, 0.65);\n  backdrop-filter: blur(14px);\n  border: 1px solid rgba(56, 189, 248, 0.4);\n  border-radius: 14px;\n  color: #0369a1;\n  font-family: system-ui, sans-serif;\n  font-size: 13px;\n  font-weight: 700;\n  cursor: pointer;\n  box-shadow: \n    inset 0 0 12px rgba(56, 189, 248, 0.2),\n    0 6px 20px rgba(56, 189, 248, 0.2);\n  transition: all 0.25s ease;\n}\n.btn-frost-bite:hover {\n  background: rgba(224, 242, 254, 0.9);\n  border-color: #38bdf8;\n  box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);\n  transform: translateY(-2px);\n}\n.btn-frost-bite:active { transform: translateY(1px); }",
+    "description": "Ice-cold crystal glass button with illuminated cyan glacial core.",
+    "tags": [
+      "ice",
+      "glass",
+      "frost",
+      "cyan",
+      "arctic"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 41,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "water-droplet-gel-surface-button",
+    "name": "Water Droplet Gel Surface Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-water-gel\">\n  <span>Purity Wave</span>\n</button>",
+    "css": ".btn-water-gel {\n  padding: 14px 32px;\n  background: linear-gradient(180deg, rgba(255,255,255,0.85) 0%, rgba(200,230,255,0.5) 100%);\n  border: 1px solid rgba(255,255,255,0.8);\n  border-radius: 9999px;\n  color: #0284c7;\n  font-weight: 700;\n  font-size: 13px;\n  cursor: pointer;\n  box-shadow: \n    0 10px 25px rgba(2, 132, 199, 0.15),\n    inset 0 4px 8px rgba(255,255,255,0.9),\n    inset 0 -4px 8px rgba(2, 132, 199, 0.2);\n  transition: all 0.2s ease;\n}\n.btn-water-gel:hover {\n  transform: scale(1.03);\n}\n.btn-water-gel:active {\n  transform: scale(0.95);\n}",
+    "description": "Realistic morning dew water droplet button with glossy convex glare.",
+    "tags": [
+      "water",
+      "droplet",
+      "gel",
+      "glossy",
+      "nature"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 45,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "holographic-opal-glass-button",
+    "name": "Holographic Opal Glass Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-opal-holo\">\n  <span>💎 Opal Syndicate</span>\n</button>",
+    "css": ".btn-opal-holo {\n  padding: 13px 30px;\n  background: linear-gradient(135deg, #fce7f3, #e0e7ff, #ccfbf1);\n  border: 1px solid rgba(255,255,255,0.8);\n  border-radius: 12px;\n  color: #4338ca;\n  font-family: system-ui, sans-serif;\n  font-size: 13px;\n  font-weight: 800;\n  cursor: pointer;\n  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.2);\n  transition: all 0.3s ease;\n}\n.btn-opal-holo:hover {\n  background: linear-gradient(135deg, #ccfbf1, #fce7f3, #e0e7ff);\n  transform: translateY(-2px);\n}\n.btn-opal-holo:active { transform: translateY(1px); }",
+    "description": "Iridescent mother-of-pearl luxury button with shifting multi-angle rainbow colors.",
+    "tags": [
+      "opal",
+      "holographic",
+      "luxury",
+      "shimmer",
+      "rainbow"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 45,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "liquid-mercury-chrome-button",
+    "name": "Liquid Mercury Chrome Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-liquid-chrome\">\n  <span>ENTER THE MATRIX</span>\n</button>",
+    "css": ".btn-liquid-chrome {\n  padding: 14px 30px;\n  background: linear-gradient(135deg, #f8fafc 0%, #94a3b8 50%, #475569 51%, #cbd5e1 100%);\n  color: #0f172a;\n  font-family: monospace;\n  font-size: 12px;\n  font-weight: 900;\n  letter-spacing: 1.5px;\n  border: 1px solid #ffffff;\n  border-radius: 8px;\n  cursor: pointer;\n  box-shadow: 0 8px 24px rgba(0,0,0,0.15), inset 0 2px 3px #ffffff;\n  transition: all 0.2s ease;\n}\n.btn-liquid-chrome:hover {\n  transform: translateY(-2px);\n  box-shadow: 0 12px 28px rgba(0,0,0,0.25);\n}\n.btn-liquid-chrome:active { transform: translateY(1px); }",
+    "description": "Molten liquid chrome silver button with metallic mirror reflections.",
+    "tags": [
+      "chrome",
+      "mercury",
+      "silver",
+      "metallic",
+      "reflective"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 56,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "comic-book-pop-art-boom-button",
+    "name": "Comic Book Pop-Art Boom Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-comic-boom\">\n  <span>💥 BOOM! GET STARTED</span>\n</button>",
+    "css": ".btn-comic-boom {\n  padding: 14px 26px;\n  background: #facc15;\n  color: #000000;\n  font-family: 'Impact', system-ui, sans-serif;\n  font-size: 15px;\n  letter-spacing: 1px;\n  border: 3px solid #000000;\n  border-radius: 12px;\n  cursor: pointer;\n  box-shadow: 5px 5px 0px #000000;\n  transition: all 0.1s ease;\n}\n.btn-comic-boom:hover {\n  transform: translate(-2px, -2px);\n  box-shadow: 7px 7px 0px #000000;\n}\n.btn-comic-boom:active {\n  transform: translate(3px, 3px);\n  box-shadow: 2px 2px 0px #000000;\n}",
+    "description": "Canary yellow pop-art comic action button with thick 4px neo-brutalist shadow.",
+    "tags": [
+      "comic",
+      "popart",
+      "neobrutalism",
+      "cartoon",
+      "yellow"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 23,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "retro-90s-sticker-cutout-button",
+    "name": "Retro 90s Sticker Cutout Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-retro-sticker\">\n  <span>⚡ RADICAL 90S</span>\n</button>",
+    "css": ".btn-retro-sticker {\n  padding: 12px 24px;\n  background: #ec4899;\n  color: #ffffff;\n  font-family: system-ui, sans-serif;\n  font-size: 13px;\n  font-weight: 900;\n  letter-spacing: 1px;\n  border: 3px dashed #ffffff;\n  outline: 3px solid #000000;\n  border-radius: 8px;\n  cursor: pointer;\n  box-shadow: 4px 4px 0px #000000;\n  transform: rotate(-2deg);\n  transition: all 0.15s ease;\n}\n.btn-retro-sticker:hover {\n  transform: rotate(0deg) scale(1.05);\n}\n.btn-retro-sticker:active {\n  transform: rotate(2deg) scale(0.95);\n}",
+    "description": "Die-cut peelable skate sticker button with bold dashed contour border.",
+    "tags": [
+      "sticker",
+      "90s",
+      "skate",
+      "cutout",
+      "retro"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 59,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "kawaii-bubblegum-heart-button",
+    "name": "Kawaii Bubblegum Heart Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-kawaii-gum\">\n  <span class=\"k-heart\">💖</span>\n  <span>Sweet Sparkle</span>\n</button>",
+    "css": ".btn-kawaii-gum {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 12px 26px;\n  background: #f472b6;\n  color: #ffffff;\n  font-family: system-ui, sans-serif;\n  font-size: 13px;\n  font-weight: 800;\n  border: 3px solid #ffffff;\n  border-radius: 9999px;\n  cursor: pointer;\n  box-shadow: 0 6px 18px rgba(244, 114, 182, 0.4);\n  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);\n}\n.btn-kawaii-gum:hover {\n  transform: scale(1.08);\n}\n.btn-kawaii-gum:active {\n  transform: scale(0.92);\n}",
+    "description": "Adorable Japanese kawaii pink pill button with beating heart emoji.",
+    "tags": [
+      "kawaii",
+      "bubblegum",
+      "pink",
+      "cute",
+      "heart"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 59,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "graffiti-hazard-neo-brutalist-button",
+    "name": "Graffiti Hazard Neo-Brutalist Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-hazard-stripes\">\n  <span>⚠️ RESTRICTED AREA</span>\n</button>",
+    "css": ".btn-hazard-stripes {\n  padding: 14px 28px;\n  background: repeating-linear-gradient(\n    45deg,\n    #f59e0b,\n    #f59e0b 10px,\n    #000000 10px,\n    #000000 20px\n  );\n  color: #ffffff;\n  font-family: monospace;\n  font-size: 13px;\n  font-weight: 900;\n  letter-spacing: 2px;\n  border: 3px solid #000000;\n  border-radius: 6px;\n  cursor: pointer;\n  text-shadow: 0 0 4px #000000;\n  box-shadow: 4px 4px 0px #000000;\n  transition: all 0.1s ease;\n}\n.btn-hazard-stripes:hover {\n  transform: translate(-2px, -2px);\n  box-shadow: 6px 6px 0px #000000;\n}\n.btn-hazard-stripes:active {\n  transform: translate(2px, 2px);\n  box-shadow: 1px 1px 0px #000000;\n}",
+    "description": "Industrial diagonal caution stripes button with aggressive street typography.",
+    "tags": [
+      "hazard",
+      "neobrutalism",
+      "industrial",
+      "caution",
+      "stripes"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 56,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "pixel-arcade-8-bit-quest-button",
+    "name": "Pixel Arcade 8-Bit Quest Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-pixel-8bit\">\n  <span>START GAME</span>\n</button>",
+    "css": ".btn-pixel-8bit {\n  padding: 12px 24px;\n  background: #10b981;\n  color: #ffffff;\n  font-family: monospace;\n  font-size: 12px;\n  font-weight: 900;\n  border: none;\n  cursor: pointer;\n  box-shadow: \n    inset -4px -4px 0px 0px #065f46,\n    inset 4px 4px 0px 0px #6ee7b7,\n    0 4px 0px 0px #000000;\n}\n.btn-pixel-8bit:hover {\n  background: #059669;\n}\n.btn-pixel-8bit:active {\n  transform: translateY(4px);\n  box-shadow: \n    inset -4px -4px 0px 0px #065f46,\n    inset 4px 4px 0px 0px #6ee7b7;\n}",
+    "description": "Nostalgic retro 8-bit NES styled pixelated quest action button.",
+    "tags": [
+      "pixel",
+      "8bit",
+      "arcade",
+      "retro",
+      "gaming"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 42,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "cyberpunk-plasma-pulse-button",
+    "name": "Cyberpunk Plasma Pulse Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-cyber-pulse\">\n  <span>INITIALIZE PROTOCOL</span>\n</button>",
+    "css": ".btn-cyber-pulse {\n  padding: 14px 30px;\n  background: #050811;\n  color: #00ffcc;\n  font-family: monospace;\n  font-size: 12px;\n  font-weight: 700;\n  letter-spacing: 2px;\n  border: 1px solid #00ffcc;\n  border-radius: 4px;\n  cursor: pointer;\n  box-shadow: 0 0 15px rgba(0, 255, 204, 0.3), inset 0 0 10px rgba(0, 255, 204, 0.15);\n  transition: all 0.25s ease;\n}\n.btn-cyber-pulse:hover {\n  background: #00ffcc;\n  color: #050811;\n  box-shadow: 0 0 25px #00ffcc;\n}\n.btn-cyber-pulse:active { transform: scale(0.96); }",
+    "description": "Futuristic night-city cyan button with pulsating laser border glow.",
+    "tags": [
+      "cyberpunk",
+      "neon",
+      "cyan",
+      "scifi",
+      "glow"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 38,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "quantum-rift-nebula-button",
+    "name": "Quantum Rift Nebula Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-quantum-rift\">\n  <span>ENTER VOID</span>\n</button>",
+    "css": ".btn-quantum-rift {\n  position: relative;\n  padding: 14px 32px;\n  background: linear-gradient(45deg, #7c3aed, #ec4899, #3b82f6);\n  background-size: 300% 300%;\n  animation: rift-flow 4s ease infinite;\n  color: #ffffff;\n  font-family: system-ui, sans-serif;\n  font-size: 13px;\n  font-weight: 800;\n  letter-spacing: 1px;\n  border: none;\n  border-radius: 12px;\n  cursor: pointer;\n  box-shadow: 0 8px 24px rgba(124, 58, 237, 0.4);\n  transition: transform 0.2s ease;\n}\n@keyframes rift-flow {\n  0% { background-position: 0% 50%; }\n  50% { background-position: 100% 50%; }\n  100% { background-position: 0% 50%; }\n}\n.btn-quantum-rift:hover { transform: scale(1.04); }\n.btn-quantum-rift:active { transform: scale(0.96); }",
+    "description": "Deep galaxy purple button with continuous rotating cosmos gradient.",
+    "tags": [
+      "quantum",
+      "nebula",
+      "space",
+      "gradient",
+      "purple"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 52,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "magma-reactor-flame-button",
+    "name": "Magma Reactor Flame Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-magma-flame\">\n  <span>🔥 IGNITE CORE</span>\n</button>",
+    "css": ".btn-magma-flame {\n  padding: 14px 30px;\n  background: linear-gradient(180deg, #ea580c, #7c2d12);\n  color: #ffedd5;\n  font-family: monospace;\n  font-size: 13px;\n  font-weight: 900;\n  letter-spacing: 1px;\n  border: 1px solid #f97316;\n  border-radius: 8px;\n  cursor: pointer;\n  box-shadow: 0 0 20px rgba(234, 88, 12, 0.5);\n  transition: all 0.2s ease;\n}\n.btn-magma-flame:hover {\n  box-shadow: 0 0 35px #f97316;\n  transform: translateY(-2px);\n}\n.btn-magma-flame:active { transform: translateY(1px); }",
+    "description": "Molten volcanic core button with radiating orange plasma heat glow.",
+    "tags": [
+      "magma",
+      "fire",
+      "flame",
+      "orange",
+      "reactor"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 20,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "matrix-terminal-scan-button",
+    "name": "Matrix Terminal Scan Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-matrix-scan\">\n  <span>[EXECUTE_SHELL]</span>\n</button>",
+    "css": ".btn-matrix-scan {\n  padding: 13px 26px;\n  background: #021a0a;\n  color: #00ff66;\n  font-family: monospace;\n  font-size: 12px;\n  font-weight: 700;\n  border: 1px solid #00ff66;\n  border-radius: 4px;\n  cursor: pointer;\n  box-shadow: 0 0 12px rgba(0, 255, 102, 0.25);\n  transition: all 0.2s ease;\n}\n.btn-matrix-scan:hover {\n  background: #00ff66;\n  color: #021a0a;\n  box-shadow: 0 0 20px #00ff66;\n}\n.btn-matrix-scan:active { transform: scale(0.96); }",
+    "description": "Hacker green terminal button with horizontal scanning radar beam.",
+    "tags": [
+      "matrix",
+      "hacker",
+      "terminal",
+      "green",
+      "code"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 52,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "vaporwave-sunset-horizon-button",
+    "name": "Vaporwave Sunset Horizon Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-vapor-sunset\">\n  <span>OUTRUN 1984</span>\n</button>",
+    "css": ".btn-vapor-sunset {\n  padding: 14px 30px;\n  background: linear-gradient(180deg, #ec4899 0%, #f97316 100%);\n  color: #ffffff;\n  font-family: 'Arial Black', system-ui, sans-serif;\n  font-size: 12px;\n  letter-spacing: 2px;\n  border: none;\n  border-radius: 6px;\n  cursor: pointer;\n  box-shadow: 0 8px 24px rgba(236, 72, 153, 0.4);\n  transition: all 0.2s ease;\n}\n.btn-vapor-sunset:hover {\n  transform: translateY(-2px);\n  box-shadow: 0 12px 28px rgba(236, 72, 153, 0.6);\n}\n.btn-vapor-sunset:active { transform: translateY(1px); }",
+    "description": "80s synthwave neon magenta-to-orange gradient button with horizon line.",
+    "tags": [
+      "vaporwave",
+      "synthwave",
+      "80s",
+      "neon",
+      "sunset"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 59,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "magnetic-spring-recoil-button",
+    "name": "Magnetic Spring Recoil Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-mag-spring\">\n  <span>Continue Project</span>\n</button>",
+    "css": ".btn-mag-spring {\n  padding: 14px 32px;\n  background: #18181b;\n  color: #ffffff;\n  font-family: system-ui, sans-serif;\n  font-size: 13px;\n  font-weight: 600;\n  border: 1px solid rgba(255,255,255,0.15);\n  border-radius: 9999px;\n  cursor: pointer;\n  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);\n}\n.btn-mag-spring:hover {\n  transform: scale(1.06);\n  background: #27272a;\n}\n.btn-mag-spring:active {\n  transform: scale(0.92);\n}",
+    "description": "Modern luxury charcoal button with ultra-responsive elastic spring-back.",
+    "tags": [
+      "spring",
+      "magnetic",
+      "physics",
+      "dark",
+      "sleek"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 62,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "elastic-rubber-band-button",
+    "name": "Elastic Rubber Band Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-rubber-band\">\n  <span>Launch Flux</span>\n</button>",
+    "css": ".btn-rubber-band {\n  padding: 14px 28px;\n  background: #4f46e5;\n  color: #ffffff;\n  font-weight: 700;\n  font-size: 13px;\n  border: none;\n  border-radius: 12px;\n  cursor: pointer;\n  transition: all 0.3s cubic-bezier(0.68, -0.6, 0.32, 1.6);\n}\n.btn-rubber-band:hover {\n  padding-left: 36px;\n  padding-right: 36px;\n  background: #4338ca;\n}\n.btn-rubber-band:active {\n  transform: scale(0.9);\n}",
+    "description": "Indigo bouncy rubber button that expands horizontally on hover.",
+    "tags": [
+      "rubber",
+      "elastic",
+      "indigo",
+      "bouncy",
+      "anim"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 28,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "mechanical-keyboard-keycap-button",
+    "name": "Mechanical Keyboard Keycap Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-mx-keycap\">\n  <span class=\"mx-top\">ENTER ↵</span>\n</button>",
+    "css": ".btn-mx-keycap {\n  background: #d4d4d8;\n  padding: 3px;\n  border-radius: 8px;\n  border: 1px solid #a1a1aa;\n  cursor: pointer;\n}\n.mx-top {\n  display: block;\n  padding: 12px 24px;\n  background: #fafafa;\n  color: #18181b;\n  font-family: monospace;\n  font-size: 12px;\n  font-weight: 800;\n  border-radius: 6px;\n  box-shadow: 0 4px 0 #a1a1aa;\n  transition: all 0.1s ease;\n}\n.btn-mx-keycap:active .mx-top {\n  transform: translateY(4px);\n  box-shadow: 0 0 0 #a1a1aa;\n}",
+    "description": "Realistic Cherry MX keycap button with tactile 3D slant and mechanical sound look.",
+    "tags": [
+      "keyboard",
+      "keycap",
+      "mechanical",
+      "cherry",
+      "3d"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 20,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "gold-bullion-ingot-luxury-button",
+    "name": "Gold Bullion Ingot Luxury Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-gold-ingot\">\n  <span>999.9 FINE GOLD</span>\n</button>",
+    "css": ".btn-gold-ingot {\n  padding: 14px 30px;\n  background: linear-gradient(135deg, #fef08a 0%, #ca8a04 50%, #eab308 100%);\n  color: #713f12;\n  font-family: 'Times New Roman', serif;\n  font-size: 13px;\n  font-weight: 900;\n  letter-spacing: 2px;\n  border: 1px solid #facc15;\n  border-radius: 6px;\n  cursor: pointer;\n  box-shadow: 0 6px 18px rgba(202, 138, 4, 0.35);\n  transition: all 0.2s ease;\n}\n.btn-gold-ingot:hover {\n  transform: translateY(-2px);\n  filter: brightness(1.08);\n}\n.btn-gold-ingot:active { transform: translateY(1px); }",
+    "description": "Solid 24k brass and bullion gold ingot bar with beveled diamond highlights.",
+    "tags": [
+      "gold",
+      "bullion",
+      "luxury",
+      "vip",
+      "ingot"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 32,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "carbon-fiber-aerospace-button",
+    "name": "Carbon Fiber Aerospace Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-carbon-fiber\">\n  <span class=\"cf-dot\"></span>\n  <span>LAUNCH CONTROL</span>\n</button>",
+    "css": ".btn-carbon-fiber {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  padding: 13px 26px;\n  background: radial-gradient(black 15%, transparent 16%) 0 0,\n              radial-gradient(black 15%, transparent 16%) 8px 8px,\n              radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,\n              radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;\n  background-color: #1a1a1a;\n  background-size: 16px 16px;\n  color: #f8fafc;\n  font-family: monospace;\n  font-size: 12px;\n  font-weight: 800;\n  letter-spacing: 1.5px;\n  border: 1px solid #334155;\n  border-radius: 8px;\n  cursor: pointer;\n  box-shadow: 0 4px 14px rgba(0,0,0,0.4);\n}\n.cf-dot { width: 6px; height: 6px; border-radius: 50%; background: #f97316; box-shadow: 0 0 6px #f97316; }\n.btn-carbon-fiber:hover { border-color: #f97316; }\n.btn-carbon-fiber:active { transform: scale(0.96); }",
+    "description": "Matte woven carbon fiber weave button with McLaren safety orange indicator.",
+    "tags": [
+      "carbon",
+      "fiber",
+      "aerospace",
+      "racing",
+      "supercar"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 21,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "glow-wire-laser-stroke-button",
+    "name": "Glow Wire Laser Stroke Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-glow-wire\">\n  <span>Join Universe</span>\n</button>",
+    "css": ".btn-glow-wire {\n  padding: 14px 32px;\n  background: #09090b;\n  color: #ffffff;\n  font-family: system-ui, sans-serif;\n  font-size: 13px;\n  font-weight: 600;\n  border: 1px solid #8b5cf6;\n  border-radius: 9999px;\n  cursor: pointer;\n  box-shadow: 0 0 15px rgba(139, 92, 246, 0.35);\n  transition: all 0.25s ease;\n}\n.btn-glow-wire:hover {\n  background: #8b5cf6;\n  box-shadow: 0 0 25px rgba(139, 92, 246, 0.7);\n}\n.btn-glow-wire:active { transform: scale(0.96); }",
+    "description": "Minimalist dark button with animated circulating laser perimeter beam.",
+    "tags": [
+      "glow",
+      "laser",
+      "wire",
+      "stroke",
+      "minimal"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 37,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "morphing-liquid-blob-button",
+    "name": "Morphing Liquid Blob Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-liquid-blob\">\n  <span>EXPLORE</span>\n</button>",
+    "css": ".btn-liquid-blob {\n  padding: 16px 36px;\n  background: linear-gradient(135deg, #06b6d4, #3b82f6);\n  color: #ffffff;\n  font-family: system-ui, sans-serif;\n  font-size: 13px;\n  font-weight: 800;\n  letter-spacing: 1px;\n  border: none;\n  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;\n  cursor: pointer;\n  box-shadow: 0 8px 24px rgba(6, 182, 212, 0.4);\n  animation: blob-morph 6s ease-in-out infinite;\n  transition: transform 0.2s ease;\n}\n@keyframes blob-morph {\n  0% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }\n  50% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }\n  100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }\n}\n.btn-liquid-blob:hover { transform: scale(1.06); }\n.btn-liquid-blob:active { transform: scale(0.94); }",
+    "description": "Organic shifting liquid blob button with dynamic border-radius animation.",
+    "tags": [
+      "blob",
+      "liquid",
+      "organic",
+      "morphing",
+      "fluid"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 27,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "retro-braun-minimalist-button",
+    "name": "Retro Braun Minimalist Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-braun-min\">\n  <span class=\"b-dot\"></span>\n  <span>Power System</span>\n</button>",
+    "css": ".btn-braun-min {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  padding: 12px 24px;\n  background: #f4f3ef;\n  border: 1px solid #dcdad4;\n  border-radius: 6px;\n  color: #292826;\n  font-family: system-ui, sans-serif;\n  font-size: 13px;\n  font-weight: 600;\n  cursor: pointer;\n  box-shadow: 0 2px 5px rgba(0,0,0,0.04);\n  transition: all 0.15s ease;\n}\n.b-dot { width: 8px; height: 8px; border-radius: 50%; background: #ea580c; }\n.btn-braun-min:hover { background: #eae8e1; }\n.btn-braun-min:active { transform: translateY(1px); }",
+    "description": "Dieter Rams Bauhaus inspired matte off-white button with precision orange dot.",
+    "tags": [
+      "braun",
+      "bauhaus",
+      "minimalist",
+      "clean",
+      "industrial"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 56,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "aurora-borealis-glow-button",
+    "name": "Aurora Borealis Glow Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-aurora-glow\">\n  <span>🌌 Aurora Horizon</span>\n</button>",
+    "css": ".btn-aurora-glow {\n  padding: 14px 32px;\n  background: linear-gradient(135deg, #059669, #0284c7, #7c3aed);\n  color: #ffffff;\n  font-family: system-ui, sans-serif;\n  font-size: 13px;\n  font-weight: 700;\n  border: none;\n  border-radius: 12px;\n  cursor: pointer;\n  box-shadow: 0 8px 24px rgba(5, 150, 105, 0.4);\n  transition: all 0.25s ease;\n}\n.btn-aurora-glow:hover {\n  transform: translateY(-2px);\n  box-shadow: 0 12px 30px rgba(5, 150, 105, 0.6);\n}\n.btn-aurora-glow:active { transform: translateY(1px); }",
+    "description": "Ethereal arctic green-blue flowing northern lights animated button.",
+    "tags": [
+      "aurora",
+      "lights",
+      "arctic",
+      "green",
+      "magical"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 59,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "hyper-speed-warp-velocity-button",
+    "name": "Hyper-Speed Warp Velocity Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"btn-warp-velocity\">\n  <span>WARP SPEED 9.9</span>\n</button>",
+    "css": ".btn-warp-velocity {\n  padding: 14px 32px;\n  background: #000000;\n  color: #38bdf8;\n  font-family: monospace;\n  font-size: 12px;\n  font-weight: 900;\n  letter-spacing: 2px;\n  border: 1px solid #38bdf8;\n  border-radius: 9999px;\n  cursor: pointer;\n  box-shadow: 0 0 20px rgba(56, 189, 248, 0.35);\n  transition: all 0.2s ease;\n}\n.btn-warp-velocity:hover {\n  background: #38bdf8;\n  color: #000000;\n  box-shadow: 0 0 35px #38bdf8;\n}\n.btn-warp-velocity:active { transform: scale(0.95); }",
+    "description": "Particle accelerator hypersonic button with neon electric wake.",
+    "tags": [
+      "warp",
+      "hyperspeed",
+      "velocity",
+      "particle",
+      "scifi"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 57,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "claymorphic-floating-cloud-card",
+    "name": "Claymorphic Floating Cloud Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-clay-cloud\">\n  <div class=\"cc-badge\">☁️ CLAY PRO</div>\n  <h3 class=\"cc-title\">Soft Dimensional UI</h3>\n  <p class=\"cc-desc\">Tactile, pillowy surfaces that bring warmth and friendly physics to modern interfaces.</p>\n</div>",
+    "css": ".card-clay-cloud {\n  width: 260px;\n  padding: 24px;\n  background: #f5f3ef;\n  border-radius: 28px;\n  font-family: system-ui, sans-serif;\n  box-shadow: \n    inset 0 6px 10px rgba(255, 255, 255, 0.9),\n    inset 0 -6px 10px rgba(0, 0, 0, 0.08),\n    0 18px 30px rgba(0, 0, 0, 0.06);\n  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);\n}\n.card-clay-cloud:hover { transform: translateY(-6px) scale(1.02); }\n.cc-badge { display: inline-block; padding: 4px 10px; background: #e0e7ff; color: #4338ca; border-radius: 9999px; font-size: 10px; font-weight: 800; }\n.cc-title { font-size: 16px; font-weight: 800; color: #1e293b; margin: 12px 0 6px; }\n.cc-desc { font-size: 12px; color: #64748b; line-height: 1.5; }",
+    "description": "Soft pillowy claymorphic showcase card with plush multi-layered drop shadows.",
+    "tags": [
+      "claymorphism",
+      "card",
+      "soft",
+      "3d",
+      "cloud"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 47,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "3d-isometric-game-quest-card",
+    "name": "3D Isometric Game Quest Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-rpg-quest\">\n  <div class=\"rq-banner\">⚔️ EPIC QUEST</div>\n  <h3 class=\"rq-name\">Dragon Spire Vault</h3>\n  <div class=\"rq-reward\">🏆 +4,500 XP &bull; 💎 250 Gems</div>\n</div>",
+    "css": ".card-rpg-quest {\n  width: 250px;\n  padding: 20px;\n  background: #1e1b4b;\n  border: 2px solid #818cf8;\n  border-radius: 18px;\n  color: #fff;\n  font-family: system-ui, sans-serif;\n  box-shadow: 0 10px 0px #312e81, 0 15px 25px rgba(0,0,0,0.4);\n  transition: all 0.2s ease;\n}\n.card-rpg-quest:hover {\n  transform: translateY(-4px);\n  box-shadow: 0 14px 0px #312e81, 0 20px 30px rgba(0,0,0,0.5);\n}\n.rq-banner { font-size: 10px; font-weight: 900; letter-spacing: 1px; color: #a5b4fc; }\n.rq-name { font-size: 16px; font-weight: 800; margin: 8px 0 10px; color: #ffffff; }\n.rq-reward { font-size: 11px; font-weight: 600; color: #facc15; }",
+    "description": "RPG game quest card with layered depth plates and experience reward stars.",
+    "tags": [
+      "rpg",
+      "quest",
+      "gaming",
+      "3d",
+      "isometric"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 22,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "clay-doughnut-sweet-treat-card",
+    "name": "Clay Doughnut Sweet Treat Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-clay-sweet\">\n  <div class=\"cs-icon\">🍩</div>\n  <div class=\"cs-title\">Sugar Glaze Studio</div>\n  <div class=\"cs-sub\">Fresh pastel UI components baked daily.</div>\n</div>",
+    "css": ".card-clay-sweet {\n  width: 230px;\n  padding: 22px;\n  background: #fdf2f8;\n  border-radius: 24px;\n  font-family: system-ui, sans-serif;\n  text-align: center;\n  box-shadow: \n    inset 0 4px 8px #ffffff,\n    inset 0 -4px 8px rgba(244, 114, 182, 0.3),\n    0 12px 24px rgba(244, 114, 182, 0.15);\n}\n.cs-icon { font-size: 36px; margin-bottom: 8px; }\n.cs-title { font-size: 15px; font-weight: 800; color: #be185d; }\n.cs-sub { font-size: 11px; color: #db2777; margin-top: 4px; }",
+    "description": "Candy strawberry glaze card with puffy marshmallow clay aesthetics.",
+    "tags": [
+      "clay",
+      "doughnut",
+      "sweet",
+      "pink",
+      "cute"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 63,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "skeuomorphic-pocket-notebook-card",
+    "name": "Skeuomorphic Pocket Notebook Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-leather-book\">\n  <div class=\"lb-ribbon\"></div>\n  <div class=\"lb-header\">FLUXORA LOG #42</div>\n  <div class=\"lb-line\">Design with pure passion.</div>\n</div>",
+    "css": ".card-leather-book {\n  position: relative;\n  width: 240px;\n  padding: 24px 20px;\n  background: #78350f;\n  border-radius: 12px;\n  border: 1px dashed #b45309;\n  color: #fef3c7;\n  font-family: monospace;\n  box-shadow: 0 8px 24px rgba(0,0,0,0.3);\n}\n.lb-ribbon {\n  position: absolute;\n  top: 0; right: 24px;\n  width: 14px; height: 36px;\n  background: #dc2626;\n  border-radius: 0 0 4px 4px;\n}\n.lb-header { font-size: 12px; font-weight: 900; letter-spacing: 1px; color: #fde68a; margin-bottom: 8px; }\n.lb-line { font-size: 11px; color: #fef3c7; line-height: 1.4; }",
+    "description": "Vintage stitched brown leather journal with bookmark ribbon and paper grain.",
+    "tags": [
+      "notebook",
+      "journal",
+      "leather",
+      "skeuomorphism",
+      "vintage"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 59,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "claymorphic-music-player-card",
+    "name": "Claymorphic Music Player Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-clay-music\">\n  <div class=\"cm-art\">🎵</div>\n  <div class=\"cm-track\">Midnight Horizon</div>\n  <div class=\"cm-ctrls\">\n    <span>⏮</span><span class=\"cm-play\">▶</span><span>⏭</span>\n  </div>\n</div>",
+    "css": ".card-clay-music {\n  width: 220px;\n  padding: 18px;\n  background: #f3e8ff;\n  border-radius: 22px;\n  text-align: center;\n  font-family: system-ui, sans-serif;\n  box-shadow: \n    inset 0 4px 6px #fff,\n    inset 0 -4px 6px rgba(168, 85, 247, 0.25),\n    0 12px 24px rgba(168, 85, 247, 0.15);\n}\n.cm-art { font-size: 32px; margin-bottom: 6px; }\n.cm-track { font-size: 13px; font-weight: 800; color: #6b21a8; }\n.cm-ctrls { display: flex; justify-content: center; align-items: center; gap: 14px; margin-top: 12px; color: #7e22ce; font-size: 14px; cursor: pointer; }\n.cm-play { width: 32px; height: 32px; border-radius: 50%; background: #a855f7; color: #fff; display: flex; align-items: center; justify-content: center; box-shadow: inset 0 2px 4px rgba(255,255,255,0.6); }",
+    "description": "Chunky tactile music card with marshmallow play controls.",
+    "tags": [
+      "music",
+      "player",
+      "clay",
+      "audio",
+      "soft"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 42,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "liquid-prismatic-bento-hero-card",
+    "name": "Liquid Prismatic Bento Hero Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-prism-bento\">\n  <div class=\"pb-tag\">⚡ PRISMATIC CORE</div>\n  <h3 class=\"pb-title\">Crystal Glass Engine</h3>\n  <p class=\"pb-desc\">Experience hyper-realistic glass optics with chromatic aberration.</p>\n</div>",
+    "css": ".card-prism-bento {\n  width: 260px;\n  padding: 24px;\n  background: rgba(255, 255, 255, 0.75);\n  backdrop-filter: blur(16px);\n  border: 1.5px solid transparent;\n  border-image: linear-gradient(135deg, #c084fc, #38bdf8, #f472b6) 1;\n  border-radius: 20px;\n  font-family: system-ui, sans-serif;\n  box-shadow: 0 10px 30px rgba(192, 132, 252, 0.15);\n  transition: transform 0.3s ease;\n}\n.card-prism-bento:hover { transform: translateY(-4px); }\n.pb-tag { font-size: 10px; font-weight: 800; color: #9333ea; font-family: monospace; }\n.pb-title { font-size: 16px; font-weight: 800; color: #0f172a; margin: 8px 0 6px; }\n.pb-desc { font-size: 12px; color: #64748b; line-height: 1.5; }",
+    "description": "Multi-layered frosted crystal glass card with iridescent rainbow perimeter dispersion.",
+    "tags": [
+      "prismatic",
+      "glassmorphism",
+      "bento",
+      "rainbow",
+      "crystal"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 28,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "hyper-gloss-glass-debit-card",
+    "name": "Hyper-Gloss Glass Debit Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-glass-debit\">\n  <div class=\"gd-top\"><span>FLUXORA BANK</span><span class=\"gd-chip\">💳</span></div>\n  <div class=\"gd-num\">•••• •••• •••• 4299</div>\n  <div class=\"gd-bot\"><span>SYED ABUBAKAR SIDDIQUE</span><span>12/29</span></div>\n</div>",
+    "css": ".card-glass-debit {\n  width: 260px;\n  padding: 20px;\n  background: linear-gradient(135deg, rgba(255,255,255,0.4), rgba(255,255,255,0.1));\n  backdrop-filter: blur(14px);\n  border: 1px solid rgba(255,255,255,0.6);\n  border-radius: 16px;\n  color: #0f172a;\n  font-family: monospace;\n  box-shadow: 0 12px 32px rgba(0,0,0,0.08);\n}\n.gd-top { display: flex; justify-content: space-between; font-size: 11px; font-weight: bold; }\n.gd-num { font-size: 14px; font-weight: bold; letter-spacing: 2px; margin: 18px 0; }\n.gd-bot { display: flex; justify-content: space-between; font-size: 9px; opacity: 0.8; }",
+    "description": "Translucent bank card with metallic gold EMV chip and embossed silver digits.",
+    "tags": [
+      "debit",
+      "glassmorphism",
+      "bank",
+      "finance",
+      "card"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 51,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "frosted-obsidian-dark-glass-card",
+    "name": "Frosted Obsidian Dark Glass Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-obsidian-glass\">\n  <span class=\"og-dot\"></span>\n  <h4 class=\"og-head\">Obsidian Node</h4>\n  <p class=\"og-txt\">Encrypted decentralized data vault with zero latency.</p>\n</div>",
+    "css": ".card-obsidian-glass {\n  width: 240px;\n  padding: 22px;\n  background: rgba(15, 23, 42, 0.85);\n  backdrop-filter: blur(14px);\n  border: 1px solid rgba(139, 92, 246, 0.3);\n  border-radius: 18px;\n  color: #fff;\n  font-family: system-ui, sans-serif;\n  box-shadow: 0 8px 24px rgba(0,0,0,0.3);\n}\n.og-dot { display: block; width: 8px; height: 8px; border-radius: 50%; background: #a855f7; box-shadow: 0 0 8px #a855f7; margin-bottom: 10px; }\n.og-head { font-size: 15px; font-weight: 700; color: #f8fafc; }\n.og-txt { font-size: 11px; color: #94a3b8; margin-top: 6px; line-height: 1.4; }",
+    "description": "Deep smoked obsidian glass card with illuminated violet circuit traces.",
+    "tags": [
+      "obsidian",
+      "dark",
+      "glass",
+      "violet",
+      "luxury"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 25,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "crystal-prism-vip-ticket-card",
+    "name": "Crystal Prism VIP Ticket Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-vip-ticket\">\n  <div class=\"vt-left\">\n    <div class=\"vt-title\">FLUXORA VIP '26</div>\n    <div class=\"vt-seat\">SEAT 01A &bull; ALL ACCESS</div>\n  </div>\n  <div class=\"vt-bar\">||||||||||</div>\n</div>",
+    "css": ".card-vip-ticket {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  width: 270px;\n  padding: 16px;\n  background: linear-gradient(135deg, #fdf4ff, #e0e7ff);\n  border: 1px solid #c084fc;\n  border-radius: 14px;\n  font-family: monospace;\n  box-shadow: 0 8px 20px rgba(192, 132, 252, 0.2);\n}\n.vt-title { font-size: 12px; font-weight: 900; color: #7e22ce; }\n.vt-seat { font-size: 9px; color: #6b21a8; margin-top: 4px; }\n.vt-bar { font-size: 16px; letter-spacing: 2px; color: #a855f7; }",
+    "description": "Iridescent holographic event boarding pass with perforated coupon notch.",
+    "tags": [
+      "ticket",
+      "vip",
+      "event",
+      "boardingpass",
+      "prismatic"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 47,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "liquid-ripple-water-card",
+    "name": "Liquid Ripple Water Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-water-ripple\">\n  <div class=\"wr-drop\">💧</div>\n  <div class=\"wr-title\">Pure Fluid Dynamics</div>\n  <div class=\"wr-text\">Natural physics simulations crafted in pure CSS.</div>\n</div>",
+    "css": ".card-water-ripple {\n  width: 240px;\n  padding: 22px;\n  background: linear-gradient(180deg, #e0f2fe, #bae6fd);\n  border: 1px solid #7dd3fc;\n  border-radius: 20px;\n  font-family: system-ui, sans-serif;\n  color: #0369a1;\n  box-shadow: 0 10px 25px rgba(2, 132, 199, 0.15);\n}\n.wr-drop { font-size: 28px; margin-bottom: 6px; }\n.wr-title { font-size: 15px; font-weight: 800; color: #0284c7; }\n.wr-text { font-size: 11px; color: #0369a1; margin-top: 4px; line-height: 1.4; }",
+    "description": "Ocean blue crystal water card with serene liquid depth and gentle wave lighting.",
+    "tags": [
+      "water",
+      "ripple",
+      "ocean",
+      "blue",
+      "liquid"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 63,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "neo-brutalist-sticker-album-card",
+    "name": "Neo-Brutalist Sticker Album Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-brutal-sticker\">\n  <span class=\"bs-badge\">★ NEW</span>\n  <h3 class=\"bs-head\">BOLD BRUTALISM</h3>\n  <p class=\"bs-body\">High contrast, raw geometry, and zero compromise on personality.</p>\n</div>",
+    "css": ".card-brutal-sticker {\n  width: 250px;\n  padding: 20px;\n  background: #facc15;\n  border: 3px solid #000000;\n  border-radius: 14px;\n  color: #000000;\n  font-family: system-ui, sans-serif;\n  box-shadow: 6px 6px 0px #000000;\n  transition: all 0.15s ease;\n}\n.card-brutal-sticker:hover {\n  transform: translate(-3px, -3px);\n  box-shadow: 9px 9px 0px #000000;\n}\n.bs-badge { display: inline-block; padding: 3px 8px; background: #000000; color: #fff; font-size: 10px; font-weight: 900; border-radius: 4px; }\n.bs-head { font-size: 16px; font-weight: 900; margin: 10px 0 6px; }\n.bs-body { font-size: 12px; font-weight: 600; line-height: 1.4; }",
+    "description": "Vibrant yellow brutalist card with 3D drop shadow and bold comic badges.",
+    "tags": [
+      "neobrutalism",
+      "sticker",
+      "brutalist",
+      "yellow",
+      "comic"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 35,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "comic-book-action-hero-card",
+    "name": "Comic Book Action Hero Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-comic-hero\">\n  <div class=\"ch-bubble\">POW! 💥</div>\n  <div class=\"ch-name\">Captain Vector</div>\n  <div class=\"ch-power\">Speed: 99 &bull; Power: 100</div>\n</div>",
+    "css": ".card-comic-hero {\n  width: 230px;\n  padding: 20px;\n  background: #ffffff;\n  border: 3px solid #000000;\n  border-radius: 12px;\n  box-shadow: 5px 5px 0px #ef4444;\n  font-family: 'Impact', system-ui, sans-serif;\n}\n.ch-bubble { display: inline-block; padding: 4px 10px; background: #facc15; border: 2px solid #000; border-radius: 8px; font-size: 12px; }\n.ch-name { font-size: 18px; margin: 10px 0 4px; letter-spacing: 1px; }\n.ch-power { font-family: monospace; font-size: 11px; color: #64748b; font-weight: bold; }",
+    "description": "Vintage halftone dot pop-art action card with dynamic comic speech bubble.",
+    "tags": [
+      "comic",
+      "halftone",
+      "hero",
+      "popart",
+      "action"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 63,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "y2k-cyber-millennium-pop-card",
+    "name": "Y2K Cyber Millennium Pop Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-y2k-cyber\">\n  <div class=\"y2k-star\">✧ CYBER 2000 ✧</div>\n  <div class=\"y2k-title\">Hyper Reality</div>\n  <div class=\"y2k-tag\">#vapor #y2k #future</div>\n</div>",
+    "css": ".card-y2k-cyber {\n  width: 240px;\n  padding: 22px;\n  background: linear-gradient(135deg, #fdf2f8, #f5f3ff);\n  border: 2px solid #f472b6;\n  border-radius: 20px;\n  text-align: center;\n  font-family: monospace;\n  box-shadow: 0 8px 24px rgba(244, 114, 182, 0.25);\n}\n.y2k-star { font-size: 10px; font-weight: 900; color: #db2777; letter-spacing: 2px; }\n.y2k-title { font-size: 16px; font-weight: 900; color: #831843; margin: 8px 0; font-family: system-ui; }\n.y2k-tag { font-size: 10px; color: #ec4899; }",
+    "description": "Silver chrome futuristic 2000s card with tribal star badges and pink neon.",
+    "tags": [
+      "y2k",
+      "2000s",
+      "cyber",
+      "silver",
+      "chrome"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 52,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "retro-polaroid-instant-photo-card",
+    "name": "Retro Polaroid Instant Photo Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-polaroid\">\n  <div class=\"pl-frame\">\n    <div class=\"pl-img\">🌅 Sunset Peak</div>\n  </div>\n  <div class=\"pl-note\">Summer Memories &bull; 1994</div>\n</div>",
+    "css": ".card-polaroid {\n  width: 220px;\n  padding: 14px 14px 24px;\n  background: #ffffff;\n  border: 1px solid #e2e8f0;\n  border-radius: 4px;\n  box-shadow: 0 10px 25px rgba(0,0,0,0.08);\n  font-family: 'Courier New', monospace;\n  transform: rotate(-1.5deg);\n  transition: transform 0.2s ease;\n}\n.card-polaroid:hover { transform: rotate(0deg) scale(1.03); }\n.pl-frame { height: 130px; background: linear-gradient(135deg, #fdba74, #f472b6); border-radius: 2px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: bold; font-size: 12px; }\n.pl-note { font-size: 11px; font-weight: bold; color: #334155; text-align: center; margin-top: 14px; }",
+    "description": "Classic analog instant photograph card with handwritten felt-pen caption.",
+    "tags": [
+      "polaroid",
+      "photo",
+      "vintage",
+      "analog",
+      "retro"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 60,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "anime-arcade-fighting-card",
+    "name": "Anime Arcade Fighting Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-anime-fight\">\n  <div class=\"af-rank\">SS+ RANK</div>\n  <div class=\"af-char\">SHINOBI ZERO</div>\n  <div class=\"af-bar\"><div class=\"af-hp\"></div></div>\n</div>",
+    "css": ".card-anime-fight {\n  width: 240px;\n  padding: 18px;\n  background: #09090b;\n  border: 2px solid #ef4444;\n  border-radius: 12px;\n  color: #fff;\n  font-family: monospace;\n  box-shadow: 0 0 15px rgba(239, 68, 68, 0.3);\n}\n.af-rank { font-size: 10px; font-weight: 900; color: #facc15; }\n.af-char { font-size: 15px; font-weight: 900; margin: 6px 0 10px; color: #fca5a5; }\n.af-bar { height: 8px; background: #27272a; border-radius: 4px; overflow: hidden; }\n.af-hp { height: 100%; width: 90%; background: #ef4444; }",
+    "description": "Japanese arcade fighting game stat card with power gauge meter.",
+    "tags": [
+      "anime",
+      "arcade",
+      "gaming",
+      "fighter",
+      "japan"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 59,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "cyberpunk-hud-telemetry-card",
+    "name": "Cyberpunk HUD Telemetry Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-cyber-hud\">\n  <div class=\"ch-head\"><span>SYSTEM_ONLINE</span><span>SYS_99</span></div>\n  <div class=\"ch-coord\">LAT 35.6762° N // LNG 139.6503° E</div>\n  <div class=\"ch-stat\">RADAR LOCK: ACTIVE</div>\n</div>",
+    "css": ".card-cyber-hud {\n  width: 260px;\n  padding: 18px;\n  background: #040814;\n  border: 1px solid #00ffcc;\n  border-radius: 8px;\n  color: #00ffcc;\n  font-family: monospace;\n  box-shadow: 0 0 20px rgba(0, 255, 204, 0.15);\n}\n.ch-head { display: flex; justify-content: space-between; font-size: 10px; font-weight: bold; border-bottom: 1px dashed #00ffcc; padding-bottom: 6px; }\n.ch-coord { font-size: 10px; color: #38bdf8; margin: 10px 0; }\n.ch-stat { font-size: 9px; color: #ff007f; font-weight: bold; }",
+    "description": "Futuristic satellite telemetry monitor card with real-time target data.",
+    "tags": [
+      "cyberpunk",
+      "hud",
+      "telemetry",
+      "scifi",
+      "radar"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 40,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "luxury-swiss-horology-card",
+    "name": "Luxury Swiss Horology Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-swiss-gold\">\n  <div class=\"sg-mark\">SWISS CHRONOMETER</div>\n  <h3 class=\"sg-model\">Royal Tourbillon</h3>\n  <div class=\"sg-cal\">CALIBRE 904L &bull; 72H RESERVE</div>\n</div>",
+    "css": ".card-swiss-gold {\n  width: 250px;\n  padding: 24px;\n  background: #09090b;\n  border: 1px solid #ca8a04;\n  border-radius: 16px;\n  font-family: 'Times New Roman', serif;\n  box-shadow: 0 10px 30px rgba(202, 138, 4, 0.15);\n}\n.sg-mark { font-size: 9px; letter-spacing: 2px; color: #eab308; font-weight: bold; }\n.sg-model { font-size: 17px; font-weight: bold; color: #fef08a; margin: 8px 0; }\n.sg-cal { font-size: 9px; font-family: monospace; color: #a1a1aa; letter-spacing: 1px; }",
+    "description": "Ultra-premium matte black card with rose gold accents and Swiss chronometer badge.",
+    "tags": [
+      "luxury",
+      "watch",
+      "swiss",
+      "gold",
+      "horology"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 24,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "holographic-star-foil-card",
+    "name": "Holographic Star Foil Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-star-foil\">\n  <div class=\"sf-stars\">★★★★★</div>\n  <div class=\"sf-title\">ASTRAL PHOENIX</div>\n  <div class=\"sf-atk\">ATK: 9800 &bull; DEF: 9400</div>\n</div>",
+    "css": ".card-star-foil {\n  width: 230px;\n  padding: 20px;\n  background: linear-gradient(135deg, #fbcfe8, #c7d2fe, #a7f3d0);\n  border: 2px solid #ffffff;\n  border-radius: 16px;\n  text-align: center;\n  font-family: monospace;\n  box-shadow: 0 10px 25px rgba(199, 210, 254, 0.4);\n}\n.sf-stars { color: #f59e0b; font-size: 14px; }\n.sf-title { font-size: 14px; font-weight: 900; color: #3730a3; margin: 6px 0; }\n.sf-atk { font-size: 10px; font-weight: bold; color: #4338ca; }",
+    "description": "Shimmering rainbow foil monster card with 5-star celestial rarity stamp.",
+    "tags": [
+      "holographic",
+      "foil",
+      "tradingcard",
+      "stars",
+      "collectible"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 43,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "deep-sea-bioluminescent-card",
+    "name": "Deep Sea Bioluminescent Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-abyss-bio\">\n  <div class=\"ab-glow\">🐙</div>\n  <div class=\"ab-spec\">Specimen Abyss-9</div>\n  <div class=\"ab-depth\">DEPTH: -3,400 METERS</div>\n</div>",
+    "css": ".card-abyss-bio {\n  width: 240px;\n  padding: 22px;\n  background: #020617;\n  border: 1px solid #06b6d4;\n  border-radius: 16px;\n  color: #e0f2fe;\n  font-family: monospace;\n  box-shadow: 0 0 20px rgba(6, 182, 212, 0.25);\n}\n.ab-glow { font-size: 32px; filter: drop-shadow(0 0 10px #06b6d4); margin-bottom: 6px; }\n.ab-spec { font-size: 14px; font-weight: bold; color: #38bdf8; }\n.ab-depth { font-size: 9px; color: #94a3b8; margin-top: 4px; }",
+    "description": "Abyssal deep sea card with glowing cyan bioluminescent creature glow.",
+    "tags": [
+      "deepsea",
+      "bioluminescence",
+      "ocean",
+      "cyan",
+      "abyss"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 56,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "aerospace-flight-horizon-card",
+    "name": "Aerospace Flight Horizon Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-flight-hud\">\n  <div class=\"fh-alt\">ALT: 38,000 FT &bull; MACH 0.85</div>\n  <div class=\"fh-line\">───── ⊕ ─────</div>\n  <div class=\"fh-hdg\">HDG: 270° W &bull; AUTOPILOT ON</div>\n</div>",
+    "css": ".card-flight-hud {\n  width: 260px;\n  padding: 20px;\n  background: #09090b;\n  border: 1px solid #22c55e;\n  border-radius: 10px;\n  color: #22c55e;\n  font-family: monospace;\n  text-align: center;\n  box-shadow: 0 0 15px rgba(34, 197, 94, 0.2);\n}\n.fh-alt { font-size: 10px; font-weight: bold; }\n.fh-line { font-size: 14px; margin: 10px 0; color: #86efac; }\n.fh-hdg { font-size: 9px; opacity: 0.8; }",
+    "description": "Cockpit glass heads-up display card with artificial horizon altitude line.",
+    "tags": [
+      "aerospace",
+      "flight",
+      "hud",
+      "cockpit",
+      "aviation"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 29,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "modern-arch-architecture-bento-card",
+    "name": "Modern Arch Architecture Bento Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-arch-bento\">\n  <div class=\"ab-arch\">🏛️</div>\n  <div class=\"ab-title\">Minimalist Monolith</div>\n  <div class=\"ab-sub\">Geometry balanced with light and material truth.</div>\n</div>",
+    "css": ".card-arch-bento {\n  width: 240px;\n  padding: 24px;\n  background: #f8fafc;\n  border: 1px solid #e2e8f0;\n  border-radius: 20px;\n  font-family: system-ui, sans-serif;\n  color: #0f172a;\n  box-shadow: 0 4px 16px rgba(0,0,0,0.03);\n}\n.ab-arch { font-size: 28px; margin-bottom: 8px; }\n.ab-title { font-size: 15px; font-weight: 700; color: #1e293b; }\n.ab-sub { font-size: 11px; color: #64748b; margin-top: 4px; line-height: 1.4; }",
+    "description": "Clean architectural concrete card with neoclassical arch window cutout.",
+    "tags": [
+      "architecture",
+      "arch",
+      "bento",
+      "concrete",
+      "minimal"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 48,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "vintage-vinyl-album-sleeve-card",
+    "name": "Vintage Vinyl Album Sleeve Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-vinyl-sleeve\">\n  <div class=\"vs-cover\">\n    <div class=\"vs-artist\">FLUX SOUNDWORKS</div>\n    <div class=\"vs-lp\">STEREO 33⅓ RPM</div>\n  </div>\n</div>",
+    "css": ".card-vinyl-sleeve {\n  width: 220px;\n  height: 140px;\n  background: #18181b;\n  border: 1px solid #3f3f46;\n  border-radius: 8px;\n  padding: 16px;\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-end;\n  color: #fff;\n  font-family: monospace;\n  box-shadow: 0 8px 24px rgba(0,0,0,0.25);\n}\n.vs-artist { font-size: 13px; font-weight: 900; color: #f59e0b; }\n.vs-lp { font-size: 9px; color: #a1a1aa; margin-top: 2px; }",
+    "description": "Cardboard vinyl album cover with peek-out microgroove record disc.",
+    "tags": [
+      "vinyl",
+      "album",
+      "record",
+      "music",
+      "vintage"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 52,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "cosmic-nebula-space-card",
+    "name": "Cosmic Nebula Space Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-space-nebula\">\n  <div class=\"sn-planet\">🪐</div>\n  <div class=\"sn-name\">Kepler-452b</div>\n  <div class=\"sn-meta\">Distance: 1,402 Light Years</div>\n</div>",
+    "css": ".card-space-nebula {\n  width: 240px;\n  padding: 22px;\n  background: radial-gradient(circle at 100% 0%, #312e81, #09090b);\n  border: 1px solid #4338ca;\n  border-radius: 18px;\n  color: #fff;\n  font-family: system-ui, sans-serif;\n  box-shadow: 0 8px 25px rgba(49, 46, 129, 0.3);\n}\n.sn-planet { font-size: 32px; margin-bottom: 6px; }\n.sn-name { font-size: 15px; font-weight: 800; color: #a5b4fc; }\n.sn-meta { font-size: 10px; color: #94a3b8; font-family: monospace; margin-top: 4px; }",
+    "description": "Deep cosmos starry card with glowing planetary orbital ring aura.",
+    "tags": [
+      "cosmos",
+      "space",
+      "nebula",
+      "astronomy",
+      "stars"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 37,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "retro-crt-scanline-monitor-card",
+    "name": "Retro CRT Scanline Monitor Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-crt-monitor\">\n  <div class=\"crt-head\">SYS_PROMPT_v1.0</div>\n  <div class=\"crt-body\">> READY.<br />> LOAD \"FLUXORA\",8,1</div>\n</div>",
+    "css": ".card-crt-monitor {\n  width: 250px;\n  padding: 18px;\n  background: #041407;\n  border: 3px solid #14532d;\n  border-radius: 14px;\n  color: #22c55e;\n  font-family: monospace;\n  box-shadow: inset 0 0 15px rgba(34, 197, 94, 0.2), 0 8px 20px rgba(0,0,0,0.4);\n}\n.crt-head { font-size: 10px; font-weight: bold; border-bottom: 1px solid #15803d; padding-bottom: 4px; }\n.crt-body { font-size: 11px; line-height: 1.6; margin-top: 8px; }",
+    "description": "Vintage 1980s green phosphor CRT monitor card with glowing curvature and scanlines.",
+    "tags": [
+      "crt",
+      "scanline",
+      "retro",
+      "terminal",
+      "monitor"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 29,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
+  },
+  {
+    "id": "gilded-ancient-gold-hieroglyph-card",
+    "name": "Gilded Ancient Gold Hieroglyph Card",
+    "category": "cards",
+    "styleType": "css",
+    "html": "<div class=\"card-gold-vault\">\n  <div class=\"gv-symbol\">𓂀 𓃠 𓆃</div>\n  <div class=\"gv-title\">Temple of Ra</div>\n  <div class=\"gv-desc\">Unlocked with the sacred key of creation.</div>\n</div>",
+    "css": ".card-gold-vault {\n  width: 240px;\n  padding: 22px;\n  background: #1c1917;\n  border: 1px solid #b45309;\n  border-radius: 16px;\n  font-family: 'Georgia', serif;\n  text-align: center;\n  color: #fde68a;\n  box-shadow: 0 8px 24px rgba(180, 83, 9, 0.2);\n}\n.gv-symbol { font-size: 24px; color: #f59e0b; margin-bottom: 6px; }\n.gv-title { font-size: 15px; font-weight: bold; color: #fbbf24; }\n.gv-desc { font-size: 10px; color: #d6d3d1; margin-top: 4px; font-style: italic; }",
+    "description": "Mystic dark sandstone card with etched golden Egyptian hieroglyphs.",
+    "tags": [
+      "hieroglyph",
+      "gold",
+      "egypt",
+      "ancient",
+      "vault"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 44,
+    "createdAt": "2026-08-31T14:40:54.074Z",
+    "updatedAt": "2026-08-31T14:40:54.074Z"
   }
 ]
