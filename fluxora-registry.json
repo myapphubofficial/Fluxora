@@ -1,5 +1,26 @@
 [
   {
+    "id": "switches-manu-creaction",
+    "slug": "manu-creaction",
+    "name": "Manu creaction",
+    "category": "switches",
+    "styleType": "tailwind",
+    "html": "<button class=\"flux-btn\">\n  <span>Hover Me</span>\n</button>",
+    "css": "",
+    "description": "",
+    "tags": [],
+    "author": {
+      "uid": "QungfyEGolhi4qLirMRXAwfta1w1",
+      "displayName": "manas",
+      "email": "manasmanas3236@gmail.com",
+      "photoURL": ""
+    },
+    "createdAt": "2026-08-31T15:00:06.567Z",
+    "githubPath": "components/switches/manu-creaction",
+    "likesCount": 0,
+    "viewsCount": 0
+  },
+  {
     "id": "other-jumping-ball",
     "slug": "jumping-ball",
     "name": "Jumping Ball",
