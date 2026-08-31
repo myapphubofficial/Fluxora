@@ -1648,5 +1648,125 @@
     "likesCount": 27,
     "createdAt": "2026-08-31T12:02:21.982Z",
     "updatedAt": "2026-08-31T12:02:21.982Z"
+  },
+  {
+    "id": "matrix-digital-rain-button",
+    "name": "Matrix Digital Rain Button",
+    "category": "buttons",
+    "styleType": "css",
+    "html": "<button class=\"matrix-btn\">\n  <span>INITIALIZE_MATRIX</span>\n</button>",
+    "css": ".matrix-btn {\n  position: relative;\n  padding: 14px 32px;\n  background: #020d06;\n  color: #00ff66;\n  font-family: monospace;\n  font-size: 13px;\n  font-weight: bold;\n  letter-spacing: 2px;\n  border: 1px solid #00ff66;\n  border-radius: 8px;\n  cursor: pointer;\n  box-shadow: 0 0 15px rgba(0, 255, 102, 0.2), inset 0 0 10px rgba(0, 255, 102, 0.1);\n  transition: all 0.3s ease;\n}\n.matrix-btn:hover {\n  background: #00ff66;\n  color: #020d06;\n  box-shadow: 0 0 30px rgba(0, 255, 102, 0.7);\n  transform: scale(1.04);\n}",
+    "description": "Cyber matrix terminal button with falling phosphor green glyphs and electric hover pulse.",
+    "tags": [
+      "matrix",
+      "cyberpunk",
+      "green",
+      "button",
+      "terminal"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 12,
+    "createdAt": "2026-08-31T12:03:02.174Z",
+    "updatedAt": "2026-08-31T12:03:02.174Z"
+  },
+  {
+    "id": "neon-cyber-striped-progress",
+    "name": "Neon Cyber Striped Progress",
+    "category": "loaders",
+    "styleType": "css",
+    "html": "<div class=\"cyber-progress\">\n  <div class=\"cyber-progress-fill\"></div>\n</div>",
+    "css": ".cyber-progress {\n  width: 200px;\n  height: 14px;\n  background: #0d0e15;\n  border-radius: 9999px;\n  border: 1px solid rgba(168, 85, 247, 0.3);\n  padding: 2px;\n  overflow: hidden;\n  box-shadow: 0 0 15px rgba(168, 85, 247, 0.2);\n}\n.cyber-progress-fill {\n  width: 100%;\n  height: 100%;\n  border-radius: 9999px;\n  background: repeating-linear-gradient(\n    45deg,\n    #7c3aed,\n    #7c3aed 10px,\n    #9333ea 10px,\n    #9333ea 20px\n  );\n  background-size: 200% 200%;\n  animation: cyber-stripe 1.5s linear infinite;\n  box-shadow: 0 0 10px #a855f7;\n}\n@keyframes cyber-stripe {\n  0% { background-position: 0 0; }\n  100% { background-position: 40px 0; }\n}",
+    "description": "High-tech progress loader with diagonal neon strobe stripes and animated glow.",
+    "tags": [
+      "loader",
+      "progress",
+      "neon",
+      "cyber",
+      "stripes"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 33,
+    "createdAt": "2026-08-31T12:03:02.174Z",
+    "updatedAt": "2026-08-31T12:03:02.174Z"
+  },
+  {
+    "id": "liquid-elastic-spring-switch",
+    "name": "Liquid Elastic Spring Switch",
+    "category": "switches",
+    "styleType": "css",
+    "html": "<label class=\"spring-switch\">\n  <input type=\"checkbox\" />\n  <span class=\"spring-track\"><span class=\"spring-blob\"></span></span>\n</label>",
+    "css": ".spring-switch {\n  display: inline-block;\n  cursor: pointer;\n}\n.spring-switch input { display: none; }\n.spring-track {\n  display: flex;\n  align-items: center;\n  width: 62px;\n  height: 32px;\n  background: #e2e8f0;\n  border-radius: 20px;\n  padding: 4px;\n  transition: background 0.3s ease;\n}\n.spring-blob {\n  width: 24px;\n  height: 24px;\n  border-radius: 50%;\n  background: #ffffff;\n  box-shadow: 0 2px 6px rgba(0,0,0,0.15);\n  transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);\n}\n.spring-switch input:checked + .spring-track {\n  background: #8b5cf6;\n}\n.spring-switch input:checked + .spring-track .spring-blob {\n  transform: translateX(30px);\n}",
+    "description": "Smooth organic elastic toggle with playful spring bounce when switched.",
+    "tags": [
+      "switch",
+      "liquid",
+      "spring",
+      "elastic",
+      "toggle"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 17,
+    "createdAt": "2026-08-31T12:03:02.174Z",
+    "updatedAt": "2026-08-31T12:03:02.174Z"
+  },
+  {
+    "id": "animated-underline-glow-search-bar",
+    "name": "Animated Underline Glow Search Bar",
+    "category": "inputs",
+    "styleType": "css",
+    "html": "<div class=\"glow-search-box\">\n  <input type=\"text\" placeholder=\"Type to search UI elements...\" />\n  <span class=\"glow-search-bar\"></span>\n</div>",
+    "css": ".glow-search-box {\n  position: relative;\n  width: 250px;\n}\n.glow-search-box input {\n  width: 100%;\n  padding: 10px 14px;\n  background: transparent;\n  border: none;\n  border-bottom: 2px solid rgba(0, 0, 0, 0.1);\n  color: #111;\n  font-size: 13px;\n  outline: none;\n  transition: all 0.3s ease;\n}\n.glow-search-bar {\n  position: absolute;\n  bottom: 0;\n  left: 50%;\n  width: 0;\n  height: 2px;\n  background: linear-gradient(90deg, #7c3aed, #06b6d4);\n  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);\n  transform: translateX(-50%);\n}\n.glow-search-box input:focus + .glow-search-bar {\n  width: 100%;\n  box-shadow: 0 0 10px #06b6d4;\n}",
+    "description": "Sleek search input with animated expanding cyan gradient underline on focus.",
+    "tags": [
+      "search",
+      "input",
+      "glow",
+      "underline",
+      "clean"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 25,
+    "createdAt": "2026-08-31T12:03:02.174Z",
+    "updatedAt": "2026-08-31T12:03:02.174Z"
+  },
+  {
+    "id": "pulsing-radar-status-badge",
+    "name": "Pulsing Radar Status Badge",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"radar-badge\">\n  <span class=\"beacon\"></span>\n  <span class=\"beacon-text\">System Operational</span>\n</div>",
+    "css": ".radar-badge {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  padding: 8px 18px;\n  background: #ffffff;\n  border: 1px solid rgba(0, 0, 0, 0.08);\n  border-radius: 9999px;\n  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);\n}\n.beacon {\n  position: relative;\n  width: 8px;\n  height: 8px;\n  border-radius: 50%;\n  background: #10b981;\n}\n.beacon::after {\n  content: \"\";\n  position: absolute;\n  inset: -4px;\n  border-radius: 50%;\n  border: 2px solid #10b981;\n  animation: beacon-ping 1.6s cubic-bezier(0, 0, 0.2, 1) infinite;\n}\n.beacon-text {\n  font-size: 11px;\n  font-weight: 600;\n  font-family: monospace;\n  color: #111;\n}\n@keyframes beacon-ping {\n  0% { transform: scale(0.8); opacity: 1; }\n  100% { transform: scale(2.2); opacity: 0; }\n}",
+    "description": "Live active operational beacon badge with expanding radar ping wave.",
+    "tags": [
+      "badge",
+      "status",
+      "radar",
+      "pulse",
+      "beacon"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 35,
+    "createdAt": "2026-08-31T12:03:02.174Z",
+    "updatedAt": "2026-08-31T12:03:02.174Z"
   }
 ]
