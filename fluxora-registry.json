@@ -1768,5 +1768,1445 @@
     "likesCount": 35,
     "createdAt": "2026-08-31T12:03:02.174Z",
     "updatedAt": "2026-08-31T12:03:02.174Z"
+  },
+  {
+    "id": "cyberpunk-neon-header-bar",
+    "name": "Cyberpunk Neon Header Bar",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<header class=\"cyber-nav\">\n  <div class=\"cyber-logo\">⚡ FLUX//NET</div>\n  <nav class=\"cyber-links\">\n    <a href=\"javascript:void(0)\" class=\"active\">Overview</a>\n    <a href=\"javascript:void(0)\">Modules</a>\n    <a href=\"javascript:void(0)\">Security</a>\n  </nav>\n  <div class=\"cyber-status\">SYS_OK</div>\n</header>",
+    "css": ".cyber-nav {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  gap: 20px;\n  padding: 10px 20px;\n  background: #08080f;\n  border: 1px solid #00ffcc;\n  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));\n  box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);\n  font-family: monospace;\n}\n.cyber-logo {\n  font-size: 13px;\n  font-weight: 800;\n  color: #00ffcc;\n  text-shadow: 0 0 8px #00ffcc;\n}\n.cyber-links {\n  display: flex;\n  gap: 16px;\n}\n.cyber-links a {\n  color: #8892b0;\n  text-decoration: none;\n  font-size: 11px;\n  letter-spacing: 1px;\n  transition: all 0.2s ease;\n}\n.cyber-links a:hover, .cyber-links a.active {\n  color: #00ffcc;\n  text-shadow: 0 0 8px #00ffcc;\n}\n.cyber-status {\n  font-size: 9px;\n  padding: 3px 8px;\n  background: rgba(0, 255, 204, 0.15);\n  color: #00ffcc;\n  border: 1px solid #00ffcc;\n  border-radius: 4px;\n}",
+    "description": "Futuristic cyberpunk navigation bar with glowing turquoise status chip, angle-cut borders, and neon hover links.",
+    "tags": [
+      "navigation",
+      "cyberpunk",
+      "neon",
+      "navbar",
+      "scifi"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 35,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "macos-glass-floating-dock",
+    "name": "macOS Glass Floating Dock",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<div class=\"glass-dock\">\n  <div class=\"dock-item\">🏠</div>\n  <div class=\"dock-item\">📁</div>\n  <div class=\"dock-item active\">⚡</div>\n  <div class=\"dock-item\">📊</div>\n  <div class=\"dock-item\">⚙️</div>\n</div>",
+    "css": ".glass-dock {\n  display: inline-flex;\n  align-items: center;\n  gap: 12px;\n  padding: 10px 18px;\n  background: rgba(255, 255, 255, 0.2);\n  backdrop-filter: blur(20px);\n  border: 1px solid rgba(255, 255, 255, 0.4);\n  border-radius: 24px;\n  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);\n}\n.dock-item {\n  width: 36px;\n  height: 36px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 18px;\n  background: rgba(255, 255, 255, 0.5);\n  border-radius: 12px;\n  cursor: pointer;\n  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);\n  box-shadow: 0 4px 10px rgba(0,0,0,0.05);\n}\n.dock-item:hover {\n  transform: translateY(-8px) scale(1.25);\n  background: #ffffff;\n  box-shadow: 0 8px 16px rgba(0,0,0,0.15);\n}\n.dock-item.active {\n  background: #111;\n  color: #fff;\n}",
+    "description": "macOS style glassmorphic application dock with icon scale magnification and frosted blur.",
+    "tags": [
+      "dock",
+      "navigation",
+      "macos",
+      "glassmorphism",
+      "icons"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 25,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "liquid-elastic-pill-navigation",
+    "name": "Liquid Elastic Pill Navigation",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<div class=\"liquid-seg\">\n  <input type=\"radio\" name=\"lseg\" id=\"ls1\" checked />\n  <label for=\"ls1\">Design</label>\n  <input type=\"radio\" name=\"lseg\" id=\"ls2\" />\n  <label for=\"ls2\">Code</label>\n  <input type=\"radio\" name=\"lseg\" id=\"ls3\" />\n  <label for=\"ls3\">Deploy</label>\n  <div class=\"seg-blob\"></div>\n</div>",
+    "css": ".liquid-seg {\n  position: relative;\n  display: inline-flex;\n  padding: 4px;\n  background: #eceff4;\n  border-radius: 9999px;\n  box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);\n}\n.liquid-seg input { display: none; }\n.liquid-seg label {\n  position: relative;\n  z-index: 2;\n  padding: 8px 20px;\n  font-size: 12px;\n  font-weight: 600;\n  color: #4c566a;\n  cursor: pointer;\n  border-radius: 9999px;\n  transition: color 0.3s ease;\n}\n.liquid-seg input:checked + label {\n  color: #ffffff;\n  background: #7c3aed;\n  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.4);\n}",
+    "description": "Smooth rounded segmented control bar with liquid active background indicator.",
+    "tags": [
+      "segmented",
+      "navigation",
+      "pill",
+      "liquid",
+      "tabs"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 27,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "gliding-underline-slider-nav",
+    "name": "Gliding Underline Slider Nav",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<nav class=\"underline-nav\">\n  <a href=\"javascript:void(0)\" class=\"active\">Showcase</a>\n  <a href=\"javascript:void(0)\">Components</a>\n  <a href=\"javascript:void(0)\">Pricing</a>\n  <a href=\"javascript:void(0)\">Changelog</a>\n</nav>",
+    "css": ".underline-nav {\n  display: flex;\n  gap: 24px;\n}\n.underline-nav a {\n  position: relative;\n  padding: 6px 0;\n  color: #64748b;\n  text-decoration: none;\n  font-size: 13px;\n  font-weight: 500;\n  transition: color 0.2s ease;\n}\n.underline-nav a::after {\n  content: \"\";\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 0;\n  height: 2px;\n  background: #8b5cf6;\n  transition: width 0.3s cubic-bezier(0.16, 1, 0.3, 1);\n  border-radius: 2px;\n}\n.underline-nav a:hover, .underline-nav a.active {\n  color: #0f172a;\n}\n.underline-nav a.active::after, .underline-nav a:hover::after {\n  width: 100%;\n}",
+    "description": "Ultra-clean text menu with smooth expanding purple underline on hover and active states.",
+    "tags": [
+      "underline",
+      "navigation",
+      "minimalist",
+      "clean",
+      "menu"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 37,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "collapsible-sidebar-vertical-menu",
+    "name": "Collapsible Sidebar Vertical Menu",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<div class=\"side-menu\">\n  <a href=\"javascript:void(0)\" class=\"active\">\n    <span>📊 Dashboard</span>\n  </a>\n  <a href=\"javascript:void(0)\">\n    <span>⚡ Elements</span>\n    <span class=\"side-badge\">82+</span>\n  </a>\n  <a href=\"javascript:void(0)\">\n    <span>🎨 Themes</span>\n  </a>\n  <a href=\"javascript:void(0)\">\n    <span>⚙️ Settings</span>\n  </a>\n</div>",
+    "css": ".side-menu {\n  width: 180px;\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  padding: 10px;\n  background: #ffffff;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 16px;\n  box-shadow: 0 4px 16px rgba(0,0,0,0.04);\n}\n.side-menu a {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 8px 12px;\n  border-radius: 10px;\n  text-decoration: none;\n  font-size: 12px;\n  font-weight: 500;\n  color: #64748b;\n  transition: all 0.2s ease;\n}\n.side-menu a:hover {\n  background: #f1f5f9;\n  color: #0f172a;\n}\n.side-menu a.active {\n  background: #7c3aed;\n  color: #ffffff;\n  box-shadow: 0 4px 10px rgba(124, 58, 237, 0.3);\n}\n.side-badge {\n  font-size: 10px;\n  padding: 2px 6px;\n  border-radius: 9999px;\n  background: #e2e8f0;\n  color: #334155;\n  font-weight: 700;\n}",
+    "description": "Vertical sidebar navigation panel with icon badges, active highlight, and badge counters.",
+    "tags": [
+      "sidebar",
+      "navigation",
+      "vertical",
+      "drawer",
+      "dashboard"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 33,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "3d-tactile-segmented-switcher",
+    "name": "3D Tactile Segmented Switcher",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<div class=\"tactile-tabs\">\n  <button class=\"active\">Daily</button>\n  <button>Weekly</button>\n  <button>Monthly</button>\n</div>",
+    "css": ".tactile-tabs {\n  display: inline-flex;\n  gap: 8px;\n  padding: 6px;\n  background: #e2e8f0;\n  border-radius: 14px;\n}\n.tactile-tabs button {\n  padding: 8px 16px;\n  background: #f8fafc;\n  border: 1px solid #cbd5e1;\n  border-bottom: 3px solid #94a3b8;\n  border-radius: 10px;\n  font-size: 11px;\n  font-weight: 700;\n  color: #475569;\n  cursor: pointer;\n  transition: all 0.1s ease;\n}\n.tactile-tabs button:hover {\n  background: #ffffff;\n  color: #0f172a;\n}\n.tactile-tabs button.active {\n  background: #8b5cf6;\n  color: #ffffff;\n  border-color: #7c3aed;\n  border-bottom: 3px solid #6d28d9;\n  transform: translateY(1px);\n}",
+    "description": "3D elevated tactile button tabs with realistic depth and spring compression.",
+    "tags": [
+      "3d",
+      "navigation",
+      "tactile",
+      "tabs",
+      "depth"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 49,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "aurora-borealis-glass-navbar",
+    "name": "Aurora Borealis Glass Navbar",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<nav class=\"aurora-nav\">\n  <div class=\"a-brand\">FLUXORA</div>\n  <div class=\"a-menu\">\n    <a href=\"javascript:void(0)\" class=\"active\">Catalog</a>\n    <a href=\"javascript:void(0)\">Ecosystem</a>\n    <a href=\"javascript:void(0)\">Studio</a>\n  </div>\n</nav>",
+    "css": ".aurora-nav {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  gap: 24px;\n  padding: 8px 22px;\n  border-radius: 9999px;\n  background: rgba(15, 15, 25, 0.85);\n  backdrop-filter: blur(16px);\n  border: 1px solid rgba(255, 255, 255, 0.15);\n  box-shadow: 0 8px 32px rgba(124, 58, 237, 0.25);\n}\n.a-brand {\n  font-size: 13px;\n  font-weight: 800;\n  letter-spacing: 2px;\n  background: linear-gradient(90deg, #ec4899, #8b5cf6, #06b6d4);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n}\n.a-menu {\n  display: flex;\n  gap: 14px;\n}\n.a-menu a {\n  color: #94a3b8;\n  text-decoration: none;\n  font-size: 12px;\n  font-weight: 500;\n  transition: color 0.2s ease;\n}\n.a-menu a:hover, .a-menu a.active {\n  color: #ffffff;\n  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);\n}",
+    "description": "Luminous header navigation with rotating neon rainbow aura and deep glassmorphic blur.",
+    "tags": [
+      "aurora",
+      "navigation",
+      "glassmorphism",
+      "glow",
+      "header"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 21,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "retro-arcade-8-bit-game-menu",
+    "name": "Retro Arcade 8-Bit Game Menu",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<ul class=\"pixel-menu\">\n  <li class=\"selected\">▶ NEW GAME</li>\n  <li>&nbsp;&nbsp;CONTINUE</li>\n  <li>&nbsp;&nbsp;HIGH SCORES</li>\n</ul>",
+    "css": ".pixel-menu {\n  list-style: none;\n  padding: 16px 24px;\n  background: #000000;\n  border: 3px solid #ffffff;\n  font-family: monospace;\n  font-size: 12px;\n  font-weight: 800;\n  color: #ffffff;\n  display: inline-flex;\n  flex-direction: column;\n  gap: 8px;\n  box-shadow: 6px 6px 0px #7c3aed;\n}\n.pixel-menu li {\n  cursor: pointer;\n  letter-spacing: 1px;\n}\n.pixel-menu li.selected {\n  color: #ffcc00;\n  text-shadow: 0 0 6px #ffcc00;\n}\n.pixel-menu li:hover {\n  color: #00ffcc;\n}",
+    "description": "Chunky 80s arcade navigation menu with flashing pixel cursor arrow.",
+    "tags": [
+      "retro",
+      "pixel",
+      "8bit",
+      "arcade",
+      "gaming"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 20,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "mobile-floating-bottom-navigation",
+    "name": "Mobile Floating Bottom Navigation",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<div class=\"bottom-bar\">\n  <button class=\"b-btn active\">🏠</button>\n  <button class=\"b-btn\">🔍</button>\n  <button class=\"b-center\">➕</button>\n  <button class=\"b-btn\">🔔</button>\n  <button class=\"b-btn\">👤</button>\n</div>",
+    "css": ".bottom-bar {\n  display: flex;\n  align-items: center;\n  gap: 14px;\n  padding: 8px 18px;\n  background: #1e1e2d;\n  border-radius: 28px;\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  box-shadow: 0 10px 25px rgba(0,0,0,0.3);\n}\n.b-btn {\n  background: transparent;\n  border: none;\n  font-size: 16px;\n  color: #6b7280;\n  cursor: pointer;\n  padding: 6px;\n  transition: transform 0.2s ease;\n}\n.b-btn:hover, .b-btn.active {\n  color: #fff;\n  transform: scale(1.15);\n}\n.b-center {\n  width: 38px;\n  height: 38px;\n  border-radius: 50%;\n  background: linear-gradient(135deg, #ec4899, #8b5cf6);\n  border: none;\n  font-size: 14px;\n  color: #fff;\n  cursor: pointer;\n  box-shadow: 0 4px 14px rgba(236, 72, 153, 0.4);\n  transform: translateY(-8px);\n  transition: transform 0.2s ease;\n}\n.b-center:hover {\n  transform: translateY(-10px) scale(1.1);\n}",
+    "description": "Modern mobile app bottom bar with elevated floating central action button.",
+    "tags": [
+      "mobile",
+      "navigation",
+      "bottombar",
+      "app",
+      "tabs"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 33,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "radial-orbit-navigation-menu",
+    "name": "Radial Orbit Navigation Menu",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<div class=\"radial-nav\">\n  <div class=\"radial-core\">⚙️</div>\n  <div class=\"orbit-node node-top\">🔥</div>\n  <div class=\"orbit-node node-right\">⚡</div>\n  <div class=\"orbit-node node-bottom\">💎</div>\n  <div class=\"orbit-node node-left\">🚀</div>\n</div>",
+    "css": ".radial-nav {\n  position: relative;\n  width: 100px;\n  height: 100px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.radial-core {\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  background: #111;\n  color: #fff;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 16px;\n  box-shadow: 0 0 15px rgba(0,0,0,0.2);\n  z-index: 2;\n  cursor: pointer;\n}\n.orbit-node {\n  position: absolute;\n  width: 26px;\n  height: 26px;\n  border-radius: 50%;\n  background: #fff;\n  border: 1px solid #cbd5e1;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 12px;\n  box-shadow: 0 4px 8px rgba(0,0,0,0.08);\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.node-top { top: 0; left: 37px; }\n.node-right { top: 37px; right: 0; }\n.node-bottom { bottom: 0; left: 37px; }\n.node-left { top: 37px; left: 0; }\n.orbit-node:hover {\n  transform: scale(1.3);\n  background: #8b5cf6;\n  border-color: #7c3aed;\n}",
+    "description": "Circular orbital menu with radiating navigation satellite nodes.",
+    "tags": [
+      "radial",
+      "navigation",
+      "orbit",
+      "circular",
+      "menu"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 34,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "sci-fi-hud-tactical-header",
+    "name": "Sci-Fi HUD Tactical Header",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<div class=\"hud-nav\">\n  <span class=\"hud-brand\">[TACTICAL_GRID]</span>\n  <div class=\"hud-items\">\n    <a href=\"javascript:void(0)\" class=\"on\">SECTOR_A</a>\n    <a href=\"javascript:void(0)\">SECTOR_B</a>\n    <a href=\"javascript:void(0)\">TARGETS</a>\n  </div>\n</div>",
+    "css": ".hud-nav {\n  display: flex;\n  align-items: center;\n  gap: 20px;\n  padding: 8px 16px;\n  background: rgba(0, 20, 10, 0.9);\n  border-top: 2px solid #00ff66;\n  border-bottom: 2px solid #00ff66;\n  font-family: monospace;\n  color: #00ff66;\n  box-shadow: 0 0 12px rgba(0, 255, 102, 0.15);\n}\n.hud-brand {\n  font-size: 11px;\n  font-weight: bold;\n}\n.hud-items {\n  display: flex;\n  gap: 12px;\n}\n.hud-items a {\n  color: #008833;\n  text-decoration: none;\n  font-size: 10px;\n  letter-spacing: 1px;\n  transition: color 0.2s;\n}\n.hud-items a.on, .hud-items a:hover {\n  color: #00ff66;\n  text-shadow: 0 0 8px #00ff66;\n}",
+    "description": "Military heads-up display tactical navigation panel with target radar beacon.",
+    "tags": [
+      "hud",
+      "navigation",
+      "scifi",
+      "tactical",
+      "military"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 27,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "glowing-breadcrumb-step-trail",
+    "name": "Glowing Breadcrumb Step Trail",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<nav class=\"crumb-nav\">\n  <a href=\"javascript:void(0)\">Home</a>\n  <span class=\"crumb-sep\">/</span>\n  <a href=\"javascript:void(0)\">Components</a>\n  <span class=\"crumb-sep\">/</span>\n  <span class=\"crumb-curr\">Navigation</span>\n</nav>",
+    "css": ".crumb-nav {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 8px 16px;\n  background: #ffffff;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  font-size: 12px;\n  box-shadow: 0 2px 8px rgba(0,0,0,0.03);\n}\n.crumb-nav a {\n  color: #64748b;\n  text-decoration: none;\n  transition: color 0.2s;\n}\n.crumb-nav a:hover { color: #8b5cf6; }\n.crumb-sep { color: #cbd5e1; font-weight: bold; }\n.crumb-curr {\n  color: #7c3aed;\n  font-weight: 700;\n  padding: 2px 8px;\n  background: #f3e8ff;\n  border-radius: 6px;\n}",
+    "description": "Hierarchical navigation trail with directional chevron arrows and illuminated active page step.",
+    "tags": [
+      "breadcrumbs",
+      "navigation",
+      "trail",
+      "hierarchy",
+      "steps"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 15,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "neumorphic-soft-ui-header-nav",
+    "name": "Neumorphic Soft UI Header Nav",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<div class=\"neu-nav\">\n  <button class=\"active\">Explore</button>\n  <button>Library</button>\n  <button>Profile</button>\n</div>",
+    "css": ".neu-nav {\n  display: inline-flex;\n  gap: 12px;\n  padding: 10px;\n  background: #eef1f6;\n  border-radius: 16px;\n}\n.neu-nav button {\n  padding: 8px 18px;\n  border-radius: 12px;\n  background: #eef1f6;\n  border: none;\n  color: #5a6474;\n  font-size: 12px;\n  font-weight: 600;\n  cursor: pointer;\n  box-shadow: 4px 4px 8px #d1d6e0, -4px -4px 8px #ffffff;\n  transition: all 0.2s ease;\n}\n.neu-nav button:hover {\n  color: #8b5cf6;\n  transform: translateY(-1px);\n}\n.neu-nav button.active {\n  box-shadow: inset 3px 3px 6px #d1d6e0, inset -3px -3px 6px #ffffff;\n  color: #7c3aed;\n}",
+    "description": "Convex and concave soft shadow navigation buttons with tactile spring depth.",
+    "tags": [
+      "neumorphism",
+      "navigation",
+      "softui",
+      "minimalist",
+      "clean"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 45,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "cosmic-starlight-floating-nav",
+    "name": "Cosmic Starlight Floating Nav",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<nav class=\"star-nav\">\n  <a href=\"javascript:void(0)\" class=\"star-active\">✨ Discover</a>\n  <a href=\"javascript:void(0)\">🔮 Elements</a>\n  <a href=\"javascript:void(0)\">🚀 Deploy</a>\n</nav>",
+    "css": ".star-nav {\n  display: inline-flex;\n  gap: 6px;\n  padding: 6px;\n  background: #0f0f18;\n  border: 1px solid rgba(168, 85, 247, 0.3);\n  border-radius: 9999px;\n  box-shadow: 0 0 20px rgba(168, 85, 247, 0.2);\n}\n.star-nav a {\n  padding: 8px 18px;\n  border-radius: 9999px;\n  color: #a1a1aa;\n  text-decoration: none;\n  font-size: 12px;\n  font-weight: 500;\n  transition: all 0.2s ease;\n}\n.star-nav a:hover {\n  color: #fff;\n  background: rgba(255, 255, 255, 0.05);\n}\n.star-nav a.star-active {\n  background: linear-gradient(135deg, #9333ea, #6366f1);\n  color: #fff;\n  box-shadow: 0 4px 12px rgba(147, 51, 234, 0.4);\n}",
+    "description": "Obsidian dark navbar with sliding starlight particle sheen and neon violet aura.",
+    "tags": [
+      "cosmic",
+      "navigation",
+      "starlight",
+      "darkmode",
+      "purple"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 47,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "modern-tabbed-pill-switcher",
+    "name": "Modern Tabbed Pill Switcher",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<div class=\"pill-tabs\">\n  <div class=\"pill-btn on\">Grid View</div>\n  <div class=\"pill-btn\">List View</div>\n  <div class=\"pill-btn\">3D View</div>\n</div>",
+    "css": ".pill-tabs {\n  display: inline-flex;\n  padding: 4px;\n  background: #f1f5f9;\n  border-radius: 9999px;\n  border: 1px solid #e2e8f0;\n}\n.pill-btn {\n  padding: 6px 16px;\n  border-radius: 9999px;\n  font-size: 11px;\n  font-weight: 600;\n  color: #64748b;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.pill-btn.on {\n  background: #0f172a;\n  color: #ffffff;\n  box-shadow: 0 2px 8px rgba(0,0,0,0.15);\n}",
+    "description": "Rounded segmented pill menu for switching layouts and views.",
+    "tags": [
+      "tabs",
+      "navigation",
+      "pill",
+      "switcher",
+      "clean"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 15,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "glassmorphic-dropdown-popover",
+    "name": "Glassmorphic Dropdown Popover",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<div class=\"drop-wrap\">\n  <button class=\"drop-btn\">Browse Categories ▼</button>\n  <div class=\"drop-card\">\n    <a href=\"javascript:void(0)\">🔮 Buttons & Cards</a>\n    <a href=\"javascript:void(0)\">⏳ 3D Loaders</a>\n    <a href=\"javascript:void(0)\">⚡ Switches & Toggles</a>\n  </div>\n</div>",
+    "css": ".drop-wrap {\n  position: relative;\n  display: inline-block;\n}\n.drop-btn {\n  padding: 10px 18px;\n  background: #ffffff;\n  border: 1px solid #e2e8f0;\n  border-radius: 12px;\n  font-size: 12px;\n  font-weight: 600;\n  color: #1e293b;\n  cursor: pointer;\n  box-shadow: 0 4px 10px rgba(0,0,0,0.03);\n}\n.drop-card {\n  position: absolute;\n  top: 110%;\n  left: 0;\n  width: 170px;\n  padding: 8px;\n  background: rgba(255, 255, 255, 0.9);\n  backdrop-filter: blur(12px);\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 14px;\n  box-shadow: 0 12px 24px rgba(0,0,0,0.08);\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n.drop-card a {\n  padding: 8px 10px;\n  font-size: 11px;\n  color: #475569;\n  text-decoration: none;\n  border-radius: 8px;\n  transition: all 0.15s;\n}\n.drop-card a:hover {\n  background: #f1f5f9;\n  color: #7c3aed;\n}",
+    "description": "Floating frosted glass submenu dropdown card with animated reveal.",
+    "tags": [
+      "dropdown",
+      "navigation",
+      "popover",
+      "glassmorphism",
+      "menu"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 20,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "progress-dot-stepper-navigation",
+    "name": "Progress Dot Stepper Navigation",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<div class=\"dot-stepper\">\n  <div class=\"step-dot done\">✓</div>\n  <div class=\"step-line done\"></div>\n  <div class=\"step-dot active\">2</div>\n  <div class=\"step-line\"></div>\n  <div class=\"step-dot\">3</div>\n</div>",
+    "css": ".dot-stepper {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n}\n.step-dot {\n  width: 28px;\n  height: 28px;\n  border-radius: 50%;\n  background: #e2e8f0;\n  color: #64748b;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 11px;\n  font-weight: 700;\n}\n.step-dot.done {\n  background: #10b981;\n  color: #fff;\n}\n.step-dot.active {\n  background: #7c3aed;\n  color: #fff;\n  box-shadow: 0 0 10px rgba(124, 58, 237, 0.5);\n}\n.step-line {\n  width: 30px;\n  height: 3px;\n  background: #e2e8f0;\n  border-radius: 2px;\n}\n.step-line.done {\n  background: #10b981;\n}",
+    "description": "Step-by-step progress navigation dots linked with connected path lines.",
+    "tags": [
+      "stepper",
+      "navigation",
+      "dots",
+      "wizard",
+      "progress"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 16,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "command-terminal-prompt-header",
+    "name": "Command Terminal Prompt Header",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<div class=\"term-nav\">\n  <span class=\"term-prompt\">user@fluxora:~$</span>\n  <a href=\"javascript:void(0)\" class=\"active\">./run_ui</a>\n  <a href=\"javascript:void(0)\">./view_logs</a>\n  <a href=\"javascript:void(0)\">./exit</a>\n</div>",
+    "css": ".term-nav {\n  display: flex;\n  align-items: center;\n  gap: 14px;\n  padding: 8px 16px;\n  background: #0d1117;\n  border: 1px solid #30363d;\n  border-radius: 10px;\n  font-family: monospace;\n  font-size: 11px;\n}\n.term-prompt { color: #58a6ff; font-weight: bold; }\n.term-nav a {\n  color: #8b949e;\n  text-decoration: none;\n  transition: color 0.2s;\n}\n.term-nav a:hover, .term-nav a.active {\n  color: #3fb950;\n  text-shadow: 0 0 6px rgba(63, 185, 80, 0.4);\n}",
+    "description": "Hacker command-line navbar with terminal prompt arrows and blink cursor.",
+    "tags": [
+      "terminal",
+      "navigation",
+      "cyberpunk",
+      "command",
+      "monochrome"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 34,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "elastic-fluid-indicator-tab-bar",
+    "name": "Elastic Fluid Indicator Tab Bar",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<div class=\"bubble-tabs\">\n  <button class=\"b-tab active\">Overview</button>\n  <button class=\"b-tab\">Analytics</button>\n  <button class=\"b-tab\">Reports</button>\n</div>",
+    "css": ".bubble-tabs {\n  display: inline-flex;\n  gap: 6px;\n  padding: 6px;\n  background: #ffffff;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 16px;\n  box-shadow: 0 4px 14px rgba(0,0,0,0.03);\n}\n.b-tab {\n  padding: 8px 18px;\n  background: transparent;\n  border: none;\n  font-size: 12px;\n  font-weight: 600;\n  color: #64748b;\n  border-radius: 12px;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.b-tab:hover { color: #1e293b; }\n.b-tab.active {\n  background: #f3e8ff;\n  color: #7c3aed;\n  box-shadow: inset 0 0 0 1px #d8b4fe;\n}",
+    "description": "Dynamic elastic indicator tab bar with glowing spring border.",
+    "tags": [
+      "elastic",
+      "navigation",
+      "bubble",
+      "tabs",
+      "smooth"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 46,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "luxury-obsidian-gold-navbar",
+    "name": "Luxury Obsidian Gold Navbar",
+    "category": "navigation",
+    "styleType": "css",
+    "html": "<nav class=\"gold-nav\">\n  <div class=\"gold-brand\">FLUX•ELITE</div>\n  <div class=\"gold-links\">\n    <a href=\"javascript:void(0)\" class=\"gold-on\">MUSEUM</a>\n    <a href=\"javascript:void(0)\">VAULT</a>\n    <a href=\"javascript:void(0)\">ATELIER</a>\n  </div>\n</nav>",
+    "css": ".gold-nav {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  gap: 24px;\n  padding: 10px 22px;\n  background: #09090b;\n  border: 1px solid #d4af37;\n  border-radius: 8px;\n  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.15);\n}\n.gold-brand {\n  font-size: 12px;\n  font-weight: 800;\n  letter-spacing: 3px;\n  color: #d4af37;\n  text-shadow: 0 0 10px rgba(212, 175, 55, 0.4);\n}\n.gold-links {\n  display: flex;\n  gap: 16px;\n}\n.gold-links a {\n  color: #a1a1aa;\n  text-decoration: none;\n  font-size: 10px;\n  letter-spacing: 2px;\n  transition: all 0.2s;\n}\n.gold-links a:hover, .gold-links a.gold-on {\n  color: #fef08a;\n  text-shadow: 0 0 8px rgba(254, 240, 138, 0.5);\n}",
+    "description": "High-end obsidian dark navigation bar with luxury gold metallic borders and serif accents.",
+    "tags": [
+      "luxury",
+      "gold",
+      "navigation",
+      "obsidian",
+      "premium"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 15,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "liquid-jelly-bounce-checkbox",
+    "name": "Liquid Jelly Bounce Checkbox",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"jelly-box\">\n  <input type=\"checkbox\" checked />\n  <span class=\"jelly-mark\"></span>\n  <span class=\"jelly-text\">Enable Turbo Mode</span>\n</label>",
+    "css": ".jelly-box {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  cursor: pointer;\n  font-size: 13px;\n  font-weight: 500;\n  color: #1e293b;\n}\n.jelly-box input { display: none; }\n.jelly-mark {\n  width: 22px;\n  height: 22px;\n  border-radius: 8px;\n  background: #e2e8f0;\n  position: relative;\n  transition: all 0.2s ease;\n}\n.jelly-box input:checked + .jelly-mark {\n  background: #7c3aed;\n  animation: jelly-squash 0.4s ease;\n  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.4);\n}\n.jelly-mark::after {\n  content: \"✓\";\n  position: absolute;\n  inset: 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #fff;\n  font-size: 13px;\n  font-weight: bold;\n  opacity: 0;\n  transform: scale(0.5);\n  transition: all 0.2s ease;\n}\n.jelly-box input:checked + .jelly-mark::after {\n  opacity: 1;\n  transform: scale(1);\n}\n@keyframes jelly-squash {\n  0% { transform: scale(1, 1); }\n  30% { transform: scale(1.25, 0.75); }\n  40% { transform: scale(0.75, 1.25); }\n  50% { transform: scale(1.15, 0.85); }\n  100% { transform: scale(1, 1); }\n}",
+    "description": "Playful organic checkbox with jelly squash and stretch bounce on check.",
+    "tags": [
+      "checkbox",
+      "jelly",
+      "bounce",
+      "playful",
+      "animation"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 45,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "electric-neon-cyber-checkbox",
+    "name": "Electric Neon Cyber Checkbox",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"neon-chk\">\n  <input type=\"checkbox\" checked />\n  <span class=\"neon-box\"></span>\n  <span>Neural Overdrive</span>\n</label>",
+    "css": ".neon-chk {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  font-family: monospace;\n  font-size: 12px;\n  color: #00ffcc;\n  cursor: pointer;\n}\n.neon-chk input { display: none; }\n.neon-box {\n  width: 20px;\n  height: 20px;\n  background: #09090f;\n  border: 1px solid #00ffcc;\n  position: relative;\n  box-shadow: inset 0 0 6px rgba(0, 255, 204, 0.2);\n}\n.neon-chk input:checked + .neon-box {\n  background: #00ffcc;\n  box-shadow: 0 0 15px #00ffcc;\n}\n.neon-box::after {\n  content: \"⚡\";\n  position: absolute;\n  inset: 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 11px;\n  color: #09090f;\n  opacity: 0;\n}\n.neon-chk input:checked + .neon-box::after { opacity: 1; }",
+    "description": "Electric blue glowing checkbox with dark obsidian backdrop and neon tick.",
+    "tags": [
+      "cyberpunk",
+      "checkbox",
+      "neon",
+      "electric",
+      "glow"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 34,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "neumorphic-tactile-inset-checkbox",
+    "name": "Neumorphic Tactile Inset Checkbox",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"neu-check\">\n  <input type=\"checkbox\" checked />\n  <span class=\"neu-square\"></span>\n  <span>Auto-Sync Cloud</span>\n</label>",
+    "css": ".neu-check {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-size: 13px;\n  font-weight: 500;\n  color: #4a5568;\n  cursor: pointer;\n}\n.neu-check input { display: none; }\n.neu-square {\n  width: 22px;\n  height: 22px;\n  border-radius: 8px;\n  background: #eef1f6;\n  box-shadow: 3px 3px 6px #d1d6e0, -3px -3px 6px #ffffff;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transition: all 0.2s ease;\n}\n.neu-check input:checked + .neu-square {\n  box-shadow: inset 2px 2px 4px #d1d6e0, inset -2px -2px 4px #ffffff;\n  background: #7c3aed;\n}\n.neu-square::after {\n  content: \"✓\";\n  color: #fff;\n  font-size: 12px;\n  font-weight: bold;\n  opacity: 0;\n}\n.neu-check input:checked + .neu-square::after { opacity: 1; }",
+    "description": "Soft UI tactile checkbox with realistic pressed indentation on check.",
+    "tags": [
+      "neumorphism",
+      "checkbox",
+      "softui",
+      "tactile",
+      "clean"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 17,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "cosmic-glowing-star-toggle",
+    "name": "Cosmic Glowing Star Toggle",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"star-chk\">\n  <input type=\"checkbox\" checked />\n  <span class=\"star-icon\">★</span>\n  <span>Bookmark to Favorites</span>\n</label>",
+    "css": ".star-chk {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  font-size: 13px;\n  font-weight: 500;\n  color: #1e293b;\n  cursor: pointer;\n}\n.star-chk input { display: none; }\n.star-icon {\n  font-size: 20px;\n  color: #cbd5e1;\n  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);\n}\n.star-chk input:checked + .star-icon {\n  color: #f59e0b;\n  transform: scale(1.25) rotate(15deg);\n  text-shadow: 0 0 12px #f59e0b;\n}",
+    "description": "Star-shaped favorite checkbox toggle with luminous golden flare.",
+    "tags": [
+      "star",
+      "checkbox",
+      "favorite",
+      "rating",
+      "glow"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 43,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "retro-arcade-pixel-checkbox",
+    "name": "Retro Arcade Pixel Checkbox",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"pixel-chk\">\n  <input type=\"checkbox\" checked />\n  <span class=\"p-box\"></span>\n  <span>SFX_ENABLED</span>\n</label>",
+    "css": ".pixel-chk {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-family: monospace;\n  font-size: 12px;\n  font-weight: 800;\n  cursor: pointer;\n}\n.pixel-chk input { display: none; }\n.p-box {\n  width: 18px;\n  height: 18px;\n  background: #ffffff;\n  border: 3px solid #000000;\n  box-shadow: 2px 2px 0px #000000;\n  position: relative;\n}\n.pixel-chk input:checked + .p-box {\n  background: #ffcc00;\n}\n.p-box::after {\n  content: \"X\";\n  position: absolute;\n  inset: 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 12px;\n  font-weight: 900;\n  color: #000;\n  opacity: 0;\n}\n.pixel-chk input:checked + .p-box::after { opacity: 1; }",
+    "description": "8-bit pixel game checkbox with chunky black stroke and green X mark.",
+    "tags": [
+      "retro",
+      "pixel",
+      "8bit",
+      "checkbox",
+      "gaming"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 28,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "pulsing-heart-reaction-toggle",
+    "name": "Pulsing Heart Reaction Toggle",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"heart-chk\">\n  <input type=\"checkbox\" checked />\n  <span class=\"heart-icon\">♥</span>\n  <span>142 Likes</span>\n</label>",
+    "css": ".heart-chk {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  font-size: 13px;\n  font-weight: 600;\n  color: #475569;\n  cursor: pointer;\n}\n.heart-chk input { display: none; }\n.heart-icon {\n  font-size: 22px;\n  color: #cbd5e1;\n  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n.heart-chk input:checked + .heart-icon {\n  color: #ef4444;\n  transform: scale(1.3);\n  filter: drop-shadow(0 0 8px rgba(239, 68, 68, 0.5));\n}",
+    "description": "Beating heart like checkbox with bouncy pulse wave on toggle.",
+    "tags": [
+      "heart",
+      "like",
+      "checkbox",
+      "social",
+      "pulse"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 27,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "3d-flipping-tile-checkbox",
+    "name": "3D Flipping Tile Checkbox",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"flip-chk\">\n  <input type=\"checkbox\" checked />\n  <span class=\"flip-tile\"><span class=\"front\"></span><span class=\"back\">✓</span></span>\n  <span>3D Perspective Mode</span>\n</label>",
+    "css": ".flip-chk {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-size: 13px;\n  font-weight: 500;\n  cursor: pointer;\n  perspective: 400px;\n}\n.flip-chk input { display: none; }\n.flip-tile {\n  width: 24px;\n  height: 24px;\n  position: relative;\n  transform-style: preserve-3d;\n  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);\n}\n.flip-tile .front, .flip-tile .back {\n  position: absolute;\n  inset: 0;\n  border-radius: 6px;\n  backface-visibility: hidden;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.flip-tile .front { background: #e2e8f0; border: 1px solid #cbd5e1; }\n.flip-tile .back { background: #10b981; color: #fff; transform: rotateY(180deg); font-weight: bold; }\n.flip-chk input:checked + .flip-tile { transform: rotateY(180deg); }",
+    "description": "Isometric tile that flips 180 degrees in 3D perspective when activated.",
+    "tags": [
+      "3d",
+      "flip",
+      "checkbox",
+      "isometric",
+      "perspective"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 49,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "glassmorphism-frosted-checkbox",
+    "name": "Glassmorphism Frosted Checkbox",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"glass-chk\">\n  <input type=\"checkbox\" checked />\n  <span class=\"g-box\">✓</span>\n  <span>Dark Glass Theme</span>\n</label>",
+    "css": ".glass-chk {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-size: 13px;\n  font-weight: 500;\n  color: #0f172a;\n  cursor: pointer;\n}\n.glass-chk input { display: none; }\n.g-box {\n  width: 22px;\n  height: 22px;\n  border-radius: 8px;\n  background: rgba(255, 255, 255, 0.4);\n  backdrop-filter: blur(8px);\n  border: 1px solid rgba(0, 0, 0, 0.15);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 12px;\n  font-weight: bold;\n  color: transparent;\n  transition: all 0.2s ease;\n}\n.glass-chk input:checked + .g-box {\n  background: #7c3aed;\n  border-color: #6d28d9;\n  color: #ffffff;\n  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.35);\n}",
+    "description": "Translucent frosted glass checkbox with radiant violet sheen when checked.",
+    "tags": [
+      "glassmorphism",
+      "checkbox",
+      "frosted",
+      "translucent",
+      "glow"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 26,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "audio-speaker-mute-toggle",
+    "name": "Audio Speaker Mute Toggle",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"sound-chk\">\n  <input type=\"checkbox\" checked />\n  <span class=\"s-icon\">🔊</span>\n  <span>Sound FX</span>\n</label>",
+    "css": ".sound-chk {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  font-size: 13px;\n  font-weight: 600;\n  color: #334155;\n  cursor: pointer;\n}\n.sound-chk input { display: none; }\n.s-icon {\n  font-size: 18px;\n  opacity: 0.4;\n  transition: all 0.2s ease;\n}\n.sound-chk input:checked + .s-icon {\n  opacity: 1;\n  transform: scale(1.2);\n}",
+    "description": "Audio speaker icon toggle with radiating soundwave bars on active state.",
+    "tags": [
+      "audio",
+      "sound",
+      "mute",
+      "checkbox",
+      "speaker"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 27,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "security-padlock-toggle",
+    "name": "Security Padlock Toggle",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"lock-chk\">\n  <input type=\"checkbox\" checked />\n  <span class=\"l-icon\">🔒</span>\n  <span>Require 2FA Security</span>\n</label>",
+    "css": ".lock-chk {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  font-size: 13px;\n  font-weight: 500;\n  color: #1e293b;\n  cursor: pointer;\n}\n.lock-chk input { display: none; }\n.l-icon {\n  font-size: 18px;\n  filter: grayscale(1);\n  transition: all 0.2s ease;\n}\n.lock-chk input:checked + .l-icon {\n  filter: grayscale(0);\n  transform: scale(1.2);\n}",
+    "description": "Security padlock indicator that snaps locked and unlocked with green aura.",
+    "tags": [
+      "lock",
+      "security",
+      "checkbox",
+      "toggle",
+      "shield"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 49,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "flame-fire-streak-checkbox",
+    "name": "Flame Fire Streak Checkbox",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"flame-chk\">\n  <input type=\"checkbox\" checked />\n  <span class=\"f-icon\">🔥</span>\n  <span>Daily 7-Day Streak</span>\n</label>",
+    "css": ".flame-chk {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  font-size: 13px;\n  font-weight: 600;\n  color: #1e293b;\n  cursor: pointer;\n}\n.flame-chk input { display: none; }\n.f-icon {\n  font-size: 20px;\n  opacity: 0.3;\n  transition: all 0.3s ease;\n}\n.flame-chk input:checked + .f-icon {\n  opacity: 1;\n  transform: scale(1.3);\n  filter: drop-shadow(0 0 10px #f97316);\n}",
+    "description": "Fiery burning flame icon that ignites on daily streak toggle.",
+    "tags": [
+      "flame",
+      "fire",
+      "streak",
+      "checkbox",
+      "glow"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 29,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "circular-radial-ripple-radio",
+    "name": "Circular Radial Ripple Radio",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"ripple-radio\">\n  <input type=\"checkbox\" checked />\n  <span class=\"r-circle\"><span class=\"r-dot\"></span></span>\n  <span>Standard Option</span>\n</label>",
+    "css": ".ripple-radio {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-size: 13px;\n  font-weight: 500;\n  cursor: pointer;\n}\n.ripple-radio input { display: none; }\n.r-circle {\n  width: 22px;\n  height: 22px;\n  border-radius: 50%;\n  border: 2px solid #cbd5e1;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transition: all 0.2s ease;\n}\n.r-dot {\n  width: 10px;\n  height: 10px;\n  border-radius: 50%;\n  background: transparent;\n  transition: all 0.2s ease;\n}\n.ripple-radio input:checked + .r-circle {\n  border-color: #7c3aed;\n  box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.15);\n}\n.ripple-radio input:checked + .r-circle .r-dot {\n  background: #7c3aed;\n  transform: scale(1.1);\n}",
+    "description": "Circular radio checkbox with expanding concentric ripple wave on check.",
+    "tags": [
+      "radio",
+      "ripple",
+      "circular",
+      "checkbox",
+      "wave"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 45,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "bookmark-ribbon-save-toggle",
+    "name": "Bookmark Ribbon Save Toggle",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"ribbon-chk\">\n  <input type=\"checkbox\" checked />\n  <span class=\"rib-icon\">🔖</span>\n  <span>Saved to Workspace</span>\n</label>",
+    "css": ".ribbon-chk {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  font-size: 13px;\n  font-weight: 500;\n  cursor: pointer;\n}\n.ribbon-chk input { display: none; }\n.rib-icon {\n  font-size: 18px;\n  opacity: 0.3;\n  transition: all 0.2s ease;\n}\n.ribbon-chk input:checked + .rib-icon {\n  opacity: 1;\n  transform: scale(1.2) translateY(-2px);\n}",
+    "description": "Ribbon bookmark badge that drops down with active gold sheen on save.",
+    "tags": [
+      "bookmark",
+      "ribbon",
+      "save",
+      "checkbox",
+      "toggle"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 34,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "thumbs-up-reaction-checkbox",
+    "name": "Thumbs Up Reaction Checkbox",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"thumb-chk\">\n  <input type=\"checkbox\" checked />\n  <span class=\"t-icon\">👍</span>\n  <span>Agree with Terms</span>\n</label>",
+    "css": ".thumb-chk {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  font-size: 13px;\n  font-weight: 500;\n  cursor: pointer;\n}\n.thumb-chk input { display: none; }\n.t-icon {\n  font-size: 18px;\n  filter: grayscale(1);\n  transition: all 0.2s ease;\n}\n.thumb-chk input:checked + .t-icon {\n  filter: grayscale(0);\n  transform: scale(1.25) rotate(-10deg);\n}",
+    "description": "Social media thumbs-up like reaction button with floating blue aura.",
+    "tags": [
+      "thumbsup",
+      "like",
+      "checkbox",
+      "reaction",
+      "social"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 31,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "magic-starburst-sparkle-checkbox",
+    "name": "Magic Starburst Sparkle Checkbox",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"magic-chk\">\n  <input type=\"checkbox\" checked />\n  <span class=\"m-icon\">✨</span>\n  <span>Enable AI Features</span>\n</label>",
+    "css": ".magic-chk {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  font-size: 13px;\n  font-weight: 600;\n  color: #1e293b;\n  cursor: pointer;\n}\n.magic-chk input { display: none; }\n.m-icon {\n  font-size: 18px;\n  opacity: 0.3;\n  transition: all 0.3s ease;\n}\n.magic-chk input:checked + .m-icon {\n  opacity: 1;\n  transform: scale(1.3) rotate(20deg);\n  filter: drop-shadow(0 0 8px #a855f7);\n}",
+    "description": "Enchanting starburst particle sparkles that animate when selected.",
+    "tags": [
+      "sparkle",
+      "magic",
+      "checkbox",
+      "stars",
+      "glow"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 29,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "gradient-border-pill-checkbox",
+    "name": "Gradient Border Pill Checkbox",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"grad-pill\">\n  <input type=\"checkbox\" checked />\n  <span>Tailwind CSS</span>\n</label>",
+    "css": ".grad-pill {\n  display: inline-block;\n  cursor: pointer;\n}\n.grad-pill input { display: none; }\n.grad-pill span {\n  display: block;\n  padding: 8px 16px;\n  border-radius: 9999px;\n  font-size: 12px;\n  font-weight: 600;\n  background: #f8fafc;\n  border: 1px solid #cbd5e1;\n  color: #64748b;\n  transition: all 0.2s ease;\n}\n.grad-pill input:checked + span {\n  background: #0f172a;\n  color: #ffffff;\n  border-color: #0f172a;\n  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.2);\n}",
+    "description": "Modern selectable chip with rainbow gradient outline on selection.",
+    "tags": [
+      "chip",
+      "pill",
+      "checkbox",
+      "gradient",
+      "tag"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 38,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "hazard-warning-alert-checkbox",
+    "name": "Hazard Warning Alert Checkbox",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"hazard-chk\">\n  <input type=\"checkbox\" checked />\n  <span class=\"h-box\">☣</span>\n  <span>Dangerous Mode</span>\n</label>",
+    "css": ".hazard-chk {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-family: monospace;\n  font-size: 12px;\n  font-weight: bold;\n  color: #eab308;\n  cursor: pointer;\n}\n.hazard-chk input { display: none; }\n.h-box {\n  width: 22px;\n  height: 22px;\n  background: #0c0a00;\n  border: 1px solid #eab308;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n}\n.hazard-chk input:checked + .h-box {\n  background: #eab308;\n  color: #000;\n  box-shadow: 0 0 12px #eab308;\n}",
+    "description": "Industrial warning radiation hazard symbol checkbox with amber beacon.",
+    "tags": [
+      "hazard",
+      "checkbox",
+      "warning",
+      "cyberpunk",
+      "industrial"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 26,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "minimalist-line-draw-checkbox",
+    "name": "Minimalist Line Draw Checkbox",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"line-chk\">\n  <input type=\"checkbox\" checked />\n  <span class=\"l-box\">✓</span>\n  <span>Accept Agreement</span>\n</label>",
+    "css": ".line-chk {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-size: 13px;\n  font-weight: 500;\n  color: #111;\n  cursor: pointer;\n}\n.line-chk input { display: none; }\n.l-box {\n  width: 20px;\n  height: 20px;\n  border: 2px solid #94a3b8;\n  border-radius: 4px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 12px;\n  font-weight: bold;\n  color: transparent;\n  transition: all 0.2s ease;\n}\n.line-chk input:checked + .l-box {\n  border-color: #111;\n  background: #111;\n  color: #fff;\n}",
+    "description": "Clean border square with animated diagonal checkmark draw.",
+    "tags": [
+      "minimalist",
+      "line",
+      "checkbox",
+      "clean",
+      "simple"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 33,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "obsidian-cyber-diamond-checkbox",
+    "name": "Obsidian Cyber Diamond Checkbox",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"diamond-chk\">\n  <input type=\"checkbox\" checked />\n  <span class=\"d-box\"></span>\n  <span>Quantum Cryptography</span>\n</label>",
+    "css": ".diamond-chk {\n  display: flex;\n  align-items: center;\n  gap: 14px;\n  font-family: monospace;\n  font-size: 12px;\n  color: #06b6d4;\n  cursor: pointer;\n}\n.diamond-chk input { display: none; }\n.d-box {\n  width: 16px;\n  height: 16px;\n  background: #08121a;\n  border: 1px solid #06b6d4;\n  transform: rotate(45deg);\n  transition: all 0.2s ease;\n}\n.diamond-chk input:checked + .d-box {\n  background: #06b6d4;\n  box-shadow: 0 0 12px #06b6d4;\n}",
+    "description": "Rotated 45-degree diamond checkbox with cyan neon glow.",
+    "tags": [
+      "diamond",
+      "checkbox",
+      "cyan",
+      "cyberpunk",
+      "geometry"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 40,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "compact-inline-switch-checkbox",
+    "name": "Compact Inline Switch Checkbox",
+    "category": "checkboxes",
+    "styleType": "css",
+    "html": "<label class=\"inline-switch\">\n  <input type=\"checkbox\" checked />\n  <span class=\"is-track\"><span class=\"is-thumb\"></span></span>\n  <span>Public Profile</span>\n</label>",
+    "css": ".inline-switch {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-size: 13px;\n  font-weight: 500;\n  color: #1e293b;\n  cursor: pointer;\n}\n.inline-switch input { display: none; }\n.is-track {\n  width: 36px;\n  height: 20px;\n  background: #cbd5e1;\n  border-radius: 9999px;\n  padding: 2px;\n  display: flex;\n  align-items: center;\n  transition: background 0.3s;\n}\n.is-thumb {\n  width: 16px;\n  height: 16px;\n  background: #fff;\n  border-radius: 50%;\n  box-shadow: 0 2px 4px rgba(0,0,0,0.15);\n  transition: transform 0.3s;\n}\n.inline-switch input:checked + .is-track { background: #7c3aed; }\n.inline-switch input:checked + .is-track .is-thumb { transform: translateX(16px); }",
+    "description": "Micro switch toggle formatted as an inline form checkbox.",
+    "tags": [
+      "inline",
+      "switch",
+      "checkbox",
+      "toggle",
+      "form"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 15,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "glassmorphic-expandable-accordion",
+    "name": "Glassmorphic Expandable Accordion",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"glass-acc\">\n  <div class=\"acc-header\">\n    <span>Is FluxOra 100% Free & Open Source?</span>\n    <span class=\"acc-icon\">+</span>\n  </div>\n  <div class=\"acc-body\">\n    Yes! Browsing, copying HTML, CSS, Tailwind, and React code is completely free forever with no account needed.\n  </div>\n</div>",
+    "css": ".glass-acc {\n  width: 260px;\n  border-radius: 14px;\n  background: #ffffff;\n  border: 1px solid rgba(0,0,0,0.08);\n  box-shadow: 0 4px 16px rgba(0,0,0,0.04);\n  overflow: hidden;\n}\n.acc-header {\n  padding: 12px 14px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  font-size: 12px;\n  font-weight: 600;\n  color: #111;\n  cursor: pointer;\n}\n.acc-icon {\n  font-size: 16px;\n  color: #7c3aed;\n  font-weight: bold;\n}\n.acc-body {\n  padding: 0 14px 12px;\n  font-size: 11px;\n  color: #64748b;\n  line-height: 1.5;\n}",
+    "description": "Smooth expanding FAQ accordion panel with rotating arrow icon and frosted glass blur.",
+    "tags": [
+      "accordion",
+      "faq",
+      "collapse",
+      "glassmorphism",
+      "widget"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 20,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "cyberpunk-mini-audio-player",
+    "name": "Cyberpunk Mini Audio Player",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"cyber-player\">\n  <div class=\"p-info\">\n    <div class=\"p-title\">SYNTH_WAVE_01.MP3</div>\n    <div class=\"p-bars\">\n      <span></span><span></span><span></span><span></span>\n    </div>\n  </div>\n  <div class=\"p-controls\">\n    <button class=\"p-play\">▶</button>\n  </div>\n</div>",
+    "css": ".cyber-player {\n  width: 220px;\n  padding: 12px 16px;\n  background: #0a0a10;\n  border: 1px solid #ff007f;\n  border-radius: 8px;\n  box-shadow: 0 0 15px rgba(255, 0, 127, 0.2);\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  font-family: monospace;\n}\n.p-title { font-size: 10px; color: #ff007f; font-weight: bold; }\n.p-bars { display: flex; gap: 3px; margin-top: 4px; height: 10px; align-items: flex-end; }\n.p-bars span { width: 3px; background: #00ffcc; height: 100%; animation: bar-dance 0.8s ease infinite alternate; }\n.p-bars span:nth-child(2) { animation-delay: 0.2s; }\n.p-bars span:nth-child(3) { animation-delay: 0.4s; }\n.p-bars span:nth-child(4) { animation-delay: 0.1s; }\n.p-play {\n  width: 28px;\n  height: 28px;\n  border-radius: 50%;\n  background: #ff007f;\n  border: none;\n  color: #fff;\n  font-size: 11px;\n  cursor: pointer;\n  box-shadow: 0 0 8px #ff007f;\n}\n@keyframes bar-dance {\n  0% { height: 2px; }\n  100% { height: 10px; }\n}",
+    "description": "Compact retro cassette synthwave music player with animated audio equalizer visualizer.",
+    "tags": [
+      "audio",
+      "player",
+      "music",
+      "cyberpunk",
+      "synthwave"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 39,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "floating-speed-dial-action-button",
+    "name": "Floating Speed Dial Action Button",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"fab-group\">\n  <button class=\"fab-mini\">📷</button>\n  <button class=\"fab-mini\">📝</button>\n  <button class=\"fab-main\">➕</button>\n</div>",
+    "css": ".fab-group {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 8px;\n}\n.fab-mini {\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: #ffffff;\n  border: 1px solid #cbd5e1;\n  box-shadow: 0 4px 10px rgba(0,0,0,0.1);\n  font-size: 14px;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.fab-mini:hover { transform: scale(1.15); background: #f1f5f9; }\n.fab-main {\n  width: 44px;\n  height: 44px;\n  border-radius: 50%;\n  background: linear-gradient(135deg, #7c3aed, #ec4899);\n  border: none;\n  color: #fff;\n  font-size: 18px;\n  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.4);\n  cursor: pointer;\n  transition: transform 0.2s ease;\n}\n.fab-main:hover { transform: rotate(45deg); }",
+    "description": "Circular floating action button with popup satellite mini action buttons.",
+    "tags": [
+      "fab",
+      "floating",
+      "button",
+      "speeddial",
+      "action"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 41,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "neon-glowing-range-slider",
+    "name": "Neon Glowing Range Slider",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"glow-range-box\">\n  <div class=\"r-labels\"><span>Volume</span><span>78%</span></div>\n  <input type=\"range\" min=\"0\" max=\"100\" value=\"78\" class=\"neon-slider\" />\n</div>",
+    "css": ".glow-range-box {\n  width: 200px;\n}\n.r-labels {\n  display: flex;\n  justify-content: space-between;\n  font-size: 11px;\n  font-weight: 600;\n  color: #475569;\n  margin-bottom: 6px;\n}\n.neon-slider {\n  width: 100%;\n  accent-color: #7c3aed;\n  cursor: pointer;\n}",
+    "description": "Smooth slider bar with electric purple track and illuminated round handle.",
+    "tags": [
+      "slider",
+      "range",
+      "controls",
+      "input",
+      "glow"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 19,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "circular-donut-progress-ring",
+    "name": "Circular Donut Progress Ring",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"donut-box\">\n  <svg class=\"donut-svg\" viewBox=\"0 0 36 36\">\n    <path class=\"d-bg\" d=\"M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831\" />\n    <path class=\"d-fill\" stroke-dasharray=\"85, 100\" d=\"M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831\" />\n  </svg>\n  <span class=\"d-txt\">85%</span>\n</div>",
+    "css": ".donut-box {\n  position: relative;\n  width: 65px;\n  height: 65px;\n}\n.donut-svg {\n  width: 100%;\n  height: 100%;\n  transform: rotate(-90deg);\n}\n.d-bg { fill: none; stroke: #e2e8f0; stroke-width: 3.5; }\n.d-fill { fill: none; stroke: #7c3aed; stroke-width: 3.5; stroke-linecap: round; }\n.d-txt {\n  position: absolute;\n  inset: 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 12px;\n  font-weight: 800;\n  color: #111;\n}",
+    "description": "Circular SVG completion indicator with percentage label in center.",
+    "tags": [
+      "donut",
+      "progress",
+      "circle",
+      "chart",
+      "kpi"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 47,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "overlapping-creator-avatar-stack",
+    "name": "Overlapping Creator Avatar Stack",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"avatar-stack\">\n  <div class=\"av a1\">👨‍💻</div>\n  <div class=\"av a2\">👩‍🎨</div>\n  <div class=\"av a3\">🚀</div>\n  <div class=\"av-more\">+82</div>\n</div>",
+    "css": ".avatar-stack {\n  display: flex;\n  align-items: center;\n}\n.av {\n  width: 34px;\n  height: 34px;\n  border-radius: 50%;\n  background: #f1f5f9;\n  border: 2px solid #ffffff;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 16px;\n  margin-left: -8px;\n  box-shadow: 0 2px 6px rgba(0,0,0,0.08);\n}\n.av:first-child { margin-left: 0; }\n.av-more {\n  width: 34px;\n  height: 34px;\n  border-radius: 50%;\n  background: #0f172a;\n  color: #fff;\n  border: 2px solid #ffffff;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 10px;\n  font-weight: bold;\n  margin-left: -8px;\n}",
+    "description": "Overlapping avatar pile with live green operational status badge.",
+    "tags": [
+      "avatar",
+      "creators",
+      "stack",
+      "social",
+      "team"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 18,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "glassmorphism-notification-toast",
+    "name": "Glassmorphism Notification Toast",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"glass-toast\">\n  <span class=\"t-icon\">🎉</span>\n  <div class=\"t-msg\">\n    <div class=\"t-title\">Component Published!</div>\n    <div class=\"t-sub\">Live in FluxOra registry</div>\n  </div>\n</div>",
+    "css": ".glass-toast {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  padding: 10px 16px;\n  background: rgba(255, 255, 255, 0.9);\n  backdrop-filter: blur(12px);\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 14px;\n  box-shadow: 0 10px 30px rgba(0,0,0,0.08);\n}\n.t-icon { font-size: 20px; }\n.t-title { font-size: 12px; font-weight: 700; color: #0f172a; }\n.t-sub { font-size: 10px; color: #64748b; }",
+    "description": "Floating alert notification banner with action button and frosted glass shine.",
+    "tags": [
+      "toast",
+      "alert",
+      "notification",
+      "banner",
+      "glassmorphism"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 17,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "interactive-5-star-rating-bar",
+    "name": "Interactive 5-Star Rating Bar",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"stars-bar\">\n  <span class=\"star lit\">★</span>\n  <span class=\"star lit\">★</span>\n  <span class=\"star lit\">★</span>\n  <span class=\"star lit\">★</span>\n  <span class=\"star lit\">★</span>\n</div>",
+    "css": ".stars-bar {\n  display: inline-flex;\n  gap: 4px;\n  padding: 6px 12px;\n  background: #ffffff;\n  border: 1px solid #e2e8f0;\n  border-radius: 9999px;\n  box-shadow: 0 2px 8px rgba(0,0,0,0.03);\n}\n.star {\n  font-size: 18px;\n  color: #cbd5e1;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.star.lit {\n  color: #f59e0b;\n  text-shadow: 0 0 6px rgba(245, 158, 11, 0.4);\n}\n.star:hover {\n  transform: scale(1.3);\n}",
+    "description": "Interactive golden rating stars with glowing hover highlight.",
+    "tags": [
+      "rating",
+      "stars",
+      "review",
+      "feedback",
+      "gold"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 45,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "metric-kpi-sparkline-stat-card",
+    "name": "Metric KPI Sparkline Stat Card",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"metric-card\">\n  <div class=\"m-head\">\n    <span>TOTAL CLICKS</span>\n    <span class=\"m-badge\">+24.8%</span>\n  </div>\n  <div class=\"m-val\">42.8K</div>\n  <div class=\"m-wave\">~~~~~~~</div>\n</div>",
+    "css": ".metric-card {\n  width: 170px;\n  padding: 14px;\n  background: #ffffff;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 14px;\n  box-shadow: 0 4px 12px rgba(0,0,0,0.03);\n}\n.m-head { display: flex; justify-content: space-between; font-size: 9px; font-weight: 700; color: #64748b; }\n.m-badge { color: #10b981; font-weight: 800; }\n.m-val { font-size: 20px; font-weight: 800; color: #0f172a; margin-top: 4px; }\n.m-wave { font-size: 12px; color: #8b5cf6; font-weight: bold; letter-spacing: 2px; }",
+    "description": "Compact metric KPI card with glowing trend percentage and mini wave graph.",
+    "tags": [
+      "metric",
+      "kpi",
+      "chart",
+      "sparkline",
+      "stat"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 29,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "selectable-tag-cloud-chips",
+    "name": "Selectable Tag Cloud Chips",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"tag-cloud\">\n  <span class=\"tag-chip on\">🔥 Popular ×</span>\n  <span class=\"tag-chip\">⚡ Fast</span>\n  <span class=\"tag-chip\">💎 3D</span>\n</div>",
+    "css": ".tag-cloud {\n  display: flex;\n  gap: 6px;\n}\n.tag-chip {\n  padding: 6px 12px;\n  background: #f1f5f9;\n  border: 1px solid #cbd5e1;\n  border-radius: 9999px;\n  font-size: 11px;\n  font-weight: 600;\n  color: #475569;\n  cursor: pointer;\n  transition: all 0.2s;\n}\n.tag-chip.on {\n  background: #7c3aed;\n  color: #fff;\n  border-color: #6d28d9;\n  box-shadow: 0 2px 8px rgba(124, 58, 237, 0.3);\n}",
+    "description": "Interactive filter tags with dismissible close icon and active pill states.",
+    "tags": [
+      "tags",
+      "chips",
+      "filter",
+      "pills",
+      "badge"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 42,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "3d-flip-countdown-timer",
+    "name": "3D Flip Countdown Timer",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"flip-clock\">\n  <div class=\"f-unit\"><div class=\"f-num\">04</div><div class=\"f-lbl\">HRS</div></div>\n  <div class=\"f-unit\"><div class=\"f-num\">28</div><div class=\"f-lbl\">MIN</div></div>\n  <div class=\"f-unit\"><div class=\"f-num\">56</div><div class=\"f-lbl\">SEC</div></div>\n</div>",
+    "css": ".flip-clock {\n  display: flex;\n  gap: 8px;\n}\n.f-unit { text-align: center; }\n.f-num {\n  width: 38px;\n  height: 40px;\n  background: #111827;\n  color: #fff;\n  border-radius: 8px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 16px;\n  font-weight: 800;\n  font-family: monospace;\n  box-shadow: 0 4px 10px rgba(0,0,0,0.2);\n}\n.f-lbl { font-size: 8px; font-weight: bold; color: #94a3b8; margin-top: 4px; }",
+    "description": "Split-flap 3D countdown clock block with vintage mechanical numbers.",
+    "tags": [
+      "countdown",
+      "timer",
+      "clock",
+      "flip",
+      "3d"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 17,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "1-click-copy-terminal-snippet",
+    "name": "1-Click Copy Terminal Snippet",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"cli-box\">\n  <code>npm i @fluxora/ui</code>\n  <button class=\"cli-copy\">📋</button>\n</div>",
+    "css": ".cli-box {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  padding: 8px 14px;\n  background: #0f172a;\n  border-radius: 10px;\n  color: #38bdf8;\n  font-family: monospace;\n  font-size: 11px;\n}\n.cli-copy {\n  background: rgba(255,255,255,0.1);\n  border: none;\n  color: #fff;\n  border-radius: 6px;\n  padding: 4px 6px;\n  font-size: 11px;\n  cursor: pointer;\n}\n.cli-copy:hover { background: rgba(255,255,255,0.2); }",
+    "description": "Compact code pill with copy button and terminal monospace syntax.",
+    "tags": [
+      "code",
+      "copy",
+      "snippet",
+      "terminal",
+      "cli"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 36,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "skeleton-shimmer-card-placeholder",
+    "name": "Skeleton Shimmer Card Placeholder",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"skel-box\">\n  <div class=\"skel-head\"></div>\n  <div class=\"skel-line\"></div>\n  <div class=\"skel-line short\"></div>\n</div>",
+    "css": ".skel-box {\n  width: 180px;\n  padding: 14px;\n  background: #ffffff;\n  border: 1px solid #e2e8f0;\n  border-radius: 12px;\n}\n.skel-head {\n  width: 36px;\n  height: 36px;\n  border-radius: 8px;\n  background: #f1f5f9;\n  margin-bottom: 10px;\n  animation: skel-pulse 1.5s infinite;\n}\n.skel-line {\n  height: 10px;\n  background: #f1f5f9;\n  border-radius: 4px;\n  margin-bottom: 6px;\n  animation: skel-pulse 1.5s infinite;\n}\n.skel-line.short { width: 60%; }\n@keyframes skel-pulse {\n  0%, 100% { opacity: 0.6; }\n  50% { opacity: 1; background: #e2e8f0; }\n}",
+    "description": "Fluid diagonal wave placeholder shimmer card for content loading states.",
+    "tags": [
+      "skeleton",
+      "loader",
+      "shimmer",
+      "placeholder",
+      "card"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 27,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "interactive-color-palette-swatches",
+    "name": "Interactive Color Palette Swatches",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"swatch-group\">\n  <div class=\"swatch s-pur active\"></div>\n  <div class=\"swatch s-cya\"></div>\n  <div class=\"swatch s-pin\"></div>\n  <div class=\"swatch s-amb\"></div>\n</div>",
+    "css": ".swatch-group {\n  display: inline-flex;\n  gap: 8px;\n  padding: 8px 12px;\n  background: #ffffff;\n  border: 1px solid #e2e8f0;\n  border-radius: 9999px;\n}\n.swatch {\n  width: 22px;\n  height: 22px;\n  border-radius: 50%;\n  cursor: pointer;\n  transition: transform 0.2s ease;\n}\n.s-pur { background: #7c3aed; }\n.s-cya { background: #06b6d4; }\n.s-pin { background: #ec4899; }\n.s-amb { background: #f59e0b; }\n.swatch:hover { transform: scale(1.2); }\n.swatch.active { box-shadow: 0 0 0 3px #ffffff, 0 0 0 5px #7c3aed; }",
+    "description": "Selectable circular color palette chips with active highlight ring.",
+    "tags": [
+      "color",
+      "palette",
+      "swatch",
+      "picker",
+      "theme"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 19,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "milestone-step-progress-bar",
+    "name": "Milestone Step Progress Bar",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"mile-bar\">\n  <div class=\"m-step done\">✓</div>\n  <div class=\"m-track full\"></div>\n  <div class=\"m-step act\">2</div>\n  <div class=\"m-track\"></div>\n  <div class=\"m-step\">3</div>\n</div>",
+    "css": ".mile-bar {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n}\n.m-step {\n  width: 24px;\n  height: 24px;\n  border-radius: 50%;\n  background: #e2e8f0;\n  color: #64748b;\n  font-size: 11px;\n  font-weight: bold;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.m-step.done { background: #10b981; color: #fff; }\n.m-step.act { background: #7c3aed; color: #fff; box-shadow: 0 0 8px #7c3aed; }\n.m-track { width: 30px; height: 3px; background: #e2e8f0; border-radius: 2px; }\n.m-track.full { background: #10b981; }",
+    "description": "Multi-stage linear progress milestone bar with connected status indicators.",
+    "tags": [
+      "milestone",
+      "stepper",
+      "progress",
+      "steps",
+      "bar"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 41,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "holographic-map-pin-beacon",
+    "name": "Holographic Map Pin Beacon",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"pin-scene\">\n  <div class=\"pin-head\">📍</div>\n  <div class=\"pin-ring\"></div>\n</div>",
+    "css": ".pin-scene {\n  position: relative;\n  width: 50px;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.pin-head { font-size: 24px; z-index: 2; transform: translateY(-6px); }\n.pin-ring {\n  position: absolute;\n  bottom: 6px;\n  width: 24px;\n  height: 12px;\n  border-radius: 50%;\n  border: 2px solid #7c3aed;\n  animation: pin-pulse 1.5s infinite;\n}\n@keyframes pin-pulse {\n  0% { transform: scale(0.6); opacity: 1; }\n  100% { transform: scale(1.8); opacity: 0; }\n}",
+    "description": "Pulsing sci-fi holographic location marker with expanding radar rings.",
+    "tags": [
+      "map",
+      "pin",
+      "beacon",
+      "location",
+      "radar"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 16,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "glassmorphic-dialog-modal-box",
+    "name": "Glassmorphic Dialog Modal Box",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"glass-modal\">\n  <div class=\"m-title\">Confirm Action</div>\n  <div class=\"m-desc\">Deploy changes to the live FluxOra catalog?</div>\n  <div class=\"m-actions\">\n    <button class=\"m-btn cancel\">Cancel</button>\n    <button class=\"m-btn conf\">Confirm</button>\n  </div>\n</div>",
+    "css": ".glass-modal {\n  width: 230px;\n  padding: 16px;\n  background: rgba(255, 255, 255, 0.95);\n  backdrop-filter: blur(12px);\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 16px;\n  box-shadow: 0 12px 30px rgba(0,0,0,0.1);\n}\n.m-title { font-size: 13px; font-weight: 700; color: #111; }\n.m-desc { font-size: 11px; color: #64748b; margin: 6px 0 14px; line-height: 1.4; }\n.m-actions { display: flex; gap: 8px; }\n.m-btn {\n  flex: 1;\n  padding: 6px;\n  border-radius: 8px;\n  font-size: 11px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.m-btn.cancel { background: #f1f5f9; border: 1px solid #e2e8f0; color: #475569; }\n.m-btn.conf { background: #111; border: none; color: #fff; }",
+    "description": "Pop-up alert modal window with frosted blur and confirmation buttons.",
+    "tags": [
+      "modal",
+      "dialog",
+      "popup",
+      "glassmorphism",
+      "card"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 41,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "operational-status-radar-pill",
+    "name": "Operational Status Radar Pill",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"status-pill\">\n  <span class=\"st-dot\"></span>\n  <span>99.99% Uptime</span>\n</div>",
+    "css": ".status-pill {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 14px;\n  background: #064e3b;\n  border: 1px solid #059669;\n  border-radius: 9999px;\n  color: #6ee7b7;\n  font-size: 11px;\n  font-weight: 700;\n  font-family: monospace;\n}\n.st-dot {\n  width: 6px;\n  height: 6px;\n  border-radius: 50%;\n  background: #34d399;\n  box-shadow: 0 0 8px #34d399;\n  animation: dot-ping 1.4s infinite;\n}\n@keyframes dot-ping {\n  0%, 100% { opacity: 0.4; }\n  50% { opacity: 1; }\n}",
+    "description": "Glowing green operational status badge with pulsing ping dot.",
+    "tags": [
+      "badge",
+      "status",
+      "radar",
+      "pill",
+      "beacon"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 29,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "retro-crt-monitor-scanlines",
+    "name": "Retro CRT Monitor Scanlines",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"crt-box\">\n  <div class=\"crt-line\">SYS_CHECK: READY</div>\n  <div class=\"crt-line\">FLUXORA_CORE: ACTIVE</div>\n</div>",
+    "css": ".crt-box {\n  width: 220px;\n  padding: 14px;\n  background: #031408;\n  border: 2px solid #00ff66;\n  border-radius: 8px;\n  font-family: monospace;\n  font-size: 11px;\n  color: #00ff66;\n  text-shadow: 0 0 8px #00ff66;\n  box-shadow: 0 0 15px rgba(0, 255, 102, 0.2);\n}\n.crt-line { margin-bottom: 4px; }",
+    "description": "Vintage 80s arcade monitor screen with animated scanlines and green phosphor text.",
+    "tags": [
+      "crt",
+      "retro",
+      "scanlines",
+      "monitor",
+      "vintage"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 43,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "floating-select-dropdown-menu",
+    "name": "Floating Select Dropdown Menu",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"sel-drop\">\n  <div class=\"sel-item on\">✓ Pure CSS Elements</div>\n  <div class=\"sel-item\">Tailwind Classes</div>\n  <div class=\"sel-item\">React Snippets</div>\n</div>",
+    "css": ".sel-drop {\n  width: 180px;\n  padding: 6px;\n  background: #ffffff;\n  border: 1px solid #e2e8f0;\n  border-radius: 12px;\n  box-shadow: 0 8px 24px rgba(0,0,0,0.06);\n  display: flex;\n  flex-direction: column;\n  gap: 2px;\n}\n.sel-item {\n  padding: 6px 10px;\n  font-size: 11px;\n  font-weight: 500;\n  color: #475569;\n  border-radius: 6px;\n  cursor: pointer;\n  transition: all 0.15s;\n}\n.sel-item:hover { background: #f8fafc; color: #111; }\n.sel-item.on { background: #f3e8ff; color: #7c3aed; font-weight: 700; }",
+    "description": "Selectable dropdown list with active checks and frosted backdrop.",
+    "tags": [
+      "dropdown",
+      "select",
+      "popover",
+      "menu",
+      "options"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 18,
+    "createdAt": "2026-08-31T12:18:48.960Z",
+    "updatedAt": "2026-08-31T12:18:48.960Z"
   }
 ]
