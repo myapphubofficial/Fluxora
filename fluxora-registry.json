@@ -1,5 +1,26 @@
 [
   {
+    "id": "cards-card1",
+    "slug": "card1",
+    "name": "Card1",
+    "category": "cards",
+    "styleType": "tailwind",
+    "html": "<div\n  class=\"group relative w-80 overflow-hidden rounded-2xl bg-neutral-950 p-6 font-sans shadow-2xl\"\n>\n  <div\n    class=\"absolute -top-1/2 left-1/2 h-64 w-64 -translate-x-1/2 rounded-full bg-lime-500/10 blur-3xl transition-all duration-700 group-hover:bg-lime-500/15\"\n  ></div>\n\n  <div class=\"relative flex flex-col gap-5\">\n    <div\n      class=\"flex items-start justify-between border-b border-neutral-800 pb-5\"\n    >\n      <div class=\"flex items-center gap-3\">\n        <div\n          class=\"flex h-9 w-9 items-center justify-center rounded-lg bg-lime-400/10\"\n        >\n          <svg\n            xmlns=\"http://www.w3.org/2000/svg\"\n            class=\"h-5 w-5 text-lime-400\"\n            viewBox=\"0 0 24 24\"\n            stroke-width=\"1.5\"\n            stroke=\"currentColor\"\n            fill=\"none\"\n            stroke-linecap=\"round\"\n            stroke-linejoin=\"round\"\n          >\n            <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n            <path\n              d=\"M3 12m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z\"\n            ></path>\n            <path\n              d=\"M9 8m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z\"\n            ></path>\n            <path\n              d=\"M15 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z\"\n            ></path>\n            <path d=\"M4 20l14 0\"></path>\n          </svg>\n        </div>\n        <div>\n          <p class=\"font-semibold text-neutral-200\">Monthly Balance</p>\n          <p class=\"text-xs text-neutral-500\">Updated just now</p>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"flex divide-x divide-neutral-800\">\n      <div class=\"flex-1 pr-6\">\n        <p class=\"text-xs font-medium text-neutral-500\">Revenue</p>\n        <p class=\"text-xl font-semibold text-neutral-100\">$51,274</p>\n        <p class=\"mt-1 text-xs font-medium text-lime-400\">+8.5%</p>\n      </div>\n      <div class=\"flex-1 pl-6\">\n        <p class=\"text-xs font-medium text-neutral-500\">Costs</p>\n        <p class=\"text-xl font-semibold text-neutral-100\">$12,818</p>\n        <p class=\"mt-1 text-xs font-medium text-red-400\">+2.1%</p>\n      </div>\n    </div>\n\n    <div class=\"relative h-24 w-full\">\n      <svg\n        class=\"h-full w-full\"\n        viewBox=\"0 0 300 100\"\n        preserveAspectRatio=\"none\"\n      >\n        <defs>\n          <linearGradient id=\"aurora-gradient-v2\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n            <stop offset=\"0%\" stop-color=\"#a3e635\" stop-opacity=\"0.2\"></stop>\n            <stop offset=\"100%\" stop-color=\"#a3e635\" stop-opacity=\"0\"></stop>\n          </linearGradient>\n        </defs>\n        <path\n          d=\"M0,65 C50,20 80,80 150,70 S250,50 300,85\"\n          fill=\"none\"\n          stroke=\"#a3e635\"\n          stroke-width=\"2\"\n        ></path>\n        <path\n          d=\"M0,100 L0,65 C50,20 80,80 150,70 S250,50 300,85 L300,100 Z\"\n          fill=\"url(#aurora-gradient-v2)\"\n        ></path>\n      </svg>\n      <div class=\"absolute right-[-1px] top-[81px]\">\n        <div\n          class=\"absolute h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full bg-lime-400 shadow-lg shadow-lime-400/50\"\n        ></div>\n        <div\n          class=\"animate-pulse-strong absolute h-full w-full rounded-full bg-lime-400/25\"\n        ></div>\n      </div>\n    </div>\n\n    <div class=\"border-t border-neutral-800 pt-5\">\n      <button\n        class=\"w-full rounded-lg border border-lime-400/50 bg-transparent px-4 py-2 text-sm font-medium text-lime-400 transition-colors duration-300 hover:bg-lime-400 hover:text-neutral-950\"\n      >\n        View Full Report\n      </button>\n    </div>\n  </div>\n</div>\n",
+    "css": "",
+    "description": "",
+    "tags": [],
+    "author": {
+      "uid": "lqWIK0bfCKME14JHk2kf6BFnZyl1",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com",
+      "photoURL": ""
+    },
+    "createdAt": "2026-08-31T11:59:56.716Z",
+    "githubPath": "components/cards/card1",
+    "likesCount": 0,
+    "viewsCount": 0
+  },
+  {
     "id": "buttons-share-button",
     "slug": "share-button",
     "name": "Share Button",
