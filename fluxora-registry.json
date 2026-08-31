@@ -3208,5 +3208,1445 @@
     "likesCount": 18,
     "createdAt": "2026-08-31T12:18:48.960Z",
     "updatedAt": "2026-08-31T12:18:48.960Z"
+  },
+  {
+    "id": "cyber-matrix-battery-gauge",
+    "name": "Cyber Matrix Battery Gauge",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"cyber-batt\">\n  <div class=\"batt-head\">PWR_CELL_01</div>\n  <div class=\"batt-body\">\n    <div class=\"b-seg on\"></div>\n    <div class=\"b-seg on\"></div>\n    <div class=\"b-seg on\"></div>\n    <div class=\"b-seg on\"></div>\n    <div class=\"b-seg\"></div>\n  </div>\n  <div class=\"batt-val\">80% CHARGED</div>\n</div>",
+    "css": ".cyber-batt {\n  width: 170px;\n  padding: 12px;\n  background: #080a10;\n  border: 1px solid #00ffcc;\n  border-radius: 8px;\n  font-family: monospace;\n  box-shadow: 0 0 15px rgba(0, 255, 204, 0.15);\n}\n.batt-head { font-size: 9px; color: #ff007f; font-weight: bold; }\n.batt-body { display: flex; gap: 4px; margin: 8px 0; }\n.b-seg { flex: 1; height: 16px; background: rgba(0, 255, 204, 0.1); border-radius: 2px; }\n.b-seg.on { background: #00ffcc; box-shadow: 0 0 8px #00ffcc; }\n.batt-val { font-size: 10px; color: #00ffcc; text-align: right; }",
+    "description": "Futuristic sci-fi energy cell with segmented power bars and charge percentage display.",
+    "tags": [
+      "battery",
+      "cyberpunk",
+      "gauge",
+      "power",
+      "scifi"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 19,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "holographic-compass-reticle",
+    "name": "Holographic Compass Reticle",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"holo-comp\">\n  <div class=\"comp-ring\">\n    <div class=\"comp-needle\"></div>\n  </div>\n  <span class=\"comp-deg\">042° NNE</span>\n</div>",
+    "css": ".holo-comp {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 6px;\n  font-family: monospace;\n}\n.comp-ring {\n  width: 60px;\n  height: 60px;\n  border-radius: 50%;\n  border: 2px dashed #00ffcc;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);\n  animation: comp-spin 12s linear infinite;\n}\n.comp-needle {\n  width: 4px;\n  height: 36px;\n  background: linear-gradient(to top, #ff007f 50%, #00ffcc 50%);\n  border-radius: 2px;\n}\n.comp-deg { font-size: 10px; color: #00ffcc; font-weight: bold; }\n@keyframes comp-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }",
+    "description": "3D tactical navigation compass dial with active degree marks and targeting reticle.",
+    "tags": [
+      "compass",
+      "hud",
+      "tactical",
+      "navigation",
+      "scifi"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 20,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "cyber-signal-strength-meter",
+    "name": "Cyber Signal Strength Meter",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"sig-meter\">\n  <div class=\"sig-bars\">\n    <span class=\"s1 on\"></span>\n    <span class=\"s2 on\"></span>\n    <span class=\"s3 on\"></span>\n    <span class=\"s4 on\"></span>\n    <span class=\"s5\"></span>\n  </div>\n  <span class=\"sig-txt\">5G // -64 dBm</span>\n</div>",
+    "css": ".sig-meter {\n  display: inline-flex;\n  align-items: flex-end;\n  gap: 8px;\n  padding: 8px 14px;\n  background: #090a12;\n  border: 1px solid #7c3aed;\n  border-radius: 8px;\n  font-family: monospace;\n}\n.sig-bars { display: flex; align-items: flex-end; gap: 3px; height: 20px; }\n.sig-bars span { width: 4px; background: rgba(124, 58, 237, 0.2); border-radius: 1px; }\n.s1 { height: 4px; } .s2 { height: 8px; } .s3 { height: 12px; } .s4 { height: 16px; } .s5 { height: 20px; }\n.sig-bars span.on { background: #00ffcc; box-shadow: 0 0 8px #00ffcc; }\n.sig-txt { font-size: 10px; color: #00ffcc; font-weight: bold; }",
+    "description": "5-tier high frequency RF signal bars with pulsating cyan neon status light.",
+    "tags": [
+      "signal",
+      "wifi",
+      "cyberpunk",
+      "meter",
+      "scifi"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 44,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "biometric-laser-fingerprint-scan",
+    "name": "Biometric Laser Fingerprint Scan",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"bio-scan\">\n  <div class=\"bio-icon\">🖃</div>\n  <div class=\"bio-laser\"></div>\n</div>",
+    "css": ".bio-scan {\n  position: relative;\n  width: 60px;\n  height: 60px;\n  border-radius: 14px;\n  background: #05050a;\n  border: 2px solid #00ffcc;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n  box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);\n}\n.bio-icon { font-size: 32px; color: #00ffcc; opacity: 0.8; }\n.bio-laser {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  height: 3px;\n  background: #ff007f;\n  box-shadow: 0 0 10px #ff007f;\n  animation: laser-sweep 2s ease-in-out infinite alternate;\n}\n@keyframes laser-sweep { 0% { top: 0; } 100% { top: 57px; } }",
+    "description": "Sci-fi biometric scanner with animated laser bar scanning over a digital thumbprint.",
+    "tags": [
+      "biometric",
+      "scanner",
+      "laser",
+      "security",
+      "fingerprint"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 29,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "quantum-core-temperature-gauge",
+    "name": "Quantum Core Temperature Gauge",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"temp-gauge\">\n  <div class=\"temp-ring\">\n    <div class=\"temp-val\">48°C</div>\n  </div>\n  <span class=\"temp-lbl\">CORE_TEMP // NORMAL</span>\n</div>",
+    "css": ".temp-gauge {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 6px;\n  font-family: monospace;\n}\n.temp-ring {\n  width: 58px;\n  height: 58px;\n  border-radius: 50%;\n  border: 3px solid #7c3aed;\n  border-top-color: #00ffcc;\n  border-right-color: #00ffcc;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: #080812;\n  box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);\n}\n.temp-val { font-size: 11px; font-weight: bold; color: #00ffcc; }\n.temp-lbl { font-size: 9px; color: #8892b0; }",
+    "description": "Circular radial gauge monitoring CPU and core temperature with glowing red plasma warning.",
+    "tags": [
+      "temperature",
+      "gauge",
+      "cpu",
+      "monitor",
+      "meter"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 30,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "neural-network-synapse-orb",
+    "name": "Neural Network Synapse Orb",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"synapse-orb\">\n  <div class=\"orb-ring r1\"></div>\n  <div class=\"orb-ring r2\"></div>\n  <div class=\"orb-core\"></div>\n</div>",
+    "css": ".synapse-orb {\n  position: relative;\n  width: 60px;\n  height: 60px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.orb-ring {\n  position: absolute;\n  border-radius: 50%;\n  border: 1px solid #a855f7;\n  animation: orb-pulse 2s infinite ease-out;\n}\n.r1 { width: 45px; height: 45px; animation-delay: 0.5s; }\n.r2 { width: 60px; height: 60px; animation-delay: 1s; }\n.orb-core {\n  width: 22px;\n  height: 22px;\n  border-radius: 50%;\n  background: radial-gradient(circle, #c084fc, #7c3aed);\n  box-shadow: 0 0 15px #a855f7;\n}\n@keyframes orb-pulse {\n  0% { transform: scale(0.6); opacity: 1; }\n  100% { transform: scale(1.3); opacity: 0; }\n}",
+    "description": "Pulsing AI neural core with radiating energy aura and multi-layered glow rings.",
+    "tags": [
+      "neural",
+      "ai",
+      "orb",
+      "synapse",
+      "core"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 41,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "tactical-target-lock-reticle",
+    "name": "Tactical Target Lock Reticle",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"lock-box\">\n  <div class=\"lb-c c-tl\"></div>\n  <div class=\"lb-c c-tr\"></div>\n  <div class=\"lb-c c-bl\"></div>\n  <div class=\"lb-c c-br\"></div>\n  <div class=\"lb-dot\"></div>\n</div>",
+    "css": ".lock-box {\n  position: relative;\n  width: 50px;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.lb-c { position: absolute; width: 8px; height: 8px; border-color: #ff007f; }\n.c-tl { top: 0; left: 0; border-top: 2px solid; border-left: 2px solid; }\n.c-tr { top: 0; right: 0; border-top: 2px solid; border-right: 2px solid; }\n.c-bl { bottom: 0; left: 0; border-bottom: 2px solid; border-left: 2px solid; }\n.c-br { bottom: 0; right: 0; border-bottom: 2px solid; border-right: 2px solid; }\n.lb-dot { width: 6px; height: 6px; border-radius: 50%; background: #ff007f; box-shadow: 0 0 8px #ff007f; animation: dot-blink 1s infinite alternate; }\n@keyframes dot-blink { 0% { opacity: 0.3; } 100% { opacity: 1; } }",
+    "description": "Sci-fi lock-on HUD crosshair with animated corner tracking brackets.",
+    "tags": [
+      "crosshair",
+      "hud",
+      "reticle",
+      "target",
+      "scifi"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 28,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "cyber-memory-data-stream",
+    "name": "Cyber Memory Data Stream",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"data-stream\">\n  <span class=\"d-addr\">0x7FFF8A</span>\n  <span class=\"d-val\">FD 02 8A CC</span>\n</div>",
+    "css": ".data-stream {\n  display: inline-flex;\n  gap: 10px;\n  padding: 6px 14px;\n  background: #020d06;\n  border: 1px solid #00ff66;\n  border-radius: 6px;\n  font-family: monospace;\n  font-size: 11px;\n  box-shadow: 0 0 10px rgba(0, 255, 102, 0.15);\n}\n.d-addr { color: #58a6ff; }\n.d-val { color: #00ff66; font-weight: bold; }",
+    "description": "Live memory address debugger pill with green hex code telemetry stream.",
+    "tags": [
+      "hex",
+      "code",
+      "memory",
+      "cyberpunk",
+      "data"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 22,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "glitch-critical-alert-banner",
+    "name": "Glitch Critical Alert Banner",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"glitch-alert\">\n  <span class=\"g-icon\">⚠️</span>\n  <div class=\"g-text\">\n    <div class=\"g-head\">SECURITY_WARNING</div>\n    <div class=\"g-msg\">Unauthorized Port Access Blocked</div>\n  </div>\n</div>",
+    "css": ".glitch-alert {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 8px 16px;\n  background: #180508;\n  border: 1px solid #ef4444;\n  border-radius: 8px;\n  font-family: monospace;\n  box-shadow: 0 0 15px rgba(239, 68, 68, 0.25);\n}\n.g-icon { font-size: 16px; }\n.g-head { font-size: 10px; color: #ef4444; font-weight: bold; }\n.g-msg { font-size: 9px; color: #fca5a5; }",
+    "description": "High-impact cybersecurity critical alert toast with red neon warning pulse.",
+    "tags": [
+      "alert",
+      "glitch",
+      "critical",
+      "warning",
+      "toast"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 30,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "sci-fi-plasma-shield-meter",
+    "name": "Sci-Fi Plasma Shield Meter",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"shield-meter\">\n  <div class=\"sh-head\"><span>DEFENSE_SHIELD</span><span>100%</span></div>\n  <div class=\"sh-track\"><div class=\"sh-fill\"></div></div>\n</div>",
+    "css": ".shield-meter {\n  width: 170px;\n  font-family: monospace;\n}\n.sh-head { display: flex; justify-content: space-between; font-size: 9px; font-weight: bold; color: #38bdf8; margin-bottom: 4px; }\n.sh-track { height: 8px; background: #082f49; border-radius: 9999px; overflow: hidden; border: 1px solid #0284c7; }\n.sh-fill { height: 100%; width: 100%; background: linear-gradient(90deg, #0284c7, #38bdf8); box-shadow: 0 0 10px #38bdf8; }",
+    "description": "Energy shield defense meter with flowing electric blue plasma animation.",
+    "tags": [
+      "shield",
+      "plasma",
+      "defense",
+      "scifi",
+      "energy"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 34,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "frosted-glass-creator-badge",
+    "name": "Frosted Glass Creator Badge",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"glass-prof\">\n  <span class=\"p-dot\"></span>\n  <span class=\"p-name\">Syed Abubakar Siddique</span>\n</div>",
+    "css": ".glass-prof {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 14px;\n  background: rgba(255, 255, 255, 0.85);\n  backdrop-filter: blur(10px);\n  border: 1px solid rgba(0, 0, 0, 0.08);\n  border-radius: 9999px;\n  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);\n}\n.p-dot { width: 6px; height: 6px; border-radius: 50%; background: #10b981; box-shadow: 0 0 6px #10b981; }\n.p-name { font-size: 11px; font-weight: 600; color: #1e293b; }",
+    "description": "Translucent glass user chip with online beacon and author handle.",
+    "tags": [
+      "badge",
+      "creator",
+      "glassmorphism",
+      "profile",
+      "chip"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 40,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "glassmorphic-sound-visualizer",
+    "name": "Glassmorphic Sound Visualizer",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"glass-eq\">\n  <div class=\"eq-bars\">\n    <span></span><span></span><span></span><span></span><span></span>\n  </div>\n  <span class=\"eq-txt\">Audio Synthesizer</span>\n</div>",
+    "css": ".glass-eq {\n  display: inline-flex;\n  align-items: center;\n  gap: 12px;\n  padding: 10px 18px;\n  background: rgba(255, 255, 255, 0.85);\n  backdrop-filter: blur(12px);\n  border: 1px solid rgba(0, 0, 0, 0.08);\n  border-radius: 14px;\n  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);\n}\n.eq-bars { display: flex; align-items: flex-end; gap: 3px; height: 18px; }\n.eq-bars span { width: 3px; background: #7c3aed; border-radius: 2px; height: 100%; animation: eq-bounce 0.8s ease infinite alternate; }\n.eq-bars span:nth-child(2) { animation-delay: 0.15s; }\n.eq-bars span:nth-child(3) { animation-delay: 0.3s; }\n.eq-bars span:nth-child(4) { animation-delay: 0.45s; }\n.eq-bars span:nth-child(5) { animation-delay: 0.2s; }\n.eq-txt { font-size: 11px; font-weight: 600; color: #1e293b; }\n@keyframes eq-bounce { 0% { height: 4px; } 100% { height: 18px; } }",
+    "description": "Frosted glass audio card with rhythmically dancing soundwave bars.",
+    "tags": [
+      "audio",
+      "equalizer",
+      "sound",
+      "glassmorphism",
+      "music"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 39,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "frosted-glass-weather-pill",
+    "name": "Frosted Glass Weather Pill",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"glass-weather\">\n  <span class=\"w-icon\">☀️</span>\n  <span class=\"w-temp\">24°C</span>\n  <span class=\"w-loc\">Tokyo</span>\n</div>",
+    "css": ".glass-weather {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 14px;\n  background: rgba(255, 255, 255, 0.85);\n  backdrop-filter: blur(10px);\n  border: 1px solid rgba(0, 0, 0, 0.08);\n  border-radius: 9999px;\n  box-shadow: 0 4px 12px rgba(0,0,0,0.03);\n}\n.w-icon { font-size: 14px; }\n.w-temp { font-size: 12px; font-weight: 700; color: #0f172a; }\n.w-loc { font-size: 10px; color: #64748b; font-weight: 500; }",
+    "description": "Translucent weather condition pill with temperature and golden sun icon.",
+    "tags": [
+      "weather",
+      "forecast",
+      "glassmorphism",
+      "temperature",
+      "widget"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 22,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "glassmorphism-file-dropzone",
+    "name": "Glassmorphism File Dropzone",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"glass-drop\">\n  <div class=\"d-icon\">☁️</div>\n  <div class=\"d-title\">Drag & Drop Component</div>\n  <div class=\"d-sub\">HTML, CSS, JSON (Max 5MB)</div>\n</div>",
+    "css": ".glass-drop {\n  width: 200px;\n  padding: 16px;\n  background: #faf9f6;\n  border: 2px dashed #cbd5e1;\n  border-radius: 16px;\n  text-align: center;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.glass-drop:hover { border-color: #7c3aed; background: #fdfcfa; transform: translateY(-2px); }\n.d-icon { font-size: 22px; margin-bottom: 6px; }\n.d-title { font-size: 11px; font-weight: 700; color: #1e293b; }\n.d-sub { font-size: 9px; color: #94a3b8; margin-top: 2px; }",
+    "description": "Dotted translucent upload box with animated cloud icon.",
+    "tags": [
+      "upload",
+      "file",
+      "dropzone",
+      "glassmorphism",
+      "input"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 22,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "glassmorphic-precision-stopwatch",
+    "name": "Glassmorphic Precision Stopwatch",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"stopwatch-box\">\n  <div class=\"sw-ring\"><span class=\"sw-time\">00:42.8</span></div>\n</div>",
+    "css": ".stopwatch-box {\n  display: inline-flex;\n}\n.sw-ring {\n  width: 70px;\n  height: 70px;\n  border-radius: 50%;\n  background: rgba(255, 255, 255, 0.9);\n  border: 3px solid #7c3aed;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  box-shadow: 0 4px 15px rgba(124, 58, 237, 0.2);\n}\n.sw-time { font-family: monospace; font-size: 11px; font-weight: bold; color: #0f172a; }",
+    "description": "Circular timekeeper with millisecond counter and glowing purple sweep ring.",
+    "tags": [
+      "stopwatch",
+      "timer",
+      "clock",
+      "time",
+      "glassmorphism"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 27,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "smart-card-gold-emv-chip",
+    "name": "Smart Card Gold EMV Chip",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"emv-chip\">\n  <div class=\"emv-lines\"></div>\n  <span class=\"emv-wave\">)))</span>\n</div>",
+    "css": ".emv-chip {\n  width: 44px;\n  height: 34px;\n  background: linear-gradient(135deg, #fbbf24, #d97706);\n  border-radius: 6px;\n  border: 1px solid #b45309;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: flex-end;\n  padding-right: 6px;\n  box-shadow: inset 0 0 4px rgba(0,0,0,0.2);\n}\n.emv-lines { position: absolute; inset: 4px; border: 1px solid #92400e; border-radius: 3px; }\n.emv-wave { font-size: 10px; font-weight: bold; color: #78350f; }",
+    "description": "Realistic metallic brass smart card EMV chip with contactless payment wave.",
+    "tags": [
+      "emv",
+      "chip",
+      "card",
+      "payment",
+      "gold"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 45,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "liquid-glass-volume-pill",
+    "name": "Liquid Glass Volume Pill",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"vol-pill\">\n  <span class=\"v-ico\">🔈</span>\n  <div class=\"v-bar\"><div class=\"v-fill\"></div></div>\n  <span class=\"v-val\">65%</span>\n</div>",
+    "css": ".vol-pill {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 14px;\n  background: #ffffff;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 9999px;\n  box-shadow: 0 2px 8px rgba(0,0,0,0.04);\n}\n.v-ico { font-size: 12px; }\n.v-bar { width: 70px; height: 6px; background: #e2e8f0; border-radius: 9999px; overflow: hidden; }\n.v-fill { height: 100%; width: 65%; background: #7c3aed; }\n.v-val { font-size: 10px; font-weight: bold; color: #64748b; font-family: monospace; }",
+    "description": "Translucent audio volume slider with level gauge and speaker icon.",
+    "tags": [
+      "volume",
+      "slider",
+      "audio",
+      "glassmorphism",
+      "sound"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 39,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "frosted-glass-testimonial-quote",
+    "name": "Frosted Glass Testimonial Quote",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"quote-card\">\n  <div class=\"q-mark\">“</div>\n  <p class=\"q-text\">FluxOra is the fastest UI library I have ever used.</p>\n</div>",
+    "css": ".quote-card {\n  width: 210px;\n  padding: 14px;\n  background: #ffffff;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 14px;\n  box-shadow: 0 4px 14px rgba(0,0,0,0.03);\n}\n.q-mark { font-size: 24px; font-weight: bold; color: #7c3aed; line-height: 1; }\n.q-text { font-size: 11px; color: #475569; line-height: 1.4; margin-top: 4px; }",
+    "description": "Compact quote card with stylish quotation mark and developer review.",
+    "tags": [
+      "quote",
+      "testimonial",
+      "card",
+      "review",
+      "clean"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 46,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "git-branch-commit-tree-node",
+    "name": "Git Branch Commit Tree Node",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"git-node\">\n  <span class=\"g-dot\"></span>\n  <span class=\"g-branch\">main</span>\n  <code class=\"g-sha\">#d8d2f03</code>\n</div>",
+    "css": ".git-node {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 12px;\n  background: #0f172a;\n  border-radius: 8px;\n  font-family: monospace;\n  font-size: 11px;\n}\n.g-dot { width: 8px; height: 8px; border-radius: 50%; background: #a855f7; box-shadow: 0 0 6px #a855f7; }\n.g-branch { color: #f8fafc; font-weight: bold; }\n.g-sha { color: #38bdf8; }",
+    "description": "Compact Git branch node showing branch tag and commit hash.",
+    "tags": [
+      "git",
+      "branch",
+      "commit",
+      "developer",
+      "vcs"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 54,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "live-api-response-time-beacon",
+    "name": "Live API Response Time Beacon",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"api-beacon\">\n  <span class=\"a-ping\"></span>\n  <span class=\"a-ms\">18ms latency</span>\n</div>",
+    "css": ".api-beacon {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 12px;\n  background: #ecfdf5;\n  border: 1px solid #a7f3d0;\n  border-radius: 9999px;\n  font-family: monospace;\n  font-size: 11px;\n  font-weight: 700;\n  color: #065f46;\n}\n.a-ping { width: 6px; height: 6px; border-radius: 50%; background: #10b981; box-shadow: 0 0 6px #10b981; }",
+    "description": "Real-time server latency indicator badge showing response time in milliseconds.",
+    "tags": [
+      "api",
+      "latency",
+      "speed",
+      "server",
+      "badge"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 55,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "syntax-highlighted-json-pill",
+    "name": "Syntax Highlighted JSON Pill",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"json-pill\">\n  <span class=\"j-key\">\"status\":</span>\n  <span class=\"j-val\">200_OK</span>\n</div>",
+    "css": ".json-pill {\n  display: inline-flex;\n  gap: 6px;\n  padding: 6px 12px;\n  background: #090d16;\n  border-radius: 6px;\n  font-family: monospace;\n  font-size: 11px;\n}\n.j-key { color: #f472b6; }\n.j-val { color: #34d399; font-weight: bold; }",
+    "description": "Compact syntax-highlighted key-value debugger chip.",
+    "tags": [
+      "json",
+      "syntax",
+      "code",
+      "chip",
+      "developer"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 23,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "docker-container-instance-chip",
+    "name": "Docker Container Instance Chip",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"docker-chip\">\n  <span>🐳 fluxora:v1.0</span>\n  <span class=\"d-stat\">RUNNING</span>\n</div>",
+    "css": ".docker-chip {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  padding: 6px 14px;\n  background: #0c4a6e;\n  border: 1px solid #0284c7;\n  border-radius: 8px;\n  color: #e0f2fe;\n  font-family: monospace;\n  font-size: 11px;\n  font-weight: bold;\n}\n.d-stat { font-size: 9px; padding: 2px 6px; background: #0284c7; border-radius: 4px; color: #fff; }",
+    "description": "Container status badge showing active image tag and uptime.",
+    "tags": [
+      "docker",
+      "container",
+      "cloud",
+      "devops",
+      "chip"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 44,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "masked-secret-api-key-field",
+    "name": "Masked Secret API Key Field",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"secret-pill\">\n  <span class=\"s-dots\">••••••••••••••••</span>\n  <span class=\"s-eye\">👁️</span>\n</div>",
+    "css": ".secret-pill {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  padding: 6px 14px;\n  background: #f1f5f9;\n  border: 1px solid #cbd5e1;\n  border-radius: 8px;\n  font-size: 12px;\n  cursor: pointer;\n}\n.s-dots { font-family: monospace; letter-spacing: 2px; color: #334155; }\n.s-eye { font-size: 12px; opacity: 0.6; }",
+    "description": "Password masked secret string with reveal icon.",
+    "tags": [
+      "secret",
+      "apikey",
+      "security",
+      "token",
+      "field"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 24,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "webhook-event-payload-tag",
+    "name": "Webhook Event Payload Tag",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"hook-tag\">\n  <span class=\"h-method\">POST</span>\n  <span class=\"h-event\">component.published</span>\n</div>",
+    "css": ".hook-tag {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 12px;\n  background: #111827;\n  border-radius: 8px;\n  font-family: monospace;\n  font-size: 11px;\n}\n.h-method { color: #a855f7; font-weight: bold; }\n.h-event { color: #f3f4f6; }",
+    "description": "Webhook dispatch indicator tag for server events.",
+    "tags": [
+      "webhook",
+      "event",
+      "payload",
+      "tag",
+      "developer"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 18,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "discord-voice-channel-pill",
+    "name": "Discord Voice Channel Pill",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"voice-pill\">\n  <span>🔊 #design-lounge</span>\n  <span class=\"v-users\">4 active</span>\n</div>",
+    "css": ".voice-pill {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  padding: 6px 14px;\n  background: #5865f2;\n  border-radius: 9999px;\n  color: #ffffff;\n  font-size: 11px;\n  font-weight: 600;\n  box-shadow: 0 4px 12px rgba(88, 101, 242, 0.3);\n}\n.v-users { font-size: 9px; padding: 2px 6px; background: rgba(0,0,0,0.2); border-radius: 9999px; }",
+    "description": "Voice chat channel pill with active speaker audio waveform.",
+    "tags": [
+      "discord",
+      "voice",
+      "channel",
+      "social",
+      "pill"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 20,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "github-star-milestone-counter",
+    "name": "GitHub Star Milestone Counter",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"gh-star\">\n  <span class=\"gh-icon\">★ Star</span>\n  <span class=\"gh-count\">1.4K</span>\n</div>",
+    "css": ".gh-star {\n  display: inline-flex;\n  border: 1px solid #cbd5e1;\n  border-radius: 8px;\n  overflow: hidden;\n  font-size: 11px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.gh-icon { padding: 6px 10px; background: #f8fafc; color: #1e293b; border-right: 1px solid #cbd5e1; }\n.gh-count { padding: 6px 10px; background: #ffffff; color: #475569; }",
+    "description": "Interactive GitHub repository star button with live counter.",
+    "tags": [
+      "github",
+      "star",
+      "counter",
+      "milestone",
+      "opensource"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 20,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "verified-creator-gold-badge",
+    "name": "Verified Creator Gold Badge",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"ver-badge\">\n  <span>✓ VERIFIED AUTHOR</span>\n</div>",
+    "css": ".ver-badge {\n  display: inline-flex;\n  padding: 6px 14px;\n  background: #fef3c7;\n  border: 1px solid #f59e0b;\n  border-radius: 9999px;\n  color: #b45309;\n  font-size: 10px;\n  font-weight: 800;\n  letter-spacing: 1px;\n}",
+    "description": "Official verified developer gold badge with metallic reflection.",
+    "tags": [
+      "verified",
+      "creator",
+      "gold",
+      "badge",
+      "check"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 53,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "gamer-level-up-xp-bar",
+    "name": "Gamer Level Up XP Bar",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"xp-box\">\n  <div class=\"xp-head\"><span>LVL 42</span><span>3,400 / 4,000 XP</span></div>\n  <div class=\"xp-track\"><div class=\"xp-fill\"></div></div>\n</div>",
+    "css": ".xp-box {\n  width: 170px;\n  font-family: monospace;\n}\n.xp-head { display: flex; justify-content: space-between; font-size: 9px; font-weight: bold; color: #7c3aed; margin-bottom: 4px; }\n.xp-track { height: 8px; background: #e2e8f0; border-radius: 9999px; overflow: hidden; }\n.xp-fill { height: 100%; width: 85%; background: linear-gradient(90deg, #7c3aed, #ec4899); }",
+    "description": "Gamified experience points progress bar with glowing gold level badge.",
+    "tags": [
+      "gamer",
+      "xp",
+      "level",
+      "game",
+      "progress"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 21,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "crypto-currency-price-ticker",
+    "name": "Crypto Currency Price Ticker",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"crypto-pill\">\n  <span class=\"c-coin\">₿ BTC</span>\n  <span class=\"c-price\">$94,250</span>\n  <span class=\"c-up\">+4.8%</span>\n</div>",
+    "css": ".crypto-pill {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 14px;\n  background: #0f172a;\n  border-radius: 9999px;\n  color: #fff;\n  font-family: monospace;\n  font-size: 11px;\n}\n.c-coin { color: #f59e0b; font-weight: bold; }\n.c-up { color: #10b981; font-weight: bold; }",
+    "description": "Real-time Bitcoin ticker badge with green 24h percentage delta.",
+    "tags": [
+      "crypto",
+      "bitcoin",
+      "price",
+      "ticker",
+      "finance"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 32,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "high-speed-download-meter",
+    "name": "High-Speed Download Meter",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"speed-pill\">\n  <span class=\"sp-arrow\">⬇</span>\n  <span class=\"sp-val\">840 MB/s</span>\n</div>",
+    "css": ".speed-pill {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 14px;\n  background: #f0fdf4;\n  border: 1px solid #86efac;\n  border-radius: 9999px;\n  color: #15803d;\n  font-family: monospace;\n  font-size: 11px;\n  font-weight: bold;\n}\n.sp-arrow { animation: dl-bob 1s infinite alternate; }\n@keyframes dl-bob { 0% { transform: translateY(-2px); } 100% { transform: translateY(2px); } }",
+    "description": "Network download bandwidth meter with animated transfer arrow.",
+    "tags": [
+      "download",
+      "speed",
+      "bandwidth",
+      "network",
+      "meter"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 23,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "mini-music-playing-pill",
+    "name": "Mini Music Playing Pill",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"spot-pill\">\n  <span class=\"s-disc\">💿</span>\n  <span class=\"s-track\">Neon Skyline — Flux</span>\n</div>",
+    "css": ".spot-pill {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 14px;\n  background: #121212;\n  border-radius: 9999px;\n  color: #1ed760;\n  font-size: 11px;\n  font-weight: 600;\n}\n.s-disc { animation: disc-spin 3s linear infinite; }\n@keyframes disc-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }",
+    "description": "Now playing audio widget with spinning green vinyl disc.",
+    "tags": [
+      "spotify",
+      "music",
+      "nowplaying",
+      "audio",
+      "disc"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 26,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "podcast-audio-wave-scrubber",
+    "name": "Podcast Audio Wave Scrubber",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"pod-bar\">\n  <span class=\"p-play\">▶</span>\n  <div class=\"p-wave\">||||||||||||||||</div>\n  <span class=\"p-time\">14:20</span>\n</div>",
+    "css": ".pod-bar {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  padding: 8px 14px;\n  background: #ffffff;\n  border: 1px solid #e2e8f0;\n  border-radius: 12px;\n  box-shadow: 0 2px 8px rgba(0,0,0,0.03);\n}\n.p-play { font-size: 12px; color: #7c3aed; cursor: pointer; }\n.p-wave { font-family: monospace; font-size: 12px; letter-spacing: 2px; color: #7c3aed; font-weight: bold; }\n.p-time { font-size: 10px; color: #64748b; font-family: monospace; }",
+    "description": "Dynamic voice podcast scrubber with played/unplayed audio peaks.",
+    "tags": [
+      "podcast",
+      "waveform",
+      "scrubber",
+      "audio",
+      "voice"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 21,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "retro-80s-synth-cassette-tape",
+    "name": "Retro 80s Synth Cassette Tape",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"tape-body\">\n  <div class=\"tape-spool s-l\"></div>\n  <div class=\"tape-window\"></div>\n  <div class=\"tape-spool s-r\"></div>\n</div>",
+    "css": ".tape-body {\n  width: 90px;\n  height: 55px;\n  background: #27272a;\n  border-radius: 6px;\n  border: 2px solid #52525b;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  padding: 0 10px;\n}\n.tape-spool {\n  width: 18px;\n  height: 18px;\n  border-radius: 50%;\n  background: #ffffff;\n  border: 4px dashed #18181b;\n  animation: spool-turn 2s linear infinite;\n}\n.tape-window { width: 22px; height: 14px; background: #3f3f46; border-radius: 3px; }\n@keyframes spool-turn { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }",
+    "description": "Charming vintage synthwave cassette tape with rotating spool hubs.",
+    "tags": [
+      "cassette",
+      "tape",
+      "retro",
+      "80s",
+      "synthwave"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 48,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "spinning-vinyl-record-deck",
+    "name": "Spinning Vinyl Record Deck",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"vinyl-disc\">\n  <div class=\"v-center\"></div>\n</div>",
+    "css": ".vinyl-disc {\n  width: 60px;\n  height: 60px;\n  border-radius: 50%;\n  background: repeating-radial-gradient(#111, #111 2px, #222 3px, #111 4px);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  box-shadow: 0 4px 12px rgba(0,0,0,0.3);\n  animation: vinyl-spin 3s linear infinite;\n}\n.v-center { width: 20px; height: 20px; border-radius: 50%; background: #ec4899; border: 3px solid #111; }\n@keyframes vinyl-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }",
+    "description": "Black vinyl record disc rotating smoothly with central album sticker.",
+    "tags": [
+      "vinyl",
+      "record",
+      "music",
+      "spinner",
+      "album"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 26,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "studio-on-air-broadcast-lamp",
+    "name": "Studio ON-AIR Broadcast Lamp",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"on-air\">● ON AIR</div>",
+    "css": ".on-air {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  padding: 8px 18px;\n  background: #991b1b;\n  color: #fff;\n  border-radius: 6px;\n  font-family: monospace;\n  font-size: 12px;\n  font-weight: 900;\n  letter-spacing: 2px;\n  box-shadow: 0 0 20px rgba(239, 68, 68, 0.6);\n  border: 1px solid #f87171;\n  animation: air-glow 1.5s infinite alternate;\n}\n@keyframes air-glow { 0% { opacity: 0.8; } 100% { opacity: 1; box-shadow: 0 0 30px rgba(239, 68, 68, 0.9); } }",
+    "description": "Radio and podcast studio glowing red \"ON AIR\" broadcast sign.",
+    "tags": [
+      "onair",
+      "broadcast",
+      "studio",
+      "radio",
+      "red"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 57,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "e-commerce-quantity-stepper",
+    "name": "E-Commerce Quantity Stepper",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"qty-stepper\">\n  <button class=\"q-btn\">-</button>\n  <span class=\"q-val\">2</span>\n  <button class=\"q-btn\">+</button>\n</div>",
+    "css": ".qty-stepper {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 4px 8px;\n  background: #f1f5f9;\n  border-radius: 9999px;\n}\n.q-btn {\n  width: 24px;\n  height: 24px;\n  border-radius: 50%;\n  background: #ffffff;\n  border: 1px solid #cbd5e1;\n  font-size: 13px;\n  font-weight: bold;\n  cursor: pointer;\n}\n.q-val { font-size: 12px; font-weight: 700; color: #1e293b; min-width: 14px; text-align: center; }",
+    "description": "Minimalist product quantity increment and decrement stepper control.",
+    "tags": [
+      "stepper",
+      "cart",
+      "ecommerce",
+      "quantity",
+      "counter"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 33,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "promo-coupon-voucher-badge",
+    "name": "Promo Coupon Voucher Badge",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"coupon-pill\">\n  <span class=\"cp-code\">FLUX50</span>\n  <span class=\"cp-btn\">COPY</span>\n</div>",
+    "css": ".coupon-pill {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 12px;\n  background: #fdf4ff;\n  border: 2px dashed #c084fc;\n  border-radius: 8px;\n}\n.cp-code { font-family: monospace; font-size: 12px; font-weight: 800; color: #9333ea; }\n.cp-btn { font-size: 9px; font-weight: bold; padding: 2px 6px; background: #9333ea; color: #fff; border-radius: 4px; cursor: pointer; }",
+    "description": "Dotted voucher badge with promo coupon code and 1-click copy.",
+    "tags": [
+      "coupon",
+      "voucher",
+      "discount",
+      "promo",
+      "badge"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 27,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "package-delivery-milestone-tracker",
+    "name": "Package Delivery Milestone Tracker",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"ship-track\">\n  <div class=\"st-step done\">📦</div>\n  <div class=\"st-line done\"></div>\n  <div class=\"st-step done\">🚚</div>\n  <div class=\"st-line\"></div>\n  <div class=\"st-step\">🏠</div>\n</div>",
+    "css": ".ship-track {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n}\n.st-step { font-size: 16px; opacity: 0.4; }\n.st-step.done { opacity: 1; }\n.st-line { width: 24px; height: 3px; background: #e2e8f0; border-radius: 2px; }\n.st-line.done { background: #10b981; }",
+    "description": "Order fulfillment stepper showing Ordered, Shipped, and Delivered statuses.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "tracker",
+      "milestone",
+      "package"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 27,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "wcag-aaa-accessibility-badge",
+    "name": "WCAG AAA Accessibility Badge",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"a11y-badge\">\n  <span>♿ WCAG 2.1 AAA</span>\n</div>",
+    "css": ".a11y-badge {\n  display: inline-flex;\n  padding: 6px 12px;\n  background: #1e1b4b;\n  border: 1px solid #6366f1;\n  border-radius: 6px;\n  color: #c7d2fe;\n  font-size: 10px;\n  font-weight: 700;\n  letter-spacing: 1px;\n}",
+    "description": "Official web accessibility compliance verification badge.",
+    "tags": [
+      "accessibility",
+      "wcag",
+      "badge",
+      "a11y",
+      "compliance"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 26,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "sci-fi-laser-qr-code-scanner",
+    "name": "Sci-Fi Laser QR Code Scanner",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"qr-box\">\n  <div class=\"qr-code\">☵ ☲ ☴<br />☱ ☲ ☵</div>\n  <div class=\"qr-beam\"></div>\n</div>",
+    "css": ".qr-box {\n  position: relative;\n  width: 70px;\n  height: 70px;\n  background: #000;\n  border: 2px solid #00ffcc;\n  border-radius: 8px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n}\n.qr-code { font-size: 14px; color: #00ffcc; line-height: 1.4; text-align: center; }\n.qr-beam {\n  position: absolute;\n  top: 0; left: 0; right: 0;\n  height: 2px;\n  background: #00ffcc;\n  box-shadow: 0 0 8px #00ffcc;\n  animation: qr-scan 1.8s ease-in-out infinite alternate;\n}\n@keyframes qr-scan { 0% { top: 0; } 100% { top: 68px; } }",
+    "description": "QR code barcode card with animated turquoise laser scanning beam.",
+    "tags": [
+      "qr",
+      "scanner",
+      "laser",
+      "barcode",
+      "scifi"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 31,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "fast-charging-lightning-pill",
+    "name": "Fast Charging Lightning Pill",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"charge-pill\">\n  <span class=\"ch-bolt\">⚡</span>\n  <span>SuperCharge 120W</span>\n</div>",
+    "css": ".charge-pill {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 14px;\n  background: #064e3b;\n  border: 1px solid #10b981;\n  border-radius: 9999px;\n  color: #6ee7b7;\n  font-size: 11px;\n  font-weight: 700;\n  font-family: monospace;\n}\n.ch-bolt { animation: bolt-flash 0.6s infinite alternate; }\n@keyframes bolt-flash { 0% { opacity: 0.3; transform: scale(0.9); } 100% { opacity: 1; transform: scale(1.2); } }",
+    "description": "Animated high-speed charging battery with lightning pulse.",
+    "tags": [
+      "battery",
+      "charge",
+      "lightning",
+      "power",
+      "pill"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 35,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "selectable-gratuity-tip-chips",
+    "name": "Selectable Gratuity Tip Chips",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"tip-group\">\n  <span class=\"tip-chip\">10%</span>\n  <span class=\"tip-chip on\">15%</span>\n  <span class=\"tip-chip\">20%</span>\n</div>",
+    "css": ".tip-group {\n  display: inline-flex;\n  gap: 6px;\n}\n.tip-chip {\n  padding: 6px 12px;\n  background: #f1f5f9;\n  border-radius: 8px;\n  font-size: 11px;\n  font-weight: 700;\n  color: #475569;\n  cursor: pointer;\n}\n.tip-chip.on { background: #7c3aed; color: #fff; box-shadow: 0 2px 8px rgba(124, 58, 237, 0.3); }",
+    "description": "Selectable 10%, 15%, 20% tip amount chips with active indicator.",
+    "tags": [
+      "tip",
+      "chips",
+      "payment",
+      "gratuity",
+      "pricing"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 31,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "dynamic-password-strength-meter",
+    "name": "Dynamic Password Strength Meter",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"pass-meter\">\n  <div class=\"pm-head\"><span>Security:</span><span class=\"pm-strong\">Very Strong</span></div>\n  <div class=\"pm-bars\">\n    <span class=\"b on\"></span><span class=\"b on\"></span><span class=\"b on\"></span><span class=\"b on\"></span>\n  </div>\n</div>",
+    "css": ".pass-meter {\n  width: 160px;\n  font-size: 11px;\n}\n.pm-head { display: flex; justify-content: space-between; margin-bottom: 4px; font-weight: 600; color: #475569; }\n.pm-strong { color: #10b981; }\n.pm-bars { display: flex; gap: 4px; height: 4px; }\n.pm-bars .b { flex: 1; background: #e2e8f0; border-radius: 2px; }\n.pm-bars .b.on { background: #10b981; }",
+    "description": "4-stage password entropy strength indicator showing strong security status.",
+    "tags": [
+      "password",
+      "strength",
+      "security",
+      "meter",
+      "auth"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 55,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "hexagonal-color-swatch-group",
+    "name": "Hexagonal Color Swatch Group",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"hex-swatches\">\n  <div class=\"hx h-1 active\"></div>\n  <div class=\"hx h-2\"></div>\n  <div class=\"hx h-3\"></div>\n</div>",
+    "css": ".hex-swatches {\n  display: inline-flex;\n  gap: 8px;\n}\n.hx {\n  width: 24px;\n  height: 24px;\n  border-radius: 6px;\n  cursor: pointer;\n  transition: transform 0.2s;\n}\n.h-1 { background: #7c3aed; }\n.h-2 { background: #06b6d4; }\n.h-3 { background: #ec4899; }\n.hx.active { box-shadow: 0 0 0 3px #ffffff, 0 0 0 5px #7c3aed; }",
+    "description": "Geometric hex swatches for theme color customization.",
+    "tags": [
+      "color",
+      "swatch",
+      "hex",
+      "theme",
+      "palette"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 23,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "chat-voice-note-audio-bubble",
+    "name": "Chat Voice Note Audio Bubble",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"voice-bubble\">\n  <button class=\"vb-play\">▶</button>\n  <div class=\"vb-wave\">||||||||||||</div>\n  <span class=\"vb-dur\">0:34</span>\n</div>",
+    "css": ".voice-bubble {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 8px 14px;\n  background: #7c3aed;\n  color: #fff;\n  border-radius: 18px 18px 4px 18px;\n  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);\n}\n.vb-play { background: #fff; border: none; width: 22px; height: 22px; border-radius: 50%; color: #7c3aed; font-size: 10px; cursor: pointer; }\n.vb-wave { font-family: monospace; font-size: 11px; letter-spacing: 2px; }\n.vb-dur { font-size: 10px; font-family: monospace; opacity: 0.9; }",
+    "description": "Instant messenger style audio message bubble with playtime and avatar.",
+    "tags": [
+      "voicenote",
+      "chat",
+      "audio",
+      "bubble",
+      "messenger"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 21,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "dual-sound-channel-mixer",
+    "name": "Dual Sound Channel Mixer",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"mix-box\">\n  <div class=\"m-chan\"><span>CH_A</span><div class=\"m-fader\"><div class=\"m-knob k1\"></div></div></div>\n  <div class=\"m-chan\"><span>CH_B</span><div class=\"m-fader\"><div class=\"m-knob k2\"></div></div></div>\n</div>",
+    "css": ".mix-box {\n  display: inline-flex;\n  gap: 14px;\n  padding: 10px;\n  background: #18181b;\n  border-radius: 10px;\n  font-family: monospace;\n  font-size: 9px;\n  color: #a1a1aa;\n}\n.m-chan { display: flex; flex-direction: column; align-items: center; gap: 6px; }\n.m-fader { width: 8px; height: 50px; background: #27272a; border-radius: 4px; position: relative; }\n.m-knob { width: 16px; height: 8px; background: #00ffcc; border-radius: 2px; position: absolute; left: -4px; }\n.k1 { top: 12px; } .k2 { top: 28px; background: #ff007f; }",
+    "description": "Double channel sound equalizer sliders with volume indicators.",
+    "tags": [
+      "mixer",
+      "slider",
+      "audio",
+      "sound",
+      "fader"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 57,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "rotary-volume-control-dial",
+    "name": "Rotary Volume Control Dial",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"rot-dial\">\n  <div class=\"rd-knob\"><span class=\"rd-notch\"></span></div>\n  <span class=\"rd-lbl\">MASTER</span>\n</div>",
+    "css": ".rot-dial {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 4px;\n}\n.rd-knob {\n  width: 44px;\n  height: 44px;\n  border-radius: 50%;\n  background: #27272a;\n  border: 3px solid #52525b;\n  position: relative;\n  box-shadow: 0 4px 10px rgba(0,0,0,0.3);\n  transform: rotate(45deg);\n}\n.rd-notch { position: absolute; top: 2px; left: 18px; width: 2px; height: 8px; background: #00ffcc; }\n.rd-lbl { font-size: 8px; font-family: monospace; font-weight: bold; color: #71717a; }",
+    "description": "Realistic skeuomorphic rotary volume dial with tick mark notches.",
+    "tags": [
+      "knob",
+      "rotary",
+      "dial",
+      "volume",
+      "audio"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 45,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "8-band-audio-graphic-equalizer",
+    "name": "8-Band Audio Graphic Equalizer",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"band-eq\">\n  <span class=\"b1\"></span><span class=\"b2\"></span><span class=\"b3\"></span><span class=\"b4\"></span>\n  <span class=\"b5\"></span><span class=\"b6\"></span><span class=\"b7\"></span><span class=\"b8\"></span>\n</div>",
+    "css": ".band-eq {\n  display: inline-flex;\n  align-items: flex-end;\n  gap: 3px;\n  height: 24px;\n  padding: 6px;\n  background: #09090b;\n  border-radius: 6px;\n}\n.band-eq span { width: 3px; background: #00ffcc; border-radius: 1px; animation: b-bounce 0.7s infinite alternate ease-in-out; }\n.b1 { height: 6px; } .b2 { height: 14px; animation-delay: 0.1s; }\n.b3 { height: 20px; animation-delay: 0.2s; } .b4 { height: 10px; animation-delay: 0.3s; }\n.b5 { height: 18px; animation-delay: 0.4s; } .b6 { height: 8px; animation-delay: 0.15s; }\n.b7 { height: 16px; animation-delay: 0.25s; } .b8 { height: 4px; animation-delay: 0.35s; }\n@keyframes b-bounce { 0% { height: 3px; } 100% { height: 22px; } }",
+    "description": "Dynamic 8-band audio frequency analyzer with multi-color bars.",
+    "tags": [
+      "analyzer",
+      "spectrum",
+      "audio",
+      "equalizer",
+      "music"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 27,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "multi-currency-conversion-pill",
+    "name": "Multi-Currency Conversion Pill",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"curr-pill\">\n  <span class=\"c-opt on\">USD $</span>\n  <span class=\"c-opt\">EUR €</span>\n  <span class=\"c-opt\">GBP £</span>\n</div>",
+    "css": ".curr-pill {\n  display: inline-flex;\n  padding: 4px;\n  background: #f1f5f9;\n  border-radius: 9999px;\n  font-size: 11px;\n  font-weight: 700;\n}\n.c-opt { padding: 4px 10px; border-radius: 9999px; color: #64748b; cursor: pointer; }\n.c-opt.on { background: #0f172a; color: #fff; }",
+    "description": "Selectable USD/EUR/GBP currency switcher pill.",
+    "tags": [
+      "currency",
+      "money",
+      "usd",
+      "pricing",
+      "selector"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 31,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "social-share-radial-mini-dial",
+    "name": "Social Share Radial Mini Dial",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"share-dial\">\n  <button class=\"sh-node\">🐦</button>\n  <button class=\"sh-node\">🐙</button>\n  <button class=\"sh-core\">🔗</button>\n</div>",
+    "css": ".share-dial {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n}\n.sh-node { width: 28px; height: 28px; border-radius: 50%; background: #ffffff; border: 1px solid #cbd5e1; font-size: 12px; cursor: pointer; }\n.sh-core { width: 36px; height: 36px; border-radius: 50%; background: #7c3aed; color: #fff; border: none; font-size: 14px; cursor: pointer; box-shadow: 0 4px 10px rgba(124, 58, 237, 0.4); }",
+    "description": "Compact social share button with popup share icons.",
+    "tags": [
+      "share",
+      "social",
+      "radial",
+      "dial",
+      "button"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 42,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "framework-version-release-badge",
+    "name": "Framework Version Release Badge",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"ver-tag\">\n  <span class=\"vt-name\">Next.js 16</span>\n  <span class=\"vt-rel\">v16.2.0</span>\n</div>",
+    "css": ".ver-tag {\n  display: inline-flex;\n  border: 1px solid #cbd5e1;\n  border-radius: 6px;\n  font-family: monospace;\n  font-size: 11px;\n  overflow: hidden;\n}\n.vt-name { padding: 4px 8px; background: #000; color: #fff; font-weight: bold; }\n.vt-rel { padding: 4px 8px; background: #f8fafc; color: #475569; }",
+    "description": "Version milestone pill showing v1.0.0 Stable release status.",
+    "tags": [
+      "version",
+      "release",
+      "badge",
+      "framework",
+      "pill"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 41,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "live-chat-typing-wave-indicator",
+    "name": "Live Chat Typing Wave Indicator",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"typing-box\">\n  <span></span><span></span><span></span>\n</div>",
+    "css": ".typing-box {\n  display: inline-flex;\n  align-items: center;\n  gap: 4px;\n  padding: 8px 14px;\n  background: #f1f5f9;\n  border-radius: 9999px;\n}\n.typing-box span { width: 6px; height: 6px; border-radius: 50%; background: #64748b; animation: type-bounce 1s infinite alternate; }\n.typing-box span:nth-child(2) { animation-delay: 0.2s; }\n.typing-box span:nth-child(3) { animation-delay: 0.4s; }\n@keyframes type-bounce { 0% { transform: translateY(0); opacity: 0.4; } 100% { transform: translateY(-4px); opacity: 1; } }",
+    "description": "Animated 3-dot typing wave indicator for instant messaging.",
+    "tags": [
+      "typing",
+      "chat",
+      "dots",
+      "wave",
+      "social"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 39,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "online-status-luminous-beacon",
+    "name": "Online Status Luminous Beacon",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"online-pill\">\n  <span class=\"on-dot\"></span>\n  <span>Active Now</span>\n</div>",
+    "css": ".online-pill {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 12px;\n  background: #ffffff;\n  border: 1px solid #e2e8f0;\n  border-radius: 9999px;\n  font-size: 11px;\n  font-weight: 600;\n  color: #1e293b;\n  box-shadow: 0 2px 6px rgba(0,0,0,0.03);\n}\n.on-dot { width: 6px; height: 6px; border-radius: 50%; background: #10b981; box-shadow: 0 0 6px #10b981; }",
+    "description": "Pulsing green presence indicator pill.",
+    "tags": [
+      "status",
+      "online",
+      "presence",
+      "green",
+      "badge"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 30,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "github-sponsor-supporter-badge",
+    "name": "GitHub Sponsor Supporter Badge",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"spon-badge\">\n  <span>💖 VIP Sponsor</span>\n</div>",
+    "css": ".spon-badge {\n  display: inline-flex;\n  padding: 6px 14px;\n  background: #fdf2f8;\n  border: 1px solid #f472b6;\n  border-radius: 9999px;\n  color: #db2777;\n  font-size: 11px;\n  font-weight: 700;\n}",
+    "description": "Gold-accented community sponsor badge with beating heart.",
+    "tags": [
+      "sponsor",
+      "heart",
+      "support",
+      "github",
+      "community"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 43,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "video-playback-scrubbing-bar",
+    "name": "Video Playback Scrubbing Bar",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"vid-scrub\">\n  <div class=\"vs-buf\"></div>\n  <div class=\"vs-prog\"><div class=\"vs-handle\"></div></div>\n</div>",
+    "css": ".vid-scrub {\n  width: 170px;\n  height: 6px;\n  background: #334155;\n  border-radius: 3px;\n  position: relative;\n}\n.vs-buf { width: 75%; height: 100%; background: #475569; border-radius: 3px; }\n.vs-prog { position: absolute; top: 0; left: 0; width: 45%; height: 100%; background: #ec4899; border-radius: 3px; }\n.vs-handle { position: absolute; right: -4px; top: -3px; width: 12px; height: 12px; border-radius: 50%; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.3); }",
+    "description": "Media player timeline track with buffered progress and thumb handle.",
+    "tags": [
+      "video",
+      "scrubber",
+      "timeline",
+      "player",
+      "media"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 29,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "cyber-hexagon-sentinel-beacon",
+    "name": "Cyber Hexagon Sentinel Beacon",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"hex-sentinel\">\n  <div class=\"hs-core\">🛡️</div>\n</div>",
+    "css": ".hex-sentinel {\n  width: 50px;\n  height: 50px;\n  background: #09090f;\n  border: 2px solid #7c3aed;\n  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  box-shadow: 0 0 15px rgba(124, 58, 237, 0.4);\n}\n.hs-core { font-size: 18px; }",
+    "description": "Hexagonal perimeter security defense shield with glowing core.",
+    "tags": [
+      "hexagon",
+      "sentinel",
+      "security",
+      "beacon",
+      "scifi"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 43,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "interactive-cli-help-box",
+    "name": "Interactive CLI Help Box",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"cli-help\">\n  <span class=\"ch-flag\">--prod</span>\n  <span class=\"ch-desc\">Deploy to production</span>\n</div>",
+    "css": ".cli-help {\n  display: inline-flex;\n  gap: 8px;\n  padding: 6px 12px;\n  background: #18181b;\n  border-radius: 6px;\n  font-family: monospace;\n  font-size: 11px;\n}\n.ch-flag { color: #f59e0b; font-weight: bold; }\n.ch-desc { color: #a1a1aa; }",
+    "description": "Command line parameter cheat sheet badge.",
+    "tags": [
+      "cli",
+      "help",
+      "terminal",
+      "options",
+      "developer"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 36,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "compact-star-rating-score-pill",
+    "name": "Compact Star Rating Score Pill",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"score-pill\">\n  <span>★ 4.98</span>\n  <span class=\"sp-cnt\">(842)</span>\n</div>",
+    "css": ".score-pill {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  padding: 6px 12px;\n  background: #fffbeb;\n  border: 1px solid #fde68a;\n  border-radius: 9999px;\n  font-size: 11px;\n  font-weight: 700;\n  color: #b45309;\n}\n.sp-cnt { color: #92400e; font-weight: normal; font-size: 10px; }",
+    "description": "User satisfaction score badge with golden star.",
+    "tags": [
+      "score",
+      "rating",
+      "star",
+      "review",
+      "pill"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 51,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "minimalist-sound-wave-bar",
+    "name": "Minimalist Sound Wave Bar",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"min-sound\">\n  <span class=\"ms-play\">▶</span>\n  <div class=\"ms-track\"><div class=\"ms-fill\"></div></div>\n  <span class=\"ms-t\">02:14</span>\n</div>",
+    "css": ".min-sound {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 12px;\n  background: #ffffff;\n  border: 1px solid #cbd5e1;\n  border-radius: 9999px;\n  font-size: 11px;\n}\n.ms-play { color: #7c3aed; cursor: pointer; }\n.ms-track { width: 60px; height: 4px; background: #e2e8f0; border-radius: 2px; }\n.ms-fill { width: 50%; height: 100%; background: #7c3aed; }\n.ms-t { font-family: monospace; font-size: 10px; color: #64748b; }",
+    "description": "Soundwave audio bar with time position counter.",
+    "tags": [
+      "audio",
+      "sound",
+      "wave",
+      "music",
+      "bar"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 34,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
+  },
+  {
+    "id": "quantum-cyber-pin-beacon",
+    "name": "Quantum Cyber Pin Beacon",
+    "category": "other",
+    "styleType": "css",
+    "html": "<div class=\"q-beacon\">\n  <div class=\"qb-pin\">💠</div>\n  <div class=\"qb-ring\"></div>\n</div>",
+    "css": ".q-beacon {\n  position: relative;\n  width: 50px;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.qb-pin { font-size: 20px; z-index: 2; }\n.qb-ring {\n  position: absolute;\n  width: 34px;\n  height: 34px;\n  border-radius: 50%;\n  border: 2px solid #00ffcc;\n  animation: qb-ping 1.6s infinite;\n}\n@keyframes qb-ping { 0% { transform: scale(0.4); opacity: 1; } 100% { transform: scale(1.4); opacity: 0; } }",
+    "description": "Sci-fi satellite targeting ground marker with pulsing neon ring.",
+    "tags": [
+      "quantum",
+      "beacon",
+      "target",
+      "radar",
+      "pin"
+    ],
+    "author": {
+      "uid": "syed-abubakar-siddique",
+      "displayName": "Syed Abubakar Siddique",
+      "email": "abubakarsiddiq990084@gmail.com"
+    },
+    "likesCount": 31,
+    "createdAt": "2026-08-31T14:25:08.449Z",
+    "updatedAt": "2026-08-31T14:25:08.449Z"
   }
 ]
